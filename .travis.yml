@@ -3,7 +3,7 @@ jdk:
   - oraclejdk8
 sudo: false
 script:
-  - ./mvn clean install
+  - ./mvnw clean install
 cache:
   directories:
     - $HOME/.gradle/caches/
