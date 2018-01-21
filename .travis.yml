@@ -4,7 +4,3 @@ jdk:
 sudo: false
 script:
   - ./mvnw clean install
-cache:
-  directories:
-    - $HOME/.gradle/caches/
-    - $HOME/.gradle/wrapper/
