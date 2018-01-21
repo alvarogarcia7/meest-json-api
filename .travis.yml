@@ -4,3 +4,6 @@ jdk:
 sudo: false
 script:
   - ./mvnw clean install
+cache:
+  directories:
+  - $HOME/.m2
