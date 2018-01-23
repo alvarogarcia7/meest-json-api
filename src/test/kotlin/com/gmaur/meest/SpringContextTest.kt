@@ -1,4 +1,4 @@
-package com.gmaur.meest;
+package com.gmaur.meest
 
 import org.junit.Test
 import org.junit.runner.RunWith
@@ -7,7 +7,7 @@ import org.springframework.test.context.junit4.SpringRunner
 
 @RunWith(SpringRunner::class)
 @SpringBootTest
-class DemoApplicationTests {
+class SpringContextTest {
 
 	@Test
     fun `context loads`() {
