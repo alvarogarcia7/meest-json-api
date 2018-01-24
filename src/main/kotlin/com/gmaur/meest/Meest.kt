@@ -9,10 +9,14 @@ import javax.xml.bind.JAXBException
 class Meest(private val configuration: Configuration, private val mapper: Mapper) {
 
     fun byCity(value: String): Results {
-        val request = createRequest(value)
-        val connection = sendRequest(request)
-        val result = readResponse(connection)
-        return mapper.map(result)
+        return createRequest(value)
+                .let { request ->
+                    sendRequest(request)
+                }.let { connection ->
+                    readResponse(connection)
+                }.let { result ->
+                    mapper.map(result)
+                }
     }
 
     private fun readResponse(connection: URLConnection): Response {

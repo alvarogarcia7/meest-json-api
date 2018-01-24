@@ -18,7 +18,7 @@ class AcceptanceTest {
 
     @Test
     fun `query by city`() {
-        assertThat((queryByCity("Львов").first().city)).isEqualTo("Львов")
+        assertThat(queryByCity("Львов").first().city).isEqualTo("Львов")
     }
 
     private fun queryByCity(s: String): Results {
