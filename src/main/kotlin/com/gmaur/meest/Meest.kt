@@ -26,16 +26,25 @@ class Meest(private val configuration: Configuration) {
     }
 
     private fun sendRequest(request: StringWriter): URLConnection {
-        val connection = URL(this.configuration.url).openConnection()
-        connection.useCaches = false
-        connection.doInput = true
-        connection.doOutput = true
-        val requestAsString = request.toString()
-        connection.setRequestProperty("Content-Length", "" + requestAsString.length)
-        connection.setRequestProperty("Content-Type", "text/xml")
-        connection.setRequestProperty("Cache-Control", "no-cache")
-        connection.getOutputStream().use { stream -> stream.write(requestAsString.toByteArray()) }
-        return connection
+        fun newConnection(url: String): URLConnection {
+            val connection = URL(url).openConnection()
+            connection.useCaches = false
+            connection.doInput = true
+            connection.doOutput = true
+            connection.setRequestProperty("Content-Type", "text/xml")
+            connection.setRequestProperty("Cache-Control", "no-cache")
+            return connection
+        }
+
+        fun addPayload(connection: URLConnection, request: StringWriter): URLConnection {
+            val requestAsString = request.toString()
+            connection.setRequestProperty("Content-Length", "" + requestAsString.length)
+            connection.getOutputStream().use { stream -> stream.write(requestAsString.toByteArray()) }
+            return connection
+        }
+
+        val connection = newConnection(configuration.url)
+        return addPayload(connection, request)
     }
 
 
