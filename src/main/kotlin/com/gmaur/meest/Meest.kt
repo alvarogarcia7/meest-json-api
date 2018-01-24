@@ -2,6 +2,7 @@ package com.gmaur.meest
 
 import java.io.StringWriter
 import java.net.URL
+import java.net.URLConnection
 import javax.xml.bind.JAXBContext
 import javax.xml.bind.JAXBException
 
@@ -9,6 +10,22 @@ class Meest(val configuration: Configuration) {
 
     fun byCity(value: String): List<Result> {
         val request = createRequest(value)
+        val connection = sendRequest(request)
+        val cast = readResponse(connection)
+        val element = Result(cast.resultTable?.items?.first()!!.CityDescriptionRU!!)
+        return listOf(element)
+    }
+
+    private fun readResponse(connection: URLConnection): Response {
+        val input = connection.getInputStream()
+        val jaxbContext = JAXBContext.newInstance(Response::class.java)
+        val unmarshaller = jaxbContext.createUnmarshaller()
+        val unmarshal = unmarshaller.unmarshal(input)
+        val cast = Response::class.java.cast(unmarshal)
+        return cast
+    }
+
+    private fun sendRequest(request: StringWriter): URLConnection {
         val connection = URL(this.configuration.url).openConnection()
         connection.useCaches = false
         connection.doInput = true
@@ -18,14 +35,7 @@ class Meest(val configuration: Configuration) {
         connection.setRequestProperty("Content-Type", "text/xml")
         connection.setRequestProperty("Cache-Control", "no-cache")
         connection.getOutputStream().use { stream -> stream.write(requestAsString.toByteArray()) }
-
-        val input = connection.getInputStream()
-
-        val jaxbContext = JAXBContext.newInstance(Response::class.java)
-        val unmarshaller = jaxbContext.createUnmarshaller()
-        val unmarshal = unmarshaller.unmarshal(input)
-        val cast = Response::class.java.cast(unmarshal)
-        return listOf(Result(cast.resultTable?.items?.first()!!.CityDescriptionRU!!))
+        return connection
     }
 
 
