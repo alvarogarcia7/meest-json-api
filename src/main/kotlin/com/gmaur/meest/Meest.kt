@@ -6,7 +6,7 @@ import java.net.URLConnection
 import javax.xml.bind.JAXBContext
 import javax.xml.bind.JAXBException
 
-class Meest(val configuration: Configuration) {
+class Meest(private val configuration: Configuration) {
 
     fun byCity(value: String): List<Result> {
         val request = createRequest(value)
