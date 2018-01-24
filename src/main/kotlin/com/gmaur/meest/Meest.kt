@@ -11,8 +11,8 @@ class Meest(val configuration: Configuration) {
     fun byCity(value: String): List<Result> {
         val request = createRequest(value)
         val connection = sendRequest(request)
-        val cast = readResponse(connection)
-        val element = Result(cast.resultTable?.items?.first()!!.CityDescriptionRU!!)
+        val result = readResponse(connection)
+        val element = Result(result.resultTable?.items?.first()!!.CityDescriptionRU!!)
         return listOf(element)
     }
 
