@@ -6,14 +6,13 @@ import java.net.URLConnection
 import javax.xml.bind.JAXBContext
 import javax.xml.bind.JAXBException
 
-class Meest(private val configuration: Configuration) {
+class Meest(private val configuration: Configuration, private val mapper: Mapper) {
 
-    fun byCity(value: String): List<Result> {
+    fun byCity(value: String): Results {
         val request = createRequest(value)
         val connection = sendRequest(request)
         val result = readResponse(connection)
-        val element = Result(result.resultTable?.items?.first()!!.CityDescriptionRU!!)
-        return listOf(element)
+        return mapper.map(result)
     }
 
     private fun readResponse(connection: URLConnection): Response {
@@ -62,6 +61,13 @@ class Meest(private val configuration: Configuration) {
         val stringWriter = StringWriter()
         context.createMarshaller().marshal(payload, stringWriter)
         return stringWriter
+    }
+
+    class Mapper {
+        fun map(result: Response): Results {
+            return Results(Result(result.resultTable?.items?.first()!!.CityDescriptionRU!!))
+        }
+
     }
 
 

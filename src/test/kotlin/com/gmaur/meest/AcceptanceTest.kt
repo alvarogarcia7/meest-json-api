@@ -18,17 +18,13 @@ class AcceptanceTest {
 
     @Test
     fun `query by city`() {
-        assertThat(firstCity(queryByCity("Львов"))).isEqualTo("Львов")
+        assertThat((queryByCity("Львов").first().city)).isEqualTo("Львов")
     }
 
-    private fun queryByCity(s: String): List<Result> {
-        return Meest(configuration).byCity(s)
+    private fun queryByCity(s: String): Results {
+        return Meest(configuration, Meest.Mapper()).byCity(s)
     }
 
-
-    private fun firstCity(collection: Iterable<Result>): String {
-        return collection.first().city
-    }
 
     @org.springframework.context.annotation.Configuration
     @ComponentScan(basePackageClasses = arrayOf(Configuration::class))
