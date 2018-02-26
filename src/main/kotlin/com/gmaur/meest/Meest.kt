@@ -16,9 +16,11 @@ class Meest(private val configuration: Configuration, private val mapper: Mapper
                 .let {
                     sendRequest(it)
                 }.let {
-                    readResponse(it)
+                    val result = readResponse(it)
+                    println(result)
+                    result
                 }.let {
-                    mapper.map(it)
+                    mapper.map(it.toEither())
                 }
     }
 
@@ -73,37 +75,36 @@ class Meest(private val configuration: Configuration, private val mapper: Mapper
 
     @Component
     class Mapper {
-        fun map(result: Response): Either<List<Error>, Results> {
-            val errors = result.errors
-            if (errors != null) {
-                return Either.left(listOf(BusinessError.x("Authentication Error", BusinessError.leaf(errors.name!!))))
-            }
-            val values = result.resultTable?.items?.map {
-                Result(
-                        city = Triad(id = it.CityUUID!!, valueUA = it.CityDescriptionUA!!, valueRU = it.CityDescriptionRU!!),
-                        branch = Branch(type = it.Branchtype, code = it.BranchCode, typeCode = it.BranchtypeCode),
-                        district = Triad(id = it.DistrictUUID!!, valueRU = it.DistrictDescriptionRU!!, valueUA = it.DistrictDescriptionUA!!),
-                        addressMoreInformation = it.AddressMoreInformation,
-                        b2c = it.B2C,
-                        description = Biad(valueRU = it.DescriptionRU!!, valueUA = it.DescriptionRU!!),
-                        house = it.House,
-                        latitude = it.Latitude,
-                        longitude = it.Longitude,
-                        limitWeight = it.Limitweight,
-                        region = Triad(id = it.RegionUUID!!, valueRU = it.RegionDescriptionRU!!, valueUA = it.RegionDescriptionUA!!),
-                        streetType = Biad(valueRU = it.StreetTypeRU!!, valueUA = it.StreetTypeUA!!),
-                        street = Triad(id = it.StreetUUID!!, valueRU = it.StreetDescriptionRU!!, valueUA = it.StreetTypeUA!!),
-                        id = it.UUID,
-                        stickerCode = it.StickerCode,
-                        workingHours = it.WorkingHours,
-                        zipCode = it.ZipCode)
-            }!!
-            return Either.right(Results(values))
+        fun map(result: Either<Response, Response>): Either<List<Error>, Results> {
+            return result.bimap(
+                    {
+                        listOf(BusinessError.x("Authentication Error", BusinessError.leaf(it.errors?.name!!)))
+                    },
+                    {
+                        Results(it.resultTable?.items?.map {
+                            Result(
+                                    city = Triad(id = it.CityUUID!!, valueUA = it.CityDescriptionUA!!, valueRU = it.CityDescriptionRU!!),
+                                    branch = Branch(type = it.Branchtype, code = it.BranchCode, typeCode = it.BranchtypeCode),
+                                    district = Triad(id = it.DistrictUUID!!, valueRU = it.DistrictDescriptionRU!!, valueUA = it.DistrictDescriptionUA!!),
+                                    addressMoreInformation = it.AddressMoreInformation,
+                                    b2c = it.B2C,
+                                    description = Biad(valueRU = it.DescriptionRU!!, valueUA = it.DescriptionRU!!),
+                                    house = it.House,
+                                    latitude = it.Latitude,
+                                    longitude = it.Longitude,
+                                    limitWeight = it.Limitweight,
+                                    region = Triad(id = it.RegionUUID!!, valueRU = it.RegionDescriptionRU!!, valueUA = it.RegionDescriptionUA!!),
+                                    streetType = Biad(valueRU = it.StreetTypeRU!!, valueUA = it.StreetTypeUA!!),
+                                    street = Triad(id = it.StreetUUID!!, valueRU = it.StreetDescriptionRU!!, valueUA = it.StreetTypeUA!!),
+                                    id = it.UUID,
+                                    stickerCode = it.StickerCode,
+                                    workingHours = it.WorkingHours,
+                                    zipCode = it.ZipCode)
+                        }!!)
+                    })
         }
 
-
     }
-
 }
 
 

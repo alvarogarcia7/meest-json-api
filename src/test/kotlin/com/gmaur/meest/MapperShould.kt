@@ -1,6 +1,6 @@
 package com.gmaur.meest
 
-import arrow.core.Either.Companion.left
+import arrow.core.Either
 import com.gmaur.meest.Meest.Mapper
 import org.assertj.core.api.Assertions.assertThat
 import org.junit.Before
@@ -16,22 +16,14 @@ class MapperShould {
     }
 
     @Test
-    fun `do not parse results when there are errors`() {
+    fun `do not parse results when there are errors - 101`() {
         val serviceResponse = Response()
-        val message = "Ошибка авторизации"
-        val errors = error("101", message)
-        serviceResponse.errors = errors
+        serviceResponse.errors = ResponseFactory.error("101", "Ошибка авторизации")
 
-        val response = mapper.map(serviceResponse)
+        val response = mapper.map(serviceResponse.toEither())
 
-        assertThat(response).isEqualTo(left(listOf(
-                BusinessError.x("Authentication Error", BusinessError.leaf(message)))))
+        assertThat(response).isEqualTo(Either.left(listOf(
+                BusinessError.x("Authentication Error", BusinessError.leaf("Ошибка авторизации")))))
     }
 
-    private fun error(code: String, message: String): Response.Errors {
-        val errors = Response.Errors()
-        errors.code = code
-        errors.name = message
-        return errors
-    }
 }

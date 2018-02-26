@@ -1,10 +1,11 @@
 package com.gmaur.meest
 
+import arrow.core.Either
 import javax.xml.bind.annotation.XmlElement
 import javax.xml.bind.annotation.XmlRootElement
 
 @XmlRootElement(name = "return")
-class Response {
+open class Response {
 
     @XmlElement(name = "api")
     internal var api: String? = null
@@ -145,4 +146,12 @@ class Response {
     override fun toString(): String {
         return "Response(api=$api, apiVersion=$apiVersion, resultTable=$resultTable, errors=$errors)"
     }
+}
+
+fun Response.toEither(): Either<Response, Response> {
+    val errors = this.errors
+    if (errors != null && errors.code != "000") {
+        return Either.left(this)
+    }
+    return Either.right(this)
 }
