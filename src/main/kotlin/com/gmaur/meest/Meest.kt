@@ -74,8 +74,9 @@ class Meest(private val configuration: Configuration, private val mapper: Mapper
     @Component
     class Mapper {
         fun map(result: Response): Either<List<Error>, Results> {
-            if (result.errors != null) {
-                return Either.left(listOf(BusinessError("Authentication Error")))
+            val errors = result.errors
+            if (errors != null) {
+                return Either.left(listOf(BusinessError.x("Authentication Error", BusinessError.leaf(errors.name!!))))
             }
             val values = result.resultTable?.items?.map {
                 Result(
@@ -106,4 +107,14 @@ class Meest(private val configuration: Configuration, private val mapper: Mapper
 }
 
 
-data class BusinessError(override val message: String) : Error(message)
+data class BusinessError private constructor(override val message: String, val next: BusinessError?) : Error(message) {
+    companion object {
+        fun leaf(message: String): BusinessError {
+            return BusinessError(message, null)
+        }
+
+        fun x(message: String, next: BusinessError): BusinessError {
+            return BusinessError(message, next)
+        }
+    }
+}

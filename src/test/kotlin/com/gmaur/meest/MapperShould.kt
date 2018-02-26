@@ -18,18 +18,20 @@ class MapperShould {
     @Test
     fun `do not parse results when there are errors`() {
         val serviceResponse = Response()
-        val errors = error("101")
+        val message = "Ошибка авторизации"
+        val errors = error("101", message)
         serviceResponse.errors = errors
 
         val response = mapper.map(serviceResponse)
 
-        assertThat(response).isEqualTo(left(listOf(BusinessError("Authentication Error"))))
+        assertThat(response).isEqualTo(left(listOf(
+                BusinessError.x("Authentication Error", BusinessError.leaf(message)))))
     }
 
-    private fun error(code: String): Response.Errors {
+    private fun error(code: String, message: String): Response.Errors {
         val errors = Response.Errors()
         errors.code = code
-        errors.name = "Ошибка авторизации"
+        errors.name = message
         return errors
     }
 }
