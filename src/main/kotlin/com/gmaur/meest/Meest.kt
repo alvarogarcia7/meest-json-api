@@ -74,6 +74,9 @@ class Meest(private val configuration: Configuration, private val mapper: Mapper
     @Component
     class Mapper {
         fun map(result: Response): Either<List<Error>, Results> {
+            if (result.errors != null) {
+                return Either.left(listOf(BusinessError("Authentication Error")))
+            }
             val values = result.resultTable?.items?.map {
                 Result(
                         city = Triad(id = it.CityUUID!!, valueUA = it.CityDescriptionUA!!, valueRU = it.CityDescriptionRU!!),
@@ -100,5 +103,7 @@ class Meest(private val configuration: Configuration, private val mapper: Mapper
 
     }
 
-
 }
+
+
+data class BusinessError(override val message: String) : Error(message)
