@@ -115,8 +115,17 @@ class Response {
             @XmlElement(name = "ZipCode")
             internal var ZipCode: String? = null
 
+            override fun toString(): String {
+                return "Item(AddressMoreInformation=$AddressMoreInformation, B2C=$B2C, BranchCode=$BranchCode, Branchtype=$Branchtype, BranchtypeCode=$BranchtypeCode, CityDescriptionRU=$CityDescriptionRU, CityDescriptionUA=$CityDescriptionUA, CityUUID=$CityUUID, DescriptionRU=$DescriptionRU, DescriptionUA=$DescriptionUA, DistrictDescriptionRU=$DistrictDescriptionRU, DistrictDescriptionUA=$DistrictDescriptionUA, DistrictUUID=$DistrictUUID, House=$House, Latitude=$Latitude, Limitweight=$Limitweight, Longitude=$Longitude, MotoBranchDescription=$MotoBranchDescription, RegionDescriptionRU=$RegionDescriptionRU, RegionDescriptionUA=$RegionDescriptionUA, RegionUUID=$RegionUUID, StickerCode=$StickerCode, StreetDescriptionRU=$StreetDescriptionRU, StreetDescriptionUA=$StreetDescriptionUA, StreetTypeRU=$StreetTypeRU, StreetTypeUA=$StreetTypeUA, StreetUUID=$StreetUUID, UUID=$UUID, WorkingHours=$WorkingHours, ZipCode=$ZipCode)"
+            }
+
+        }
+
+        override fun toString(): String {
+            return "ResultTable(items=$items)"
         }
     }
+
 
     class Errors {
 
@@ -125,5 +134,15 @@ class Response {
 
         @XmlElement(name = "name")
         internal var name: String? = null
+
+        override fun toString(): String {
+            return "Errors(code=$code, name=$name)"
+        }
+
+
+    }
+
+    override fun toString(): String {
+        return "Response(api=$api, apiVersion=$apiVersion, resultTable=$resultTable, errors=$errors)"
     }
 }

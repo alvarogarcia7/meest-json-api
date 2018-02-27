@@ -9,7 +9,7 @@ import javax.xml.bind.annotation.XmlRootElement
 
 class MeestRequest {
     private var login: String? = null
-    private var password: String? = null
+    public var password: String? = null
     private var function: String? = null
     private var where: String? = null
     private var order: String? = null
@@ -25,13 +25,26 @@ class MeestRequest {
     @Deprecated("just for serialization")
     constructor()
 
+    companion object {
+        fun byCity(valueInRussian: String): MeestRequest {
+            val login = ""
+            val password = ""
+            val function = "Branch"
+            val where = "CityDescriptionRU='$valueInRussian'"
+            val order = ""
+
+            val request = MeestRequest(login, password, function, where, order)
+            return request
+        }
+    }
+
     @XmlElement(name = "login")
     fun getLogin(): String {
         return this.login!!
     }
 
-    fun getPassword(): String {
-        return this.password!!
+    fun setLogin(value: String) {
+        this.login = value
     }
 
     @XmlElement(name = "function")
@@ -51,7 +64,7 @@ class MeestRequest {
 
     @XmlElement(name = "sign")
     fun getSign(): String {
-        return md5(getLogin() + getPassword() + getFunction() + getWhere() + getOrder())
+        return md5(login + password + getFunction() + getWhere() + getOrder())
     }
 
     private fun md5(query: String): String {
