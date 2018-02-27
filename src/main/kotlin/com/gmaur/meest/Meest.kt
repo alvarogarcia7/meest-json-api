@@ -11,7 +11,7 @@ import javax.xml.bind.JAXBException
 @Component
 class Meest(private val configuration: Configuration, private val mapper: Mapper) {
 
-    fun request(value: MeestRequest): Either<List<Error>, Results> {
+    fun request(value: MeestRequest): Either<List<BusinessError>, Results> {
         return createRequest(value)
                 .let {
                     sendRequest(it)
@@ -75,7 +75,7 @@ class Meest(private val configuration: Configuration, private val mapper: Mapper
 
     @Component
     class Mapper {
-        fun map(result: Either<Response, Response>): Either<List<Error>, Results> {
+        fun map(result: Either<Response, Response>): Either<List<BusinessError>, Results> {
             return result.bimap(
                     {
                         when (it.errors?.code) {
@@ -119,7 +119,7 @@ class Meest(private val configuration: Configuration, private val mapper: Mapper
                                 listOf(BusinessError.aNew("Any error", it.errors?.name!!, 500))
                             }
                             else -> {
-                                listOf(Error("Unknown return code: " + it.errors?.code))
+                                listOf(BusinessError.aNew("Unknown return code: " + it.errors?.code, "", 500))
                             }
                         }
                     },

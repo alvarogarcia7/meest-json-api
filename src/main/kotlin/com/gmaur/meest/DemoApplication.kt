@@ -1,5 +1,6 @@
 package com.gmaur.meest
 
+import arrow.core.flatMap
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication
@@ -25,13 +26,19 @@ class DroppointsController(private val meest: Meest) {
 
     @GetMapping("/droppoints")
     fun rebalance(@RequestParam("city") city: String): Any {
-        val requestOrFailure = Meest.parseByCity(city)
-        return requestOrFailure
-                .map { it -> meest.request(it) }
-
+        val result = Meest.parseByCity(city)
+                .mapLeft { it.map { it as BusinessError } }
+                .flatMap { meest.request(it) }
                 .bimap({
-                    ResponseEntity.badRequest().body(map(it))
-                }, { it -> it })
+                    ResponseEntity.status(it.first().code).body(map(it))
+                }, {
+                    ResponseEntity.ok().body(it)
+                })
+        if (result.isLeft()) {
+            return result.swap().get()
+        } else {
+            return result.get()
+        }
     }
 
     private fun map(errors: List<Error>): Any {
