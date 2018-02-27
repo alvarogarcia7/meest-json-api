@@ -4,10 +4,8 @@ import arrow.core.Either
 import com.gmaur.meest.Meest.Mapper
 import org.assertj.core.api.Assertions.assertThat
 import org.junit.Before
-import org.junit.Test
 import org.junit.jupiter.api.BeforeEach
 import org.junit.jupiter.api.DynamicTest
-import org.junit.jupiter.api.TestFactory
 import org.junit.platform.runner.JUnitPlatform
 import org.junit.runner.RunWith
 
@@ -22,19 +20,23 @@ class MapperShould {
         mapper = Mapper()
     }
 
-    @Test
-    fun `do not parse results when there are errors - 101`() {
-        val message = "Ошибка авторизации"
-        val serviceResponse = createResponse("101", message)
-
-        val response = mapper?.map(serviceResponse.toEither())!!
-
-        assertResponseIs(response, "Authentication Error", message)
-    }
-
-    @TestFactory
-    fun translateDynamic(): List<DynamicTest> {
-        val testCases = listOf(Triple("101", "Authentication Error", ""))
+    //    @TestFactory
+    fun mapResponses(): List<DynamicTest> {
+        val testCases = listOf(
+                Triple("100", "Connection Error", 500),
+                Triple("101", "Authentication Error", 401),
+                Triple("102", "Function is not found", 400),
+                Triple("103", "Document not found", 400),
+                Triple("104", "Directory not found", 400),
+                Triple("105", "Failed to parse request", 400),
+                Triple("106", "Internal error 1C", 500),
+                Triple("107", "Internal error", 500),
+                Triple("108", "Error request", 400),
+                Triple("109", "Error XML structure", 400),
+                Triple("110", "Disconnected", 500),
+                Triple("111", "The request is processed", 500),
+                Triple("113", "Any error", 500)
+        )
         return testCases.map {
             DynamicTest.dynamicTest(
                     " Test for translation " + " case ${it.first} == ${it.second}",
@@ -44,7 +46,7 @@ class MapperShould {
 
                         val response = mapper?.map(serviceResponse.toEither())!!
 
-                        assertResponseIs(response, it.second, message)
+                        assertResponseIs(response, it.second, message, it.third)
                     })
         }
     }
@@ -56,12 +58,9 @@ class MapperShould {
         return serviceResponse
     }
 
-    private fun assertResponseIs(response: Either<List<Error>, Results>, first: String, s: String) {
-        assertThat(response).isEqualTo(
-                Either.left(
-                        listOf(
-                                BusinessError.x(first,
-                                        BusinessError.leaf(s)))))
+    private fun assertResponseIs(response: Either<List<Error>, Results>, first: String, internal: String, code: Int) {
+        val expected = Either.left(listOf(BusinessError.aNew(first, internal, code)))
+        assertThat(response).isEqualTo(expected)
     }
 
 }
