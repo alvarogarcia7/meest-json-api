@@ -80,7 +80,7 @@ class AcceptanceFeature {
     }
 
     private fun queryByCity(s: String): Results {
-        return Meest(configuration, Meest.Mapper()).request(MeestRequest.byCity(s)).get()
+        return Meest(Meest.MeestClient(configuration, Meest.ResponseParser()), Meest.Mapper()).request(MeestRequest.byCity(s)).get()
     }
 
 
