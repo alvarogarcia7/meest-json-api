@@ -25,7 +25,7 @@ fun main(args: Array<String>) {
 class DroppointsController(private val meest: Meest) {
 
     @GetMapping("/droppoints")
-    fun rebalance(@RequestParam("city") city: String): Any {
+    fun droppoints(@RequestParam("city") city: String): Any {
         val result = Meest.parseByCity(city)
                 .mapLeft { it.map { it as BusinessError } }
                 .flatMap { meest.request(it) }
