@@ -6,6 +6,7 @@ import org.assertj.core.api.Assertions.assertThat
 import org.junit.Before
 import org.junit.jupiter.api.BeforeEach
 import org.junit.jupiter.api.DynamicTest
+import org.junit.jupiter.api.TestFactory
 import org.junit.platform.runner.JUnitPlatform
 import org.junit.runner.RunWith
 
@@ -20,7 +21,7 @@ class MapperShould {
         mapper = Mapper()
     }
 
-    //    @TestFactory
+    @TestFactory
     fun mapResponses(): List<DynamicTest> {
         val testCases = listOf(
                 Triple("100", "Connection Error", 500),

@@ -78,7 +78,50 @@ class Meest(private val configuration: Configuration, private val mapper: Mapper
         fun map(result: Either<Response, Response>): Either<List<Error>, Results> {
             return result.bimap(
                     {
-                        listOf(BusinessError.aNew("Authentication Error", it.errors?.name!!, 401))
+                        when (it.errors?.code) {
+                            "100" -> {
+                                listOf(BusinessError.aNew("Connection Error", it.errors?.name!!, 500))
+                            }
+                            "101" -> {
+                                listOf(BusinessError.aNew("Authentication Error", it.errors?.name!!, 401))
+                            }
+                            "102" -> {
+                                listOf(BusinessError.aNew("Function is not found", it.errors?.name!!, 400))
+                            }
+                            "103" -> {
+                                listOf(BusinessError.aNew("Document not found", it.errors?.name!!, 400))
+                            }
+                            "104" -> {
+                                listOf(BusinessError.aNew("Directory not found", it.errors?.name!!, 400))
+                            }
+                            "105" -> {
+                                listOf(BusinessError.aNew("Failed to parse request", it.errors?.name!!, 400))
+                            }
+                            "106" -> {
+                                listOf(BusinessError.aNew("Internal error 1C", it.errors?.name!!, 500))
+                            }
+                            "107" -> {
+                                listOf(BusinessError.aNew("Internal error", it.errors?.name!!, 500))
+                            }
+                            "108" -> {
+                                listOf(BusinessError.aNew("Error request", it.errors?.name!!, 400))
+                            }
+                            "109" -> {
+                                listOf(BusinessError.aNew("Error XML structure", it.errors?.name!!, 400))
+                            }
+                            "110" -> {
+                                listOf(BusinessError.aNew("Disconnected", it.errors?.name!!, 500))
+                            }
+                            "111" -> {
+                                listOf(BusinessError.aNew("The request is processed", it.errors?.name!!, 500))
+                            }
+                            "113" -> {
+                                listOf(BusinessError.aNew("Any error", it.errors?.name!!, 500))
+                            }
+                            else -> {
+                                listOf(Error("Unknown return code: " + it.errors?.code))
+                            }
+                        }
                     },
                     {
                         Results(it.resultTable?.items?.map {
