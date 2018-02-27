@@ -1,0 +1,2124 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<return>
+    <api>API-1C</api>
+    <apiversion>1</apiversion>
+    <result_table>
+        <items>
+            <UUID>3158FF42-6D4F-11E7-80C4-1C98EC135263</UUID>
+            <DescriptionUA>АПТ №3 332(Поштомат ПриватБанку)(м.Львів,вул.Петлюри 1)</DescriptionUA>
+            <DescriptionRU>АПТ №3 332(Поштомат ПриватБанку) г.Львов,ул.Петлюры 1</DescriptionRU>
+            <RegionUUID>D15E3024-60B0-11DE-BE1E-0030485903E8</RegionUUID>
+            <RegionDescriptionUA>ЛЬВІВСЬКА</RegionDescriptionUA>
+            <RegionDescriptionRU>ЛЬВОВСКАЯ</RegionDescriptionRU>
+            <DistrictUUID>8A199CDE-41B9-11DF-907F-00215AEE3EBE</DistrictUUID>
+            <DistrictDescriptionUA>Львів</DistrictDescriptionUA>
+            <DistrictDescriptionRU>Львов</DistrictDescriptionRU>
+            <CityUUID>62C3D54A-749B-11DF-B112-00215AEE3EBE</CityUUID>
+            <CityDescriptionUA>Львів</CityDescriptionUA>
+            <CityDescriptionRU>Львов</CityDescriptionRU>
+            <StreetUUID>DA910902-E0D3-11DF-9B37-00215AEE3EBE</StreetUUID>
+            <StreetTypeUA>вул.</StreetTypeUA>
+            <StreetDescriptionUA>Петлюри</StreetDescriptionUA>
+            <StreetTypeRU>ул.</StreetTypeRU>
+            <StreetDescriptionRU>Петлюры</StreetDescriptionRU>
+            <House>1</House>
+            <Flat></Flat>
+            <AddressMoreInformation></AddressMoreInformation>
+            <Limitweight>30</Limitweight>
+            <Branchtype>Приват-АПТ</Branchtype>
+            <BranchtypeCode>0000004</BranchtypeCode>
+            <Latitude>49.823582</Latitude>
+            <Longitude>23.978218</Longitude>
+            <BranchCode>3332</BranchCode>
+            <StickerCode>0Z3</StickerCode>
+            <B2C>false</B2C>
+            <WorkingHours>Пн 00:00 - 23:59; Вт 00:00 - 23:59; Ср 00:00 - 23:59; Чт 00:00 - 23:59; Пт 00:00 - 23:59; Сб 00:00 - 23:59; Нд 00:00 - 23:59</WorkingHours>
+            <MotoBranchDescription>Львів</MotoBranchDescription>
+            <ZipCode>79493</ZipCode>
+        </items>
+        <items>
+            <UUID>0F459183-6DF3-11E7-80C4-1C98EC135263</UUID>
+            <DescriptionUA>Львів-Гребінки(м.Львів,вул.Гребінки 9/2)</DescriptionUA>
+            <DescriptionRU>Львів-Гребінки г.Львов,ул.Гребенки 9/2</DescriptionRU>
+            <RegionUUID>D15E3024-60B0-11DE-BE1E-0030485903E8</RegionUUID>
+            <RegionDescriptionUA>ЛЬВІВСЬКА</RegionDescriptionUA>
+            <RegionDescriptionRU>ЛЬВОВСКАЯ</RegionDescriptionRU>
+            <DistrictUUID>8A199CDE-41B9-11DF-907F-00215AEE3EBE</DistrictUUID>
+            <DistrictDescriptionUA>Львів</DistrictDescriptionUA>
+            <DistrictDescriptionRU>Львов</DistrictDescriptionRU>
+            <CityUUID>62C3D54A-749B-11DF-B112-00215AEE3EBE</CityUUID>
+            <CityDescriptionUA>Львів</CityDescriptionUA>
+            <CityDescriptionRU>Львов</CityDescriptionRU>
+            <StreetUUID>D4645259-E0D3-11DF-9B37-00215AEE3EBE</StreetUUID>
+            <StreetTypeUA>вул.</StreetTypeUA>
+            <StreetDescriptionUA>Гребінки</StreetDescriptionUA>
+            <StreetTypeRU>ул.</StreetTypeRU>
+            <StreetDescriptionRU>Гребенки</StreetDescriptionRU>
+            <House>9/2</House>
+            <Flat></Flat>
+            <AddressMoreInformation></AddressMoreInformation>
+            <Limitweight>30</Limitweight>
+            <Branchtype>МППВ</Branchtype>
+            <BranchtypeCode>0000003</BranchtypeCode>
+            <Latitude>49.841525</Latitude>
+            <Longitude>24.020609</Longitude>
+            <BranchCode>3334</BranchCode>
+            <StickerCode>0Z5</StickerCode>
+            <B2C>false</B2C>
+            <WorkingHours>Пн 09:00 - 18:00; Вт 09:00 - 18:00; Ср 09:00 - 18:00; Чт 09:00 - 18:00; Пт 09:00 - 18:00; Сб --:-- - --:--; Нд --:-- - --:--</WorkingHours>
+            <MotoBranchDescription>Львів</MotoBranchDescription>
+            <ZipCode>79007</ZipCode>
+        </items>
+        <items>
+            <UUID>4ED76835-7689-11E7-80C5-1C98EC135263</UUID>
+            <DescriptionUA>Львів-Шпитальна 9(м.Львів,вул.Шпитальна 9)</DescriptionUA>
+            <DescriptionRU>Львів-Шпитальна 9 г.Львов,ул.Госпитальная 9</DescriptionRU>
+            <RegionUUID>D15E3024-60B0-11DE-BE1E-0030485903E8</RegionUUID>
+            <RegionDescriptionUA>ЛЬВІВСЬКА</RegionDescriptionUA>
+            <RegionDescriptionRU>ЛЬВОВСКАЯ</RegionDescriptionRU>
+            <DistrictUUID>8A199CDE-41B9-11DF-907F-00215AEE3EBE</DistrictUUID>
+            <DistrictDescriptionUA>Львів</DistrictDescriptionUA>
+            <DistrictDescriptionRU>Львов</DistrictDescriptionRU>
+            <CityUUID>62C3D54A-749B-11DF-B112-00215AEE3EBE</CityUUID>
+            <CityDescriptionUA>Львів</CityDescriptionUA>
+            <CityDescriptionRU>Львов</CityDescriptionRU>
+            <StreetUUID>DA9107FB-E0D3-11DF-9B37-00215AEE3EBE</StreetUUID>
+            <StreetTypeUA>вул.</StreetTypeUA>
+            <StreetDescriptionUA>Шпитальна</StreetDescriptionUA>
+            <StreetTypeRU>ул.</StreetTypeRU>
+            <StreetDescriptionRU>Госпитальная</StreetDescriptionRU>
+            <House>9</House>
+            <Flat></Flat>
+            <AddressMoreInformation></AddressMoreInformation>
+            <Limitweight>30</Limitweight>
+            <Branchtype>ТОЧКА</Branchtype>
+            <BranchtypeCode>0000008</BranchtypeCode>
+            <Latitude>49.844460</Latitude>
+            <Longitude>24.023165</Longitude>
+            <BranchCode>3343</BranchCode>
+            <StickerCode>1A6</StickerCode>
+            <B2C>false</B2C>
+            <WorkingHours>Пн 09:00 - 20:00; Вт 09:00 - 20:00; Ср 09:00 - 20:00; Чт 09:00 - 20:00; Пт 09:00 - 20:00; Сб 10:00 - 18:00; Нд 10:00 - 17:00</WorkingHours>
+            <MotoBranchDescription>Львів</MotoBranchDescription>
+            <ZipCode>79007</ZipCode>
+        </items>
+        <items>
+            <UUID>4708D4DD-768A-11E7-80C5-1C98EC135263</UUID>
+            <DescriptionUA>Львів-Княгині Ольги 114(м.Львів,вул.Княгині Ольги 114)</DescriptionUA>
+            <DescriptionRU>Львів-Княгині Ольги 114 г.Львов,ул.Княгини Ольги 114</DescriptionRU>
+            <RegionUUID>D15E3024-60B0-11DE-BE1E-0030485903E8</RegionUUID>
+            <RegionDescriptionUA>ЛЬВІВСЬКА</RegionDescriptionUA>
+            <RegionDescriptionRU>ЛЬВОВСКАЯ</RegionDescriptionRU>
+            <DistrictUUID>8A199CDE-41B9-11DF-907F-00215AEE3EBE</DistrictUUID>
+            <DistrictDescriptionUA>Львів</DistrictDescriptionUA>
+            <DistrictDescriptionRU>Львов</DistrictDescriptionRU>
+            <CityUUID>62C3D54A-749B-11DF-B112-00215AEE3EBE</CityUUID>
+            <CityDescriptionUA>Львів</CityDescriptionUA>
+            <CityDescriptionRU>Львов</CityDescriptionRU>
+            <StreetUUID>FDCA4376-EDA1-11DF-B61A-00215AEE3EBE</StreetUUID>
+            <StreetTypeUA>вул.</StreetTypeUA>
+            <StreetDescriptionUA>Княгині Ольги</StreetDescriptionUA>
+            <StreetTypeRU>ул.</StreetTypeRU>
+            <StreetDescriptionRU>Княгини Ольги</StreetDescriptionRU>
+            <House>114</House>
+            <Flat></Flat>
+            <AddressMoreInformation>м-н ЖЖУК</AddressMoreInformation>
+            <Limitweight>30</Limitweight>
+            <Branchtype>ТОЧКА</Branchtype>
+            <BranchtypeCode>0000008</BranchtypeCode>
+            <Latitude>49.807763</Latitude>
+            <Longitude>23.997464</Longitude>
+            <BranchCode>3344</BranchCode>
+            <StickerCode>1A7</StickerCode>
+            <B2C>false</B2C>
+            <WorkingHours>Пн 09:00 - 21:00; Вт 09:00 - 21:00; Ср 09:00 - 21:00; Чт 09:00 - 21:00; Пт 09:00 - 21:00; Сб 09:00 - 20:00; Нд 10:00 - 19:00</WorkingHours>
+            <MotoBranchDescription>Львів</MotoBranchDescription>
+            <ZipCode>79044</ZipCode>
+        </items>
+        <items>
+            <UUID>6C6EEA01-768E-11E7-80C5-1C98EC135263</UUID>
+            <DescriptionUA>Львів-Володимира Великого 58(м.Львів,вул.Володимира Великого 58)</DescriptionUA>
+            <DescriptionRU>Львів-Володимира Великого 58 г.Львов,ул.Владимира Великого 58</DescriptionRU>
+            <RegionUUID>D15E3024-60B0-11DE-BE1E-0030485903E8</RegionUUID>
+            <RegionDescriptionUA>ЛЬВІВСЬКА</RegionDescriptionUA>
+            <RegionDescriptionRU>ЛЬВОВСКАЯ</RegionDescriptionRU>
+            <DistrictUUID>8A199CDE-41B9-11DF-907F-00215AEE3EBE</DistrictUUID>
+            <DistrictDescriptionUA>Львів</DistrictDescriptionUA>
+            <DistrictDescriptionRU>Львов</DistrictDescriptionRU>
+            <CityUUID>62C3D54A-749B-11DF-B112-00215AEE3EBE</CityUUID>
+            <CityDescriptionUA>Львів</CityDescriptionUA>
+            <CityDescriptionRU>Львов</CityDescriptionRU>
+            <StreetUUID>DA9108E2-E0D3-11DF-9B37-00215AEE3EBE</StreetUUID>
+            <StreetTypeUA>вул.</StreetTypeUA>
+            <StreetDescriptionUA>Володимира Великого</StreetDescriptionUA>
+            <StreetTypeRU>ул.</StreetTypeRU>
+            <StreetDescriptionRU>Владимира Великого</StreetDescriptionRU>
+            <House>58</House>
+            <Flat></Flat>
+            <AddressMoreInformation>ТЦ Ашан Сіті м-н ЖЖУК</AddressMoreInformation>
+            <Limitweight>30</Limitweight>
+            <Branchtype>ТОЧКА</Branchtype>
+            <BranchtypeCode>0000008</BranchtypeCode>
+            <Latitude>49.812358</Latitude>
+            <Longitude>23.986450</Longitude>
+            <BranchCode>3347</BranchCode>
+            <StickerCode>1B0</StickerCode>
+            <B2C>false</B2C>
+            <WorkingHours>Пн 09:30 - 22:00; Вт 09:30 - 22:00; Ср 09:30 - 22:00; Чт 09:30 - 22:00; Пт 09:30 - 22:00; Сб 09:30 - 22:00; Нд 09:30 - 22:00</WorkingHours>
+            <MotoBranchDescription>Львів</MotoBranchDescription>
+            <ZipCode>79493</ZipCode>
+        </items>
+        <items>
+            <UUID>39FF0B2A-768F-11E7-80C5-1C98EC135263</UUID>
+            <DescriptionUA>Львів-Городоцька 177(м.Львів,вул.Городоцька 177)</DescriptionUA>
+            <DescriptionRU>Львів-Городоцька 177 г.Львов,ул.Городоцкая 177</DescriptionRU>
+            <RegionUUID>D15E3024-60B0-11DE-BE1E-0030485903E8</RegionUUID>
+            <RegionDescriptionUA>ЛЬВІВСЬКА</RegionDescriptionUA>
+            <RegionDescriptionRU>ЛЬВОВСКАЯ</RegionDescriptionRU>
+            <DistrictUUID>8A199CDE-41B9-11DF-907F-00215AEE3EBE</DistrictUUID>
+            <DistrictDescriptionUA>Львів</DistrictDescriptionUA>
+            <DistrictDescriptionRU>Львов</DistrictDescriptionRU>
+            <CityUUID>62C3D54A-749B-11DF-B112-00215AEE3EBE</CityUUID>
+            <CityDescriptionUA>Львів</CityDescriptionUA>
+            <CityDescriptionRU>Львов</CityDescriptionRU>
+            <StreetUUID>D464524F-E0D3-11DF-9B37-00215AEE3EBE</StreetUUID>
+            <StreetTypeUA>вул.</StreetTypeUA>
+            <StreetDescriptionUA>Городоцька</StreetDescriptionUA>
+            <StreetTypeRU>ул.</StreetTypeRU>
+            <StreetDescriptionRU>Городоцкая</StreetDescriptionRU>
+            <House>177</House>
+            <Flat></Flat>
+            <AddressMoreInformation>м-н ЖЖУК</AddressMoreInformation>
+            <Limitweight>30</Limitweight>
+            <Branchtype>ТОЧКА</Branchtype>
+            <BranchtypeCode>0000008</BranchtypeCode>
+            <Latitude>49.835391</Latitude>
+            <Longitude>23.995854</Longitude>
+            <BranchCode>3348</BranchCode>
+            <StickerCode>1B1</StickerCode>
+            <B2C>false</B2C>
+            <WorkingHours>Пн 08:00 - 21:00; Вт 08:00 - 21:00; Ср 08:00 - 21:00; Чт 08:00 - 21:00; Пт 08:00 - 21:00; Сб 09:00 - 20:00; Нд 09:00 - 20:00</WorkingHours>
+            <MotoBranchDescription>Львів</MotoBranchDescription>
+            <ZipCode>79007</ZipCode>
+        </items>
+        <items>
+            <UUID>0C47F6D9-7690-11E7-80C5-1C98EC135263</UUID>
+            <DescriptionUA>Львів-Червоної Калини 113(м.Львів,просп.Червоної Калини 113)</DescriptionUA>
+            <DescriptionRU>Львів-Червоної Калини 113 г.Львов,просп.Красной Калины 113</DescriptionRU>
+            <RegionUUID>D15E3024-60B0-11DE-BE1E-0030485903E8</RegionUUID>
+            <RegionDescriptionUA>ЛЬВІВСЬКА</RegionDescriptionUA>
+            <RegionDescriptionRU>ЛЬВОВСКАЯ</RegionDescriptionRU>
+            <DistrictUUID>8A199CDE-41B9-11DF-907F-00215AEE3EBE</DistrictUUID>
+            <DistrictDescriptionUA>Львів</DistrictDescriptionUA>
+            <DistrictDescriptionRU>Львов</DistrictDescriptionRU>
+            <CityUUID>62C3D54A-749B-11DF-B112-00215AEE3EBE</CityUUID>
+            <CityDescriptionUA>Львів</CityDescriptionUA>
+            <CityDescriptionRU>Львов</CityDescriptionRU>
+            <StreetUUID>DA9107D2-E0D3-11DF-9B37-00215AEE3EBE</StreetUUID>
+            <StreetTypeUA>просп.</StreetTypeUA>
+            <StreetDescriptionUA>Червоної Калини</StreetDescriptionUA>
+            <StreetTypeRU>просп.</StreetTypeRU>
+            <StreetDescriptionRU>Красной Калины</StreetDescriptionRU>
+            <House>113</House>
+            <Flat></Flat>
+            <AddressMoreInformation></AddressMoreInformation>
+            <Limitweight>30</Limitweight>
+            <Branchtype>ТОЧКА</Branchtype>
+            <BranchtypeCode>0000008</BranchtypeCode>
+            <Latitude>49.783907</Latitude>
+            <Longitude>24.060348</Longitude>
+            <BranchCode>3349</BranchCode>
+            <StickerCode>1B2</StickerCode>
+            <B2C>false</B2C>
+            <WorkingHours>Пн 09:00 - 20:00; Вт 09:00 - 20:00; Ср 09:00 - 20:00; Чт 09:00 - 20:00; Пт 09:00 - 20:00; Сб 09:00 - 19:00; Нд 10:00 - 18:00</WorkingHours>
+            <MotoBranchDescription>Львів</MotoBranchDescription>
+            <ZipCode>79034</ZipCode>
+        </items>
+        <items>
+            <UUID>D6A18B65-7690-11E7-80C5-1C98EC135263</UUID>
+            <DescriptionUA>Львів-Кульпарківська 61(м.Львів,вул.Кульпарківська 61)</DescriptionUA>
+            <DescriptionRU>Львів-Кульпарківська 61 г.Львов,ул.Кульпарковская 61</DescriptionRU>
+            <RegionUUID>D15E3024-60B0-11DE-BE1E-0030485903E8</RegionUUID>
+            <RegionDescriptionUA>ЛЬВІВСЬКА</RegionDescriptionUA>
+            <RegionDescriptionRU>ЛЬВОВСКАЯ</RegionDescriptionRU>
+            <DistrictUUID>8A199CDE-41B9-11DF-907F-00215AEE3EBE</DistrictUUID>
+            <DistrictDescriptionUA>Львів</DistrictDescriptionUA>
+            <DistrictDescriptionRU>Львов</DistrictDescriptionRU>
+            <CityUUID>62C3D54A-749B-11DF-B112-00215AEE3EBE</CityUUID>
+            <CityDescriptionUA>Львів</CityDescriptionUA>
+            <CityDescriptionRU>Львов</CityDescriptionRU>
+            <StreetUUID>DA910542-E0D3-11DF-9B37-00215AEE3EBE</StreetUUID>
+            <StreetTypeUA>вул.</StreetTypeUA>
+            <StreetDescriptionUA>Кульпарківська</StreetDescriptionUA>
+            <StreetTypeRU>ул.</StreetTypeRU>
+            <StreetDescriptionRU>Кульпарковская</StreetDescriptionRU>
+            <House>61</House>
+            <Flat></Flat>
+            <AddressMoreInformation>м-н Жжук</AddressMoreInformation>
+            <Limitweight>30</Limitweight>
+            <Branchtype>ТОЧКА</Branchtype>
+            <BranchtypeCode>0000008</BranchtypeCode>
+            <Latitude>49.826398</Latitude>
+            <Longitude>23.990058</Longitude>
+            <BranchCode>3350</BranchCode>
+            <StickerCode>1B3</StickerCode>
+            <B2C>false</B2C>
+            <WorkingHours>Пн 08:30 - 19:00; Вт 08:30 - 19:00; Ср 08:30 - 19:00; Чт 08:30 - 19:00; Пт 08:30 - 19:00; Сб 10:00 - 17:00; Нд --:-- - --:--</WorkingHours>
+            <MotoBranchDescription>Львів</MotoBranchDescription>
+            <ZipCode>79015</ZipCode>
+        </items>
+        <items>
+            <UUID>4536F234-7768-11E7-80C5-1C98EC135263</UUID>
+            <DescriptionUA>Львів-Широка 65А(м.Львів,вул.Широка 65 А)</DescriptionUA>
+            <DescriptionRU>Львів-Широка 65А г.Львов,ул.Широкая 65 А</DescriptionRU>
+            <RegionUUID>D15E3024-60B0-11DE-BE1E-0030485903E8</RegionUUID>
+            <RegionDescriptionUA>ЛЬВІВСЬКА</RegionDescriptionUA>
+            <RegionDescriptionRU>ЛЬВОВСКАЯ</RegionDescriptionRU>
+            <DistrictUUID>8A199CDE-41B9-11DF-907F-00215AEE3EBE</DistrictUUID>
+            <DistrictDescriptionUA>Львів</DistrictDescriptionUA>
+            <DistrictDescriptionRU>Львов</DistrictDescriptionRU>
+            <CityUUID>62C3D54A-749B-11DF-B112-00215AEE3EBE</CityUUID>
+            <CityDescriptionUA>Львів</CityDescriptionUA>
+            <CityDescriptionRU>Львов</CityDescriptionRU>
+            <StreetUUID>DA9107F4-E0D3-11DF-9B37-00215AEE3EBE</StreetUUID>
+            <StreetTypeUA>вул.</StreetTypeUA>
+            <StreetDescriptionUA>Широка</StreetDescriptionUA>
+            <StreetTypeRU>ул.</StreetTypeRU>
+            <StreetDescriptionRU>Широкая</StreetDescriptionRU>
+            <House>65 А</House>
+            <Flat></Flat>
+            <AddressMoreInformation>м-н Жжук</AddressMoreInformation>
+            <Limitweight>30</Limitweight>
+            <Branchtype>ТОЧКА</Branchtype>
+            <BranchtypeCode>0000008</BranchtypeCode>
+            <Latitude>49.841693</Latitude>
+            <Longitude>23.970122</Longitude>
+            <BranchCode>3351</BranchCode>
+            <StickerCode>1B6</StickerCode>
+            <B2C>false</B2C>
+            <WorkingHours>Пн 09:00 - 20:00; Вт 09:00 - 20:00; Ср 09:00 - 20:00; Чт 09:00 - 20:00; Пт 09:00 - 20:00; Сб 09:00 - 19:00; Нд 09:00 - 18:00</WorkingHours>
+            <MotoBranchDescription>Львів</MotoBranchDescription>
+            <ZipCode>79052</ZipCode>
+        </items>
+        <items>
+            <UUID>DAD07B1C-ACD7-11E7-80CB-1C98EC135261</UUID>
+            <DescriptionUA>Львів-Шевченка(м.Львів,вул.Шевченка 358 А)</DescriptionUA>
+            <DescriptionRU>Львів-Шевченка г.Львов,ул.Шевченко 358 А</DescriptionRU>
+            <RegionUUID>D15E3024-60B0-11DE-BE1E-0030485903E8</RegionUUID>
+            <RegionDescriptionUA>ЛЬВІВСЬКА</RegionDescriptionUA>
+            <RegionDescriptionRU>ЛЬВОВСКАЯ</RegionDescriptionRU>
+            <DistrictUUID>8A199CDE-41B9-11DF-907F-00215AEE3EBE</DistrictUUID>
+            <DistrictDescriptionUA>Львів</DistrictDescriptionUA>
+            <DistrictDescriptionRU>Львов</DistrictDescriptionRU>
+            <CityUUID>62C3D54A-749B-11DF-B112-00215AEE3EBE</CityUUID>
+            <CityDescriptionUA>Львів</CityDescriptionUA>
+            <CityDescriptionRU>Львов</CityDescriptionRU>
+            <StreetUUID>F6973290-CCE4-11E2-8B6C-003048D2B473</StreetUUID>
+            <StreetTypeUA>вул.</StreetTypeUA>
+            <StreetDescriptionUA>Шевченка</StreetDescriptionUA>
+            <StreetTypeRU>ул.</StreetTypeRU>
+            <StreetDescriptionRU>Шевченко</StreetDescriptionRU>
+            <House>358 А</House>
+            <Flat></Flat>
+            <AddressMoreInformation>м-н Ringoo</AddressMoreInformation>
+            <Limitweight>30</Limitweight>
+            <Branchtype>ТОЧКА</Branchtype>
+            <BranchtypeCode>0000008</BranchtypeCode>
+            <Latitude>49.868688</Latitude>
+            <Longitude>23.951290</Longitude>
+            <BranchCode>3382</BranchCode>
+            <StickerCode>1F2</StickerCode>
+            <B2C>false</B2C>
+            <WorkingHours>Пн 11:00 - 21:00; Вт 11:00 - 21:00; Ср 11:00 - 21:00; Чт 11:00 - 21:00; Пт 11:00 - 21:00; Сб 11:00 - 21:00; Нд 11:00 - 20:00</WorkingHours>
+            <MotoBranchDescription>Львів</MotoBranchDescription>
+            <ZipCode>79039</ZipCode>
+        </items>
+        <items>
+            <UUID>D374772F-B3E1-11E7-80CB-1C98EC135261</UUID>
+            <DescriptionUA>АПТ №3388(Поштомат ПриватБанку)(м.Львів,вул.Героїв УПА 73)</DescriptionUA>
+            <DescriptionRU>АПТ №3388(Поштомат ПриватБанку) г.Львов,ул.Героев УПА 73</DescriptionRU>
+            <RegionUUID>D15E3024-60B0-11DE-BE1E-0030485903E8</RegionUUID>
+            <RegionDescriptionUA>ЛЬВІВСЬКА</RegionDescriptionUA>
+            <RegionDescriptionRU>ЛЬВОВСКАЯ</RegionDescriptionRU>
+            <DistrictUUID>8A199CDE-41B9-11DF-907F-00215AEE3EBE</DistrictUUID>
+            <DistrictDescriptionUA>Львів</DistrictDescriptionUA>
+            <DistrictDescriptionRU>Львов</DistrictDescriptionRU>
+            <CityUUID>62C3D54A-749B-11DF-B112-00215AEE3EBE</CityUUID>
+            <CityDescriptionUA>Львів</CityDescriptionUA>
+            <CityDescriptionRU>Львов</CityDescriptionRU>
+            <StreetUUID>9B7D347C-FC94-11DF-86DF-00215AEE3EBE</StreetUUID>
+            <StreetTypeUA>вул.</StreetTypeUA>
+            <StreetDescriptionUA>Героїв УПА</StreetDescriptionUA>
+            <StreetTypeRU>ул.</StreetTypeRU>
+            <StreetDescriptionRU>Героев УПА</StreetDescriptionRU>
+            <House>73</House>
+            <Flat></Flat>
+            <AddressMoreInformation></AddressMoreInformation>
+            <Limitweight>30</Limitweight>
+            <Branchtype>Приват-АПТ</Branchtype>
+            <BranchtypeCode>0000004</BranchtypeCode>
+            <Latitude>49.829053</Latitude>
+            <Longitude>23.992747</Longitude>
+            <BranchCode>3388</BranchCode>
+            <StickerCode>1F8</StickerCode>
+            <B2C>false</B2C>
+            <WorkingHours>Пн 09:00 - 18:00; Вт 09:00 - 18:00; Ср 09:00 - 18:00; Чт 09:00 - 18:00; Пт 09:00 - 18:00; Сб --:-- - --:--; Нд --:-- - --:--</WorkingHours>
+            <MotoBranchDescription>Львів</MotoBranchDescription>
+            <ZipCode>79018</ZipCode>
+        </items>
+        <items>
+            <UUID>C2D4D0B9-BF16-11E7-80CC-1C98EC135261</UUID>
+            <DescriptionUA>АПТ №3446(Поштомат ПриватБанку)(м.Львів,пл.Міцкевича Адама 6/7)</DescriptionUA>
+            <DescriptionRU>АПТ №3446(Поштомат ПриватБанку) г.Львов,пл.Мицкевича Адама 6/7</DescriptionRU>
+            <RegionUUID>D15E3024-60B0-11DE-BE1E-0030485903E8</RegionUUID>
+            <RegionDescriptionUA>ЛЬВІВСЬКА</RegionDescriptionUA>
+            <RegionDescriptionRU>ЛЬВОВСКАЯ</RegionDescriptionRU>
+            <DistrictUUID>8A199CDE-41B9-11DF-907F-00215AEE3EBE</DistrictUUID>
+            <DistrictDescriptionUA>Львів</DistrictDescriptionUA>
+            <DistrictDescriptionRU>Львов</DistrictDescriptionRU>
+            <CityUUID>62C3D54A-749B-11DF-B112-00215AEE3EBE</CityUUID>
+            <CityDescriptionUA>Львів</CityDescriptionUA>
+            <CityDescriptionRU>Львов</CityDescriptionRU>
+            <StreetUUID>FDCA437C-EDA1-11DF-B61A-00215AEE3EBE</StreetUUID>
+            <StreetTypeUA>пл.</StreetTypeUA>
+            <StreetDescriptionUA>Міцкевича Адама</StreetDescriptionUA>
+            <StreetTypeRU>пл.</StreetTypeRU>
+            <StreetDescriptionRU>Мицкевича Адама</StreetDescriptionRU>
+            <House>6/7</House>
+            <Flat></Flat>
+            <AddressMoreInformation></AddressMoreInformation>
+            <Limitweight>30</Limitweight>
+            <Branchtype>Приват-АПТ</Branchtype>
+            <BranchtypeCode>0000004</BranchtypeCode>
+            <Latitude>49.839997</Latitude>
+            <Longitude>24.029997</Longitude>
+            <BranchCode>3446</BranchCode>
+            <StickerCode>1L7</StickerCode>
+            <B2C>false</B2C>
+            <WorkingHours>Пн 09:00 - 18:00; Вт 09:00 - 18:00; Ср 09:00 - 18:00; Чт 09:00 - 18:00; Пт 09:00 - 18:00; Сб --:-- - --:--; Нд --:-- - --:--</WorkingHours>
+            <MotoBranchDescription>Львів</MotoBranchDescription>
+            <ZipCode>79000</ZipCode>
+        </items>
+        <items>
+            <UUID>5067A984-C39D-11E7-80CC-1C98EC135261</UUID>
+            <DescriptionUA>Львів-Княгині Ольги(м.Львів,вул.Княгині Ольги 106)</DescriptionUA>
+            <DescriptionRU>Львів-Княгині Ольги г.Львов,ул.Княгини Ольги 106</DescriptionRU>
+            <RegionUUID>D15E3024-60B0-11DE-BE1E-0030485903E8</RegionUUID>
+            <RegionDescriptionUA>ЛЬВІВСЬКА</RegionDescriptionUA>
+            <RegionDescriptionRU>ЛЬВОВСКАЯ</RegionDescriptionRU>
+            <DistrictUUID>8A199CDE-41B9-11DF-907F-00215AEE3EBE</DistrictUUID>
+            <DistrictDescriptionUA>Львів</DistrictDescriptionUA>
+            <DistrictDescriptionRU>Львов</DistrictDescriptionRU>
+            <CityUUID>62C3D54A-749B-11DF-B112-00215AEE3EBE</CityUUID>
+            <CityDescriptionUA>Львів</CityDescriptionUA>
+            <CityDescriptionRU>Львов</CityDescriptionRU>
+            <StreetUUID>FDCA4376-EDA1-11DF-B61A-00215AEE3EBE</StreetUUID>
+            <StreetTypeUA>вул.</StreetTypeUA>
+            <StreetDescriptionUA>Княгині Ольги</StreetDescriptionUA>
+            <StreetTypeRU>ул.</StreetTypeRU>
+            <StreetDescriptionRU>Княгини Ольги</StreetDescriptionRU>
+            <House>106</House>
+            <Flat></Flat>
+            <AddressMoreInformation>м-н Ringoo</AddressMoreInformation>
+            <Limitweight>30</Limitweight>
+            <Branchtype>ТОЧКА</Branchtype>
+            <BranchtypeCode>0000008</BranchtypeCode>
+            <Latitude>49.809411</Latitude>
+            <Longitude>23.997680</Longitude>
+            <BranchCode>3467</BranchCode>
+            <StickerCode>1N8</StickerCode>
+            <B2C>false</B2C>
+            <WorkingHours>Пн 10:00 - 20:00; Вт 10:00 - 20:00; Ср 10:00 - 20:00; Чт 10:00 - 20:00; Пт 10:00 - 20:00; Сб 10:00 - 19:00; Нд 11:00 - 19:00</WorkingHours>
+            <MotoBranchDescription>Львів</MotoBranchDescription>
+            <ZipCode>79044</ZipCode>
+        </items>
+        <items>
+            <UUID>177CAA4E-C39E-11E7-80CC-1C98EC135261</UUID>
+            <DescriptionUA>Львів-Патона(м.Львів,вул.Патона 37)</DescriptionUA>
+            <DescriptionRU>Львів-Патона г.Львов,ул.Патона 37</DescriptionRU>
+            <RegionUUID>D15E3024-60B0-11DE-BE1E-0030485903E8</RegionUUID>
+            <RegionDescriptionUA>ЛЬВІВСЬКА</RegionDescriptionUA>
+            <RegionDescriptionRU>ЛЬВОВСКАЯ</RegionDescriptionRU>
+            <DistrictUUID>8A199CDE-41B9-11DF-907F-00215AEE3EBE</DistrictUUID>
+            <DistrictDescriptionUA>Львів</DistrictDescriptionUA>
+            <DistrictDescriptionRU>Львов</DistrictDescriptionRU>
+            <CityUUID>62C3D54A-749B-11DF-B112-00215AEE3EBE</CityUUID>
+            <CityDescriptionUA>Львів</CityDescriptionUA>
+            <CityDescriptionRU>Львов</CityDescriptionRU>
+            <StreetUUID>DA910640-E0D3-11DF-9B37-00215AEE3EBE</StreetUUID>
+            <StreetTypeUA>вул.</StreetTypeUA>
+            <StreetDescriptionUA>Патона</StreetDescriptionUA>
+            <StreetTypeRU>ул.</StreetTypeRU>
+            <StreetDescriptionRU>Патона</StreetDescriptionRU>
+            <House>37</House>
+            <Flat></Flat>
+            <AddressMoreInformation>м-н Ringoo ТЦ Арсен</AddressMoreInformation>
+            <Limitweight>30</Limitweight>
+            <Branchtype>ТОЧКА</Branchtype>
+            <BranchtypeCode>0000008</BranchtypeCode>
+            <Latitude>49.822663</Latitude>
+            <Longitude>23.958650</Longitude>
+            <BranchCode>3468</BranchCode>
+            <StickerCode>1N9</StickerCode>
+            <B2C>false</B2C>
+            <WorkingHours>Пн 09:00 - 20:00; Вт 09:00 - 20:00; Ср 09:00 - 20:00; Чт 09:00 - 20:00; Пт 09:00 - 20:00; Сб 09:00 - 20:00; Нд 11:00 - 20:00</WorkingHours>
+            <MotoBranchDescription>Львів</MotoBranchDescription>
+            <ZipCode>79003</ZipCode>
+        </items>
+        <items>
+            <UUID>56AE8646-01F3-11E8-80CD-1C98EC135261</UUID>
+            <DescriptionUA>Львів-Кавалерідзе, 2(м.Львів,вул.Кавалерідзе 2)</DescriptionUA>
+            <DescriptionRU>Львів-Кавалерідзе, 2 г.Львов,ул.Кавалеридзе 2</DescriptionRU>
+            <RegionUUID>D15E3024-60B0-11DE-BE1E-0030485903E8</RegionUUID>
+            <RegionDescriptionUA>ЛЬВІВСЬКА</RegionDescriptionUA>
+            <RegionDescriptionRU>ЛЬВОВСКАЯ</RegionDescriptionRU>
+            <DistrictUUID>8A199CDE-41B9-11DF-907F-00215AEE3EBE</DistrictUUID>
+            <DistrictDescriptionUA>Львів</DistrictDescriptionUA>
+            <DistrictDescriptionRU>Львов</DistrictDescriptionRU>
+            <CityUUID>62C3D54A-749B-11DF-B112-00215AEE3EBE</CityUUID>
+            <CityDescriptionUA>Львів</CityDescriptionUA>
+            <CityDescriptionRU>Львов</CityDescriptionRU>
+            <StreetUUID>DA9104B5-E0D3-11DF-9B37-00215AEE3EBE</StreetUUID>
+            <StreetTypeUA>вул.</StreetTypeUA>
+            <StreetDescriptionUA>Кавалерідзе</StreetDescriptionUA>
+            <StreetTypeRU>ул.</StreetTypeRU>
+            <StreetDescriptionRU>Кавалеридзе</StreetDescriptionRU>
+            <House>2</House>
+            <Flat></Flat>
+            <AddressMoreInformation>м-н ЖЖУК</AddressMoreInformation>
+            <Limitweight>30</Limitweight>
+            <Branchtype>ТОЧКА</Branchtype>
+            <BranchtypeCode>0000008</BranchtypeCode>
+            <Latitude>49.793656</Latitude>
+            <Longitude>24.064233</Longitude>
+            <BranchCode>3689</BranchCode>
+            <StickerCode>2K4</StickerCode>
+            <B2C>false</B2C>
+            <WorkingHours>Пн 09:00 - 20:00; Вт 09:00 - 20:00; Ср 09:00 - 20:00; Чт 09:00 - 20:00; Пт 09:00 - 20:00; Сб 09:00 - 20:00; Нд 09:00 - 20:00</WorkingHours>
+            <MotoBranchDescription>Львів</MotoBranchDescription>
+            <ZipCode>79066</ZipCode>
+        </items>
+        <items>
+            <UUID>242AC8EC-15CE-11E4-9BEB-003048D2B473</UUID>
+            <DescriptionUA>АПТ №635 (Поштомат ПриватБанку)(м.Львів,вул.Вашингтона 5-5а)</DescriptionUA>
+            <DescriptionRU>АПТ №635 (Поштомат ПриватБанку) г.Львов,ул.Вашингтона 5-5а</DescriptionRU>
+            <RegionUUID>D15E3024-60B0-11DE-BE1E-0030485903E8</RegionUUID>
+            <RegionDescriptionUA>ЛЬВІВСЬКА</RegionDescriptionUA>
+            <RegionDescriptionRU>ЛЬВОВСКАЯ</RegionDescriptionRU>
+            <DistrictUUID>8A199CDE-41B9-11DF-907F-00215AEE3EBE</DistrictUUID>
+            <DistrictDescriptionUA>Львів</DistrictDescriptionUA>
+            <DistrictDescriptionRU>Львов</DistrictDescriptionRU>
+            <CityUUID>62C3D54A-749B-11DF-B112-00215AEE3EBE</CityUUID>
+            <CityDescriptionUA>Львів</CityDescriptionUA>
+            <CityDescriptionRU>Львов</CityDescriptionRU>
+            <StreetUUID>D46451E3-E0D3-11DF-9B37-00215AEE3EBE</StreetUUID>
+            <StreetTypeUA>вул.</StreetTypeUA>
+            <StreetDescriptionUA>Вашингтона</StreetDescriptionUA>
+            <StreetTypeRU>ул.</StreetTypeRU>
+            <StreetDescriptionRU>Вашингтона</StreetDescriptionRU>
+            <House>5-5а</House>
+            <Flat></Flat>
+            <AddressMoreInformation></AddressMoreInformation>
+            <Limitweight>30</Limitweight>
+            <Branchtype>Приват-АПТ</Branchtype>
+            <BranchtypeCode>0000004</BranchtypeCode>
+            <Latitude>49.816486</Latitude>
+            <Longitude>24.069199</Longitude>
+            <BranchCode>635</BranchCode>
+            <StickerCode>719</StickerCode>
+            <B2C>false</B2C>
+            <WorkingHours>Пн 09:00 - 18:00; Вт 09:00 - 18:00; Ср 09:00 - 18:00; Чт 09:00 - 18:00; Пт 09:00 - 18:00; Сб --:-- - --:--; Нд --:-- - --:--</WorkingHours>
+            <MotoBranchDescription>Львів</MotoBranchDescription>
+            <ZipCode>79035</ZipCode>
+        </items>
+        <items>
+            <UUID>3510816C-4796-11E3-9DF6-003048D2B473</UUID>
+            <DescriptionUA>Львів-Південний(м.Львів,вул.Щирецька 36)</DescriptionUA>
+            <DescriptionRU>Львів-Південний г.Львов,ул.Щирецкая 36</DescriptionRU>
+            <RegionUUID>D15E3024-60B0-11DE-BE1E-0030485903E8</RegionUUID>
+            <RegionDescriptionUA>ЛЬВІВСЬКА</RegionDescriptionUA>
+            <RegionDescriptionRU>ЛЬВОВСКАЯ</RegionDescriptionRU>
+            <DistrictUUID>8A199CDE-41B9-11DF-907F-00215AEE3EBE</DistrictUUID>
+            <DistrictDescriptionUA>Львів</DistrictDescriptionUA>
+            <DistrictDescriptionRU>Львов</DistrictDescriptionRU>
+            <CityUUID>62C3D54A-749B-11DF-B112-00215AEE3EBE</CityUUID>
+            <CityDescriptionUA>Львів</CityDescriptionUA>
+            <CityDescriptionRU>Львов</CityDescriptionRU>
+            <StreetUUID>DA910801-E0D3-11DF-9B37-00215AEE3EBE</StreetUUID>
+            <StreetTypeUA>вул.</StreetTypeUA>
+            <StreetDescriptionUA>Щирецька</StreetDescriptionUA>
+            <StreetTypeRU>ул.</StreetTypeRU>
+            <StreetDescriptionRU>Щирецкая</StreetDescriptionRU>
+            <House>36</House>
+            <Flat></Flat>
+            <AddressMoreInformation></AddressMoreInformation>
+            <Limitweight>30</Limitweight>
+            <Branchtype>МППВ</Branchtype>
+            <BranchtypeCode>0000003</BranchtypeCode>
+            <Latitude>49.813353</Latitude>
+            <Longitude>23.975290</Longitude>
+            <BranchCode>261</BranchCode>
+            <StickerCode>261</StickerCode>
+            <B2C>false</B2C>
+            <WorkingHours>Пн 10:00 - 20:00; Вт 10:00 - 20:00; Ср 10:00 - 20:00; Чт 10:00 - 20:00; Пт 10:00 - 20:00; Сб 10:00 - 14:00; Нд --:-- - --:--</WorkingHours>
+            <MotoBranchDescription>Львів-Південний</MotoBranchDescription>
+            <ZipCode>79000</ZipCode>
+        </items>
+        <items>
+            <UUID>85964D06-8F7F-11E6-A7F1-001EC93DF11F</UUID>
+            <DescriptionUA>Львів-Чорновола В`ячеслава(м.Львів,просп.Чорновола В`ячеслава 31)</DescriptionUA>
+            <DescriptionRU>Львів-Чорновола В`ячеслава г.Львов,просп.Чорновола Вячеслава 31</DescriptionRU>
+            <RegionUUID>D15E3024-60B0-11DE-BE1E-0030485903E8</RegionUUID>
+            <RegionDescriptionUA>ЛЬВІВСЬКА</RegionDescriptionUA>
+            <RegionDescriptionRU>ЛЬВОВСКАЯ</RegionDescriptionRU>
+            <DistrictUUID>8A199CDE-41B9-11DF-907F-00215AEE3EBE</DistrictUUID>
+            <DistrictDescriptionUA>Львів</DistrictDescriptionUA>
+            <DistrictDescriptionRU>Львов</DistrictDescriptionRU>
+            <CityUUID>62C3D54A-749B-11DF-B112-00215AEE3EBE</CityUUID>
+            <CityDescriptionUA>Львів</CityDescriptionUA>
+            <CityDescriptionRU>Львов</CityDescriptionRU>
+            <StreetUUID>FDCA4394-EDA1-11DF-B61A-00215AEE3EBE</StreetUUID>
+            <StreetTypeUA>просп.</StreetTypeUA>
+            <StreetDescriptionUA>Чорновола В`ячеслава</StreetDescriptionUA>
+            <StreetTypeRU>просп.</StreetTypeRU>
+            <StreetDescriptionRU>Чорновола Вячеслава</StreetDescriptionRU>
+            <House>31</House>
+            <Flat></Flat>
+            <AddressMoreInformation></AddressMoreInformation>
+            <Limitweight>30</Limitweight>
+            <Branchtype>МППВ</Branchtype>
+            <BranchtypeCode>0000003</BranchtypeCode>
+            <Latitude>49.848592</Latitude>
+            <Longitude>24.025437</Longitude>
+            <BranchCode>3232</BranchCode>
+            <StickerCode>0A8</StickerCode>
+            <B2C>false</B2C>
+            <WorkingHours>Пн 10:00 - 20:00; Вт 10:00 - 20:00; Ср 10:00 - 20:00; Чт 10:00 - 20:00; Пт 10:00 - 20:00; Сб 10:00 - 14:00; Нд --:-- - --:--</WorkingHours>
+            <MotoBranchDescription>Львів-Чорновола В`ячеслава</MotoBranchDescription>
+            <ZipCode>79058</ZipCode>
+        </items>
+        <items>
+            <UUID>72696217-915D-11E2-A91E-003048D2B473</UUID>
+            <DescriptionUA>Львів-Філатова(м.Львів,вул.Філатова 4)</DescriptionUA>
+            <DescriptionRU>Львів-Філатова г.Львов,ул.Филатова 4</DescriptionRU>
+            <RegionUUID>D15E3024-60B0-11DE-BE1E-0030485903E8</RegionUUID>
+            <RegionDescriptionUA>ЛЬВІВСЬКА</RegionDescriptionUA>
+            <RegionDescriptionRU>ЛЬВОВСКАЯ</RegionDescriptionRU>
+            <DistrictUUID>8A199CDE-41B9-11DF-907F-00215AEE3EBE</DistrictUUID>
+            <DistrictDescriptionUA>Львів</DistrictDescriptionUA>
+            <DistrictDescriptionRU>Львов</DistrictDescriptionRU>
+            <CityUUID>62C3D54A-749B-11DF-B112-00215AEE3EBE</CityUUID>
+            <CityDescriptionUA>Львів</CityDescriptionUA>
+            <CityDescriptionRU>Львов</CityDescriptionRU>
+            <StreetUUID>DA9107B5-E0D3-11DF-9B37-00215AEE3EBE</StreetUUID>
+            <StreetTypeUA>вул.</StreetTypeUA>
+            <StreetDescriptionUA>Філатова</StreetDescriptionUA>
+            <StreetTypeRU>ул.</StreetTypeRU>
+            <StreetDescriptionRU>Филатова</StreetDescriptionRU>
+            <House>4</House>
+            <Flat></Flat>
+            <AddressMoreInformation></AddressMoreInformation>
+            <Limitweight>30</Limitweight>
+            <Branchtype>МППВ</Branchtype>
+            <BranchtypeCode>0000003</BranchtypeCode>
+            <Latitude>49.839393</Latitude>
+            <Longitude>24.039160</Longitude>
+            <BranchCode>139</BranchCode>
+            <StickerCode>139</StickerCode>
+            <B2C>false</B2C>
+            <WorkingHours>Пн 10:00 - 20:00; Вт 10:00 - 20:00; Ср 10:00 - 20:00; Чт 10:00 - 20:00; Пт 10:00 - 20:00; Сб 10:00 - 14:00; Нд --:-- - --:--</WorkingHours>
+            <MotoBranchDescription>Львів</MotoBranchDescription>
+            <ZipCode>79000</ZipCode>
+        </items>
+        <items>
+            <UUID>05BE339A-A53C-11E3-AAA4-003048D2B473</UUID>
+            <DescriptionUA>Тестування Поінт24(м.Львів,вул.Дністровського 1/1)</DescriptionUA>
+            <DescriptionRU>Тестування Поінт24 г.Львов,ул.Днестровского 1/1</DescriptionRU>
+            <RegionUUID>D15E3024-60B0-11DE-BE1E-0030485903E8</RegionUUID>
+            <RegionDescriptionUA>ЛЬВІВСЬКА</RegionDescriptionUA>
+            <RegionDescriptionRU>ЛЬВОВСКАЯ</RegionDescriptionRU>
+            <DistrictUUID>8A199CDE-41B9-11DF-907F-00215AEE3EBE</DistrictUUID>
+            <DistrictDescriptionUA>Львів</DistrictDescriptionUA>
+            <DistrictDescriptionRU>Львов</DistrictDescriptionRU>
+            <CityUUID>62C3D54A-749B-11DF-B112-00215AEE3EBE</CityUUID>
+            <CityDescriptionUA>Львів</CityDescriptionUA>
+            <CityDescriptionRU>Львов</CityDescriptionRU>
+            <StreetUUID>17A7594F-1CAF-11E0-85B7-00215AEE3EBE</StreetUUID>
+            <StreetTypeUA>вул.</StreetTypeUA>
+            <StreetDescriptionUA>Дністровського</StreetDescriptionUA>
+            <StreetTypeRU>ул.</StreetTypeRU>
+            <StreetDescriptionRU>Днестровского</StreetDescriptionRU>
+            <House>1</House>
+            <Flat></Flat>
+            <AddressMoreInformation></AddressMoreInformation>
+            <Limitweight>30</Limitweight>
+            <Branchtype>ТОЧКА</Branchtype>
+            <BranchtypeCode>0000008</BranchtypeCode>
+            <Latitude>49.815289</Latitude>
+            <Longitude>24.064628</Longitude>
+            <BranchCode>384</BranchCode>
+            <StickerCode>A70</StickerCode>
+            <B2C>false</B2C>
+            <WorkingHours>Пн 08:00 - 19:00; Вт 08:00 - 19:00; Ср 08:00 - 19:00; Чт 08:00 - 19:00; Пт 08:00 - 19:00; Сб 08:00 - 15:00; Нд --:-- - --:--</WorkingHours>
+            <MotoBranchDescription>Тестування Поінт24</MotoBranchDescription>
+            <ZipCode>79000</ZipCode>
+        </items>
+        <items>
+            <UUID>71D75DAD-2EDC-11E6-AB07-001EC93DF11F</UUID>
+            <DescriptionUA>АПТ №3058(Поштомат ПриватБанку)(м.Львів,вул.Личаківська 8)</DescriptionUA>
+            <DescriptionRU>АПТ №3058(Поштомат ПриватБанку) г.Львов,ул.Лычаковская 8</DescriptionRU>
+            <RegionUUID>D15E3024-60B0-11DE-BE1E-0030485903E8</RegionUUID>
+            <RegionDescriptionUA>ЛЬВІВСЬКА</RegionDescriptionUA>
+            <RegionDescriptionRU>ЛЬВОВСКАЯ</RegionDescriptionRU>
+            <DistrictUUID>8A199CDE-41B9-11DF-907F-00215AEE3EBE</DistrictUUID>
+            <DistrictDescriptionUA>Львів</DistrictDescriptionUA>
+            <DistrictDescriptionRU>Львов</DistrictDescriptionRU>
+            <CityUUID>62C3D54A-749B-11DF-B112-00215AEE3EBE</CityUUID>
+            <CityDescriptionUA>Львів</CityDescriptionUA>
+            <CityDescriptionRU>Львов</CityDescriptionRU>
+            <StreetUUID>DA91056E-E0D3-11DF-9B37-00215AEE3EBE</StreetUUID>
+            <StreetTypeUA>вул.</StreetTypeUA>
+            <StreetDescriptionUA>Личаківська</StreetDescriptionUA>
+            <StreetTypeRU>ул.</StreetTypeRU>
+            <StreetDescriptionRU>Лычаковская</StreetDescriptionRU>
+            <House>8</House>
+            <Flat></Flat>
+            <AddressMoreInformation></AddressMoreInformation>
+            <Limitweight>30</Limitweight>
+            <Branchtype>Приват-АПТ</Branchtype>
+            <BranchtypeCode>0000004</BranchtypeCode>
+            <Latitude>49.839643</Latitude>
+            <Longitude>24.038466</Longitude>
+            <BranchCode>3058</BranchCode>
+            <StickerCode>791</StickerCode>
+            <B2C>false</B2C>
+            <WorkingHours>Пн 09:00 - 18:00; Вт 09:00 - 18:00; Ср 09:00 - 18:00; Чт 09:00 - 18:00; Пт 09:00 - 18:00; Сб 09:00 - 16:00; Нд --:-- - --:--</WorkingHours>
+            <MotoBranchDescription>Львів</MotoBranchDescription>
+            <ZipCode>79000</ZipCode>
+        </items>
+        <items>
+            <UUID>71D75DAF-2EDC-11E6-AB07-001EC93DF11F</UUID>
+            <DescriptionUA>АПТ №3059(Поштомат ПриватБанку)(м.Львів,вул.Липинського 13 А)</DescriptionUA>
+            <DescriptionRU>АПТ №3059(Поштомат ПриватБанку) г.Львов,ул.Липинского 13 А</DescriptionRU>
+            <RegionUUID>D15E3024-60B0-11DE-BE1E-0030485903E8</RegionUUID>
+            <RegionDescriptionUA>ЛЬВІВСЬКА</RegionDescriptionUA>
+            <RegionDescriptionRU>ЛЬВОВСКАЯ</RegionDescriptionRU>
+            <DistrictUUID>8A199CDE-41B9-11DF-907F-00215AEE3EBE</DistrictUUID>
+            <DistrictDescriptionUA>Львів</DistrictDescriptionUA>
+            <DistrictDescriptionRU>Львов</DistrictDescriptionRU>
+            <CityUUID>62C3D54A-749B-11DF-B112-00215AEE3EBE</CityUUID>
+            <CityDescriptionUA>Львів</CityDescriptionUA>
+            <CityDescriptionRU>Львов</CityDescriptionRU>
+            <StreetUUID>DA910563-E0D3-11DF-9B37-00215AEE3EBE</StreetUUID>
+            <StreetTypeUA>вул.</StreetTypeUA>
+            <StreetDescriptionUA>Липинського</StreetDescriptionUA>
+            <StreetTypeRU>ул.</StreetTypeRU>
+            <StreetDescriptionRU>Липинского</StreetDescriptionRU>
+            <House>13 А</House>
+            <Flat></Flat>
+            <AddressMoreInformation></AddressMoreInformation>
+            <Limitweight>30</Limitweight>
+            <Branchtype>Приват-АПТ</Branchtype>
+            <BranchtypeCode>0000004</BranchtypeCode>
+            <Latitude>49.858329</Latitude>
+            <Longitude>24.023574</Longitude>
+            <BranchCode>3059</BranchCode>
+            <StickerCode>792</StickerCode>
+            <B2C>false</B2C>
+            <WorkingHours>Пн 09:00 - 18:00; Вт 09:00 - 18:00; Ср 09:00 - 18:00; Чт 09:00 - 18:00; Пт 09:00 - 18:00; Сб --:-- - --:--; Нд --:-- - --:--</WorkingHours>
+            <MotoBranchDescription>Львів</MotoBranchDescription>
+            <ZipCode>79000</ZipCode>
+        </items>
+        <items>
+            <UUID>1390C9E6-053D-11E6-B35B-001EC93DF11F</UUID>
+            <DescriptionUA>АПТ №2976(Поштомат ПриватБанку)(м.Львів,вул.Стрийська 85а)</DescriptionUA>
+            <DescriptionRU>АПТ №2976(Поштомат ПриватБанку) г.Львов,ул.Стрийская 85а</DescriptionRU>
+            <RegionUUID>D15E3024-60B0-11DE-BE1E-0030485903E8</RegionUUID>
+            <RegionDescriptionUA>ЛЬВІВСЬКА</RegionDescriptionUA>
+            <RegionDescriptionRU>ЛЬВОВСКАЯ</RegionDescriptionRU>
+            <DistrictUUID>8A199CDE-41B9-11DF-907F-00215AEE3EBE</DistrictUUID>
+            <DistrictDescriptionUA>Львів</DistrictDescriptionUA>
+            <DistrictDescriptionRU>Львов</DistrictDescriptionRU>
+            <CityUUID>62C3D54A-749B-11DF-B112-00215AEE3EBE</CityUUID>
+            <CityDescriptionUA>Львів</CityDescriptionUA>
+            <CityDescriptionRU>Львов</CityDescriptionRU>
+            <StreetUUID>DA910752-E0D3-11DF-9B37-00215AEE3EBE</StreetUUID>
+            <StreetTypeUA>вул.</StreetTypeUA>
+            <StreetDescriptionUA>Стрийська</StreetDescriptionUA>
+            <StreetTypeRU>ул.</StreetTypeRU>
+            <StreetDescriptionRU>Стрийская</StreetDescriptionRU>
+            <House>85а</House>
+            <Flat></Flat>
+            <AddressMoreInformation></AddressMoreInformation>
+            <Limitweight>30</Limitweight>
+            <Branchtype>Приват-АПТ</Branchtype>
+            <BranchtypeCode>0000004</BranchtypeCode>
+            <Latitude>49.789716</Latitude>
+            <Longitude>24.017581</Longitude>
+            <BranchCode>2976</BranchCode>
+            <StickerCode>705</StickerCode>
+            <B2C>false</B2C>
+            <WorkingHours>Пн 09:00 - 20:00; Вт 09:00 - 20:00; Ср 09:00 - 20:00; Чт 09:00 - 20:00; Пт 09:00 - 20:00; Сб 09:00 - 20:00; Нд 09:00 - 20:00</WorkingHours>
+            <MotoBranchDescription>Львів</MotoBranchDescription>
+            <ZipCode>79011</ZipCode>
+        </items>
+        <items>
+            <UUID>9EC2F7D9-7011-11E6-B3D3-001EC93DF11F</UUID>
+            <DescriptionUA>Львів-Хмельницького 172(м.Львів,вул.Хмельницького Богдана 172)</DescriptionUA>
+            <DescriptionRU>Львів-Хмельницького 172 г.Львов,ул.Хмельницкого Богдана 172</DescriptionRU>
+            <RegionUUID>D15E3024-60B0-11DE-BE1E-0030485903E8</RegionUUID>
+            <RegionDescriptionUA>ЛЬВІВСЬКА</RegionDescriptionUA>
+            <RegionDescriptionRU>ЛЬВОВСКАЯ</RegionDescriptionRU>
+            <DistrictUUID>8A199CDE-41B9-11DF-907F-00215AEE3EBE</DistrictUUID>
+            <DistrictDescriptionUA>Львів</DistrictDescriptionUA>
+            <DistrictDescriptionRU>Львов</DistrictDescriptionRU>
+            <CityUUID>62C3D54A-749B-11DF-B112-00215AEE3EBE</CityUUID>
+            <CityDescriptionUA>Львів</CityDescriptionUA>
+            <CityDescriptionRU>Львов</CityDescriptionRU>
+            <StreetUUID>325027B2-9847-11E2-B79B-003048D2B473</StreetUUID>
+            <StreetTypeUA>вул.</StreetTypeUA>
+            <StreetDescriptionUA>Хмельницького Богдана</StreetDescriptionUA>
+            <StreetTypeRU>ул.</StreetTypeRU>
+            <StreetDescriptionRU>Хмельницкого Богдана</StreetDescriptionRU>
+            <House>172</House>
+            <Flat></Flat>
+            <AddressMoreInformation></AddressMoreInformation>
+            <Limitweight></Limitweight>
+            <Branchtype>ППВ</Branchtype>
+            <BranchtypeCode>0000002</BranchtypeCode>
+            <Latitude>49.859533</Latitude>
+            <Longitude>24.048928</Longitude>
+            <BranchCode>3191</BranchCode>
+            <StickerCode>940</StickerCode>
+            <B2C>false</B2C>
+            <WorkingHours>Пн 09:00 - 19:00; Вт 09:00 - 19:00; Ср 09:00 - 19:00; Чт 09:00 - 19:00; Пт 09:00 - 19:00; Сб 09:00 - 15:00; Нд --:-- - --:--</WorkingHours>
+            <MotoBranchDescription>Львів</MotoBranchDescription>
+            <ZipCode>79037</ZipCode>
+        </items>
+        <items>
+            <UUID>AB5A71D6-5A6D-11E2-B7AC-003048D2B473</UUID>
+            <DescriptionUA>Львів-Зубрівська(м.Львів,вул.Зубрівська 34Г)</DescriptionUA>
+            <DescriptionRU>Львів-Зубрівська г.Львов,ул.Зубровская 34Г</DescriptionRU>
+            <RegionUUID>D15E3024-60B0-11DE-BE1E-0030485903E8</RegionUUID>
+            <RegionDescriptionUA>ЛЬВІВСЬКА</RegionDescriptionUA>
+            <RegionDescriptionRU>ЛЬВОВСКАЯ</RegionDescriptionRU>
+            <DistrictUUID>8A199CDE-41B9-11DF-907F-00215AEE3EBE</DistrictUUID>
+            <DistrictDescriptionUA>Львів</DistrictDescriptionUA>
+            <DistrictDescriptionRU>Львов</DistrictDescriptionRU>
+            <CityUUID>62C3D54A-749B-11DF-B112-00215AEE3EBE</CityUUID>
+            <CityDescriptionUA>Львів</CityDescriptionUA>
+            <CityDescriptionRU>Львов</CityDescriptionRU>
+            <StreetUUID>DA9104AD-E0D3-11DF-9B37-00215AEE3EBE</StreetUUID>
+            <StreetTypeUA>вул.</StreetTypeUA>
+            <StreetDescriptionUA>Зубрівська</StreetDescriptionUA>
+            <StreetTypeRU>ул.</StreetTypeRU>
+            <StreetDescriptionRU>Зубровская</StreetDescriptionRU>
+            <House>34Г</House>
+            <Flat></Flat>
+            <AddressMoreInformation></AddressMoreInformation>
+            <Limitweight>30</Limitweight>
+            <Branchtype>МППВ</Branchtype>
+            <BranchtypeCode>0000003</BranchtypeCode>
+            <Latitude>49.796335</Latitude>
+            <Longitude>24.059426</Longitude>
+            <BranchCode>125</BranchCode>
+            <StickerCode>125</StickerCode>
+            <B2C>false</B2C>
+            <WorkingHours>Пн 10:00 - 20:00; Вт 10:00 - 20:00; Ср 10:00 - 20:00; Чт 10:00 - 20:00; Пт 10:00 - 20:00; Сб 10:00 - 14:00; Нд --:-- - --:--</WorkingHours>
+            <MotoBranchDescription>Львів-Зубрівська</MotoBranchDescription>
+            <ZipCode>79000</ZipCode>
+        </items>
+        <items>
+            <UUID>FAEF86A6-5FF1-11E2-B7AC-003048D2B473</UUID>
+            <DescriptionUA>Львів-Сахарова(м.Львів,вул.Сахарова 42)</DescriptionUA>
+            <DescriptionRU>Львів-Сахарова г.Львов,ул.Сахарова 42</DescriptionRU>
+            <RegionUUID>D15E3024-60B0-11DE-BE1E-0030485903E8</RegionUUID>
+            <RegionDescriptionUA>ЛЬВІВСЬКА</RegionDescriptionUA>
+            <RegionDescriptionRU>ЛЬВОВСКАЯ</RegionDescriptionRU>
+            <DistrictUUID>8A199CDE-41B9-11DF-907F-00215AEE3EBE</DistrictUUID>
+            <DistrictDescriptionUA>Львів</DistrictDescriptionUA>
+            <DistrictDescriptionRU>Львов</DistrictDescriptionRU>
+            <CityUUID>62C3D54A-749B-11DF-B112-00215AEE3EBE</CityUUID>
+            <CityDescriptionUA>Львів</CityDescriptionUA>
+            <CityDescriptionRU>Львов</CityDescriptionRU>
+            <StreetUUID>DA9106EF-E0D3-11DF-9B37-00215AEE3EBE</StreetUUID>
+            <StreetTypeUA>вул.</StreetTypeUA>
+            <StreetDescriptionUA>Сахарова</StreetDescriptionUA>
+            <StreetTypeRU>ул.</StreetTypeRU>
+            <StreetDescriptionRU>Сахарова</StreetDescriptionRU>
+            <House>42</House>
+            <Flat></Flat>
+            <AddressMoreInformation>сахарова</AddressMoreInformation>
+            <Limitweight>30</Limitweight>
+            <Branchtype>МППВ</Branchtype>
+            <BranchtypeCode>0000003</BranchtypeCode>
+            <Latitude>49.829178</Latitude>
+            <Longitude>24.012749</Longitude>
+            <BranchCode>127</BranchCode>
+            <StickerCode>127</StickerCode>
+            <B2C>false</B2C>
+            <WorkingHours>Пн 10:00 - 20:00; Вт 10:00 - 20:00; Ср 10:00 - 20:00; Чт 10:00 - 20:00; Пт 10:00 - 20:00; Сб 10:00 - 14:00; Нд --:-- - --:--</WorkingHours>
+            <MotoBranchDescription>Львів</MotoBranchDescription>
+            <ZipCode>79000</ZipCode>
+        </items>
+        <items>
+            <UUID>2EE64795-B920-11E4-B90B-003048D2B473</UUID>
+            <DescriptionUA>АПТ №1077 (Поштомат ПриватБанку)(м.Львів,вул.Кос-Анатольського 2)</DescriptionUA>
+            <DescriptionRU>АПТ №1077 (Поштомат ПриватБанку) г.Львов,ул.Кос-Анатольского 2</DescriptionRU>
+            <RegionUUID>D15E3024-60B0-11DE-BE1E-0030485903E8</RegionUUID>
+            <RegionDescriptionUA>ЛЬВІВСЬКА</RegionDescriptionUA>
+            <RegionDescriptionRU>ЛЬВОВСКАЯ</RegionDescriptionRU>
+            <DistrictUUID>8A199CDE-41B9-11DF-907F-00215AEE3EBE</DistrictUUID>
+            <DistrictDescriptionUA>Львів</DistrictDescriptionUA>
+            <DistrictDescriptionRU>Львов</DistrictDescriptionRU>
+            <CityUUID>62C3D54A-749B-11DF-B112-00215AEE3EBE</CityUUID>
+            <CityDescriptionUA>Львів</CityDescriptionUA>
+            <CityDescriptionRU>Львов</CityDescriptionRU>
+            <StreetUUID>DA910518-E0D3-11DF-9B37-00215AEE3EBE</StreetUUID>
+            <StreetTypeUA>вул.</StreetTypeUA>
+            <StreetDescriptionUA>Кос-Анатольського</StreetDescriptionUA>
+            <StreetTypeRU>ул.</StreetTypeRU>
+            <StreetDescriptionRU>Кос-Анатольского</StreetDescriptionRU>
+            <House>2</House>
+            <Flat></Flat>
+            <AddressMoreInformation></AddressMoreInformation>
+            <Limitweight>30</Limitweight>
+            <Branchtype>Приват-АПТ</Branchtype>
+            <BranchtypeCode>0000004</BranchtypeCode>
+            <Latitude>49.789900</Latitude>
+            <Longitude>24.060270</Longitude>
+            <BranchCode>1077</BranchCode>
+            <StickerCode>K83</StickerCode>
+            <B2C>false</B2C>
+            <WorkingHours>Пн 09:00 - 19:00; Вт 09:00 - 19:00; Ср 09:00 - 19:00; Чт 09:00 - 19:00; Пт 09:00 - 19:00; Сб 09:00 - 16:00; Нд --:-- - --:--</WorkingHours>
+            <MotoBranchDescription>Львів</MotoBranchDescription>
+            <ZipCode>79000</ZipCode>
+        </items>
+        <items>
+            <UUID>2EE64797-B920-11E4-B90B-003048D2B473</UUID>
+            <DescriptionUA>АПТ №1078 (Поштомат ПриватБанку)(м.Львів,вул.Княгині Ольги 106)</DescriptionUA>
+            <DescriptionRU>АПТ №1078 (Поштомат ПриватБанку) г.Львов,ул.Княгини Ольги 106</DescriptionRU>
+            <RegionUUID>D15E3024-60B0-11DE-BE1E-0030485903E8</RegionUUID>
+            <RegionDescriptionUA>ЛЬВІВСЬКА</RegionDescriptionUA>
+            <RegionDescriptionRU>ЛЬВОВСКАЯ</RegionDescriptionRU>
+            <DistrictUUID>8A199CDE-41B9-11DF-907F-00215AEE3EBE</DistrictUUID>
+            <DistrictDescriptionUA>Львів</DistrictDescriptionUA>
+            <DistrictDescriptionRU>Львов</DistrictDescriptionRU>
+            <CityUUID>62C3D54A-749B-11DF-B112-00215AEE3EBE</CityUUID>
+            <CityDescriptionUA>Львів</CityDescriptionUA>
+            <CityDescriptionRU>Львов</CityDescriptionRU>
+            <StreetUUID>FDCA4376-EDA1-11DF-B61A-00215AEE3EBE</StreetUUID>
+            <StreetTypeUA>вул.</StreetTypeUA>
+            <StreetDescriptionUA>Княгині Ольги</StreetDescriptionUA>
+            <StreetTypeRU>ул.</StreetTypeRU>
+            <StreetDescriptionRU>Княгини Ольги</StreetDescriptionRU>
+            <House>106</House>
+            <Flat></Flat>
+            <AddressMoreInformation></AddressMoreInformation>
+            <Limitweight>30</Limitweight>
+            <Branchtype>Приват-АПТ</Branchtype>
+            <BranchtypeCode>0000004</BranchtypeCode>
+            <Latitude>49.809080</Latitude>
+            <Longitude>23.997660</Longitude>
+            <BranchCode>1078</BranchCode>
+            <StickerCode>K84</StickerCode>
+            <B2C>false</B2C>
+            <WorkingHours>Пн 10:00 - 19:00; Вт 10:00 - 19:00; Ср 10:00 - 19:00; Чт 10:00 - 19:00; Пт 10:00 - 19:00; Сб 10:00 - 16:00; Нд --:-- - --:--</WorkingHours>
+            <MotoBranchDescription>Львів</MotoBranchDescription>
+            <ZipCode>79000</ZipCode>
+        </items>
+        <items>
+            <UUID>2EE6479B-B920-11E4-B90B-003048D2B473</UUID>
+            <DescriptionUA>АПТ №1080 (Поштомат ПриватБанку)(м.Львів,просп.Червоної Калини 36)</DescriptionUA>
+            <DescriptionRU>АПТ №1080 (Поштомат ПриватБанку) г.Львов,просп.Красной Калины 36</DescriptionRU>
+            <RegionUUID>D15E3024-60B0-11DE-BE1E-0030485903E8</RegionUUID>
+            <RegionDescriptionUA>ЛЬВІВСЬКА</RegionDescriptionUA>
+            <RegionDescriptionRU>ЛЬВОВСКАЯ</RegionDescriptionRU>
+            <DistrictUUID>8A199CDE-41B9-11DF-907F-00215AEE3EBE</DistrictUUID>
+            <DistrictDescriptionUA>Львів</DistrictDescriptionUA>
+            <DistrictDescriptionRU>Львов</DistrictDescriptionRU>
+            <CityUUID>62C3D54A-749B-11DF-B112-00215AEE3EBE</CityUUID>
+            <CityDescriptionUA>Львів</CityDescriptionUA>
+            <CityDescriptionRU>Львов</CityDescriptionRU>
+            <StreetUUID>DA9107D2-E0D3-11DF-9B37-00215AEE3EBE</StreetUUID>
+            <StreetTypeUA>просп.</StreetTypeUA>
+            <StreetDescriptionUA>Червоної Калини</StreetDescriptionUA>
+            <StreetTypeRU>просп.</StreetTypeRU>
+            <StreetDescriptionRU>Красной Калины</StreetDescriptionRU>
+            <House>36</House>
+            <Flat></Flat>
+            <AddressMoreInformation></AddressMoreInformation>
+            <Limitweight>30</Limitweight>
+            <Branchtype>Приват-АПТ</Branchtype>
+            <BranchtypeCode>0000004</BranchtypeCode>
+            <Latitude>49.798570</Latitude>
+            <Longitude>24.047550</Longitude>
+            <BranchCode>1080</BranchCode>
+            <StickerCode>K86</StickerCode>
+            <B2C>false</B2C>
+            <WorkingHours>Пн 09:00 - 18:00; Вт 09:00 - 18:00; Ср 09:00 - 18:00; Чт 09:00 - 18:00; Пт 09:00 - 18:00; Сб 09:00 - 16:00; Нд --:-- - --:--</WorkingHours>
+            <MotoBranchDescription>Львів</MotoBranchDescription>
+            <ZipCode>79000</ZipCode>
+        </items>
+        <items>
+            <UUID>2EE6479D-B920-11E4-B90B-003048D2B473</UUID>
+            <DescriptionUA>АПТ №1081 (Поштомат ПриватБанку)(м.Львів,вул.Любінська 104)</DescriptionUA>
+            <DescriptionRU>АПТ №1081 (Поштомат ПриватБанку) г.Львов,ул.Любинская 104</DescriptionRU>
+            <RegionUUID>D15E3024-60B0-11DE-BE1E-0030485903E8</RegionUUID>
+            <RegionDescriptionUA>ЛЬВІВСЬКА</RegionDescriptionUA>
+            <RegionDescriptionRU>ЛЬВОВСКАЯ</RegionDescriptionRU>
+            <DistrictUUID>8A199CDE-41B9-11DF-907F-00215AEE3EBE</DistrictUUID>
+            <DistrictDescriptionUA>Львів</DistrictDescriptionUA>
+            <DistrictDescriptionRU>Львов</DistrictDescriptionRU>
+            <CityUUID>62C3D54A-749B-11DF-B112-00215AEE3EBE</CityUUID>
+            <CityDescriptionUA>Львів</CityDescriptionUA>
+            <CityDescriptionRU>Львов</CityDescriptionRU>
+            <StreetUUID>DA91058A-E0D3-11DF-9B37-00215AEE3EBE</StreetUUID>
+            <StreetTypeUA>вул.</StreetTypeUA>
+            <StreetDescriptionUA>Любінська</StreetDescriptionUA>
+            <StreetTypeRU>ул.</StreetTypeRU>
+            <StreetDescriptionRU>Любинская</StreetDescriptionRU>
+            <House>104</House>
+            <Flat></Flat>
+            <AddressMoreInformation></AddressMoreInformation>
+            <Limitweight>30</Limitweight>
+            <Branchtype>Приват-АПТ</Branchtype>
+            <BranchtypeCode>0000004</BranchtypeCode>
+            <Latitude>49.821004</Latitude>
+            <Longitude>23.969069</Longitude>
+            <BranchCode>1081</BranchCode>
+            <StickerCode>K87</StickerCode>
+            <B2C>false</B2C>
+            <WorkingHours>Пн 09:00 - 18:00; Вт 09:00 - 18:00; Ср 09:00 - 18:00; Чт 09:00 - 18:00; Пт 09:00 - 18:00; Сб 09:00 - 16:00; Нд --:-- - --:--</WorkingHours>
+            <MotoBranchDescription>Львів</MotoBranchDescription>
+            <ZipCode>79000</ZipCode>
+        </items>
+        <items>
+            <UUID>2EE6479F-B920-11E4-B90B-003048D2B473</UUID>
+            <DescriptionUA>АПТ №1082 (Поштомат ПриватБанку)(м.Львів,вул.Шевченка 358)</DescriptionUA>
+            <DescriptionRU>АПТ №1082 (Поштомат ПриватБанку) г.Львов,ул.Шевченко 358</DescriptionRU>
+            <RegionUUID>D15E3024-60B0-11DE-BE1E-0030485903E8</RegionUUID>
+            <RegionDescriptionUA>ЛЬВІВСЬКА</RegionDescriptionUA>
+            <RegionDescriptionRU>ЛЬВОВСКАЯ</RegionDescriptionRU>
+            <DistrictUUID>8A199CDE-41B9-11DF-907F-00215AEE3EBE</DistrictUUID>
+            <DistrictDescriptionUA>Львів</DistrictDescriptionUA>
+            <DistrictDescriptionRU>Львов</DistrictDescriptionRU>
+            <CityUUID>62C3D54A-749B-11DF-B112-00215AEE3EBE</CityUUID>
+            <CityDescriptionUA>Львів</CityDescriptionUA>
+            <CityDescriptionRU>Львов</CityDescriptionRU>
+            <StreetUUID>F6973290-CCE4-11E2-8B6C-003048D2B473</StreetUUID>
+            <StreetTypeUA>вул.</StreetTypeUA>
+            <StreetDescriptionUA>Шевченка</StreetDescriptionUA>
+            <StreetTypeRU>ул.</StreetTypeRU>
+            <StreetDescriptionRU>Шевченко</StreetDescriptionRU>
+            <House>358</House>
+            <Flat></Flat>
+            <AddressMoreInformation></AddressMoreInformation>
+            <Limitweight>30</Limitweight>
+            <Branchtype>Приват-АПТ</Branchtype>
+            <BranchtypeCode>0000004</BranchtypeCode>
+            <Latitude>49.868503</Latitude>
+            <Longitude>23.952346</Longitude>
+            <BranchCode>1082</BranchCode>
+            <StickerCode>K88</StickerCode>
+            <B2C>false</B2C>
+            <WorkingHours>Пн 09:00 - 18:00; Вт 09:00 - 18:00; Ср 09:00 - 18:00; Чт 09:00 - 18:00; Пт 09:00 - 18:00; Сб --:-- - --:--; Нд --:-- - --:--</WorkingHours>
+            <MotoBranchDescription>Львів</MotoBranchDescription>
+            <ZipCode>79000</ZipCode>
+        </items>
+        <items>
+            <UUID>2EE647A1-B920-11E4-B90B-003048D2B473</UUID>
+            <DescriptionUA>АПТ №1083 (Поштомат ПриватБанку)(м.Львів,вул.Чупринки Генерала 36)</DescriptionUA>
+            <DescriptionRU>АПТ №1083 (Поштомат ПриватБанку) г.Львов,ул.Чупринки Генерала 36</DescriptionRU>
+            <RegionUUID>D15E3024-60B0-11DE-BE1E-0030485903E8</RegionUUID>
+            <RegionDescriptionUA>ЛЬВІВСЬКА</RegionDescriptionUA>
+            <RegionDescriptionRU>ЛЬВОВСКАЯ</RegionDescriptionRU>
+            <DistrictUUID>8A199CDE-41B9-11DF-907F-00215AEE3EBE</DistrictUUID>
+            <DistrictDescriptionUA>Львів</DistrictDescriptionUA>
+            <DistrictDescriptionRU>Львов</DistrictDescriptionRU>
+            <CityUUID>62C3D54A-749B-11DF-B112-00215AEE3EBE</CityUUID>
+            <CityDescriptionUA>Львів</CityDescriptionUA>
+            <CityDescriptionRU>Львов</CityDescriptionRU>
+            <StreetUUID>DA9107E9-E0D3-11DF-9B37-00215AEE3EBE</StreetUUID>
+            <StreetTypeUA>вул.</StreetTypeUA>
+            <StreetDescriptionUA>Чупринки Генерала</StreetDescriptionUA>
+            <StreetTypeRU>ул.</StreetTypeRU>
+            <StreetDescriptionRU>Чупринки Генерала</StreetDescriptionRU>
+            <House>36</House>
+            <Flat></Flat>
+            <AddressMoreInformation></AddressMoreInformation>
+            <Limitweight>30</Limitweight>
+            <Branchtype>Приват-АПТ</Branchtype>
+            <BranchtypeCode>0000004</BranchtypeCode>
+            <Latitude>49.832130</Latitude>
+            <Longitude>24.012520</Longitude>
+            <BranchCode>1083</BranchCode>
+            <StickerCode>K89</StickerCode>
+            <B2C>false</B2C>
+            <WorkingHours>Пн 09:00 - 18:00; Вт 09:00 - 18:00; Ср 09:00 - 18:00; Чт 09:00 - 18:00; Пт 09:00 - 18:00; Сб --:-- - --:--; Нд --:-- - --:--</WorkingHours>
+            <MotoBranchDescription>Львів</MotoBranchDescription>
+            <ZipCode>79000</ZipCode>
+        </items>
+        <items>
+            <UUID>2EE647A3-B920-11E4-B90B-003048D2B473</UUID>
+            <DescriptionUA>АПТ №1084 (Поштомат ПриватБанку)(м.Львів,вул.Чайковського 8)</DescriptionUA>
+            <DescriptionRU>АПТ №1084 (Поштомат ПриватБанку) г.Львов,ул.Чайковского 8</DescriptionRU>
+            <RegionUUID>D15E3024-60B0-11DE-BE1E-0030485903E8</RegionUUID>
+            <RegionDescriptionUA>ЛЬВІВСЬКА</RegionDescriptionUA>
+            <RegionDescriptionRU>ЛЬВОВСКАЯ</RegionDescriptionRU>
+            <DistrictUUID>8A199CDE-41B9-11DF-907F-00215AEE3EBE</DistrictUUID>
+            <DistrictDescriptionUA>Львів</DistrictDescriptionUA>
+            <DistrictDescriptionRU>Львов</DistrictDescriptionRU>
+            <CityUUID>62C3D54A-749B-11DF-B112-00215AEE3EBE</CityUUID>
+            <CityDescriptionUA>Львів</CityDescriptionUA>
+            <CityDescriptionRU>Львов</CityDescriptionRU>
+            <StreetUUID>DA9107D0-E0D3-11DF-9B37-00215AEE3EBE</StreetUUID>
+            <StreetTypeUA>вул.</StreetTypeUA>
+            <StreetDescriptionUA>Чайковського</StreetDescriptionUA>
+            <StreetTypeRU>ул.</StreetTypeRU>
+            <StreetDescriptionRU>Чайковского</StreetDescriptionRU>
+            <House>8</House>
+            <Flat></Flat>
+            <AddressMoreInformation></AddressMoreInformation>
+            <Limitweight>30</Limitweight>
+            <Branchtype>Приват-АПТ</Branchtype>
+            <BranchtypeCode>0000004</BranchtypeCode>
+            <Latitude>49.837912</Latitude>
+            <Longitude>24.030410</Longitude>
+            <BranchCode>1084</BranchCode>
+            <StickerCode>K90</StickerCode>
+            <B2C>false</B2C>
+            <WorkingHours>Пн 09:00 - 18:00; Вт 09:00 - 18:00; Ср 09:00 - 18:00; Чт 09:00 - 18:00; Пт 09:00 - 18:00; Сб 09:00 - 16:00; Нд --:-- - --:--</WorkingHours>
+            <MotoBranchDescription>Львів</MotoBranchDescription>
+            <ZipCode>79000</ZipCode>
+        </items>
+        <items>
+            <UUID>2EE647A5-B920-11E4-B90B-003048D2B473</UUID>
+            <DescriptionUA>АПТ №1085 (Поштомат ПриватБанку)(м.Львів,просп.Чорновола В`ячеслава 95)</DescriptionUA>
+            <DescriptionRU>АПТ №1085 (Поштомат ПриватБанку) г.Львов,просп.Чорновола Вячеслава 95</DescriptionRU>
+            <RegionUUID>D15E3024-60B0-11DE-BE1E-0030485903E8</RegionUUID>
+            <RegionDescriptionUA>ЛЬВІВСЬКА</RegionDescriptionUA>
+            <RegionDescriptionRU>ЛЬВОВСКАЯ</RegionDescriptionRU>
+            <DistrictUUID>8A199CDE-41B9-11DF-907F-00215AEE3EBE</DistrictUUID>
+            <DistrictDescriptionUA>Львів</DistrictDescriptionUA>
+            <DistrictDescriptionRU>Львов</DistrictDescriptionRU>
+            <CityUUID>62C3D54A-749B-11DF-B112-00215AEE3EBE</CityUUID>
+            <CityDescriptionUA>Львів</CityDescriptionUA>
+            <CityDescriptionRU>Львов</CityDescriptionRU>
+            <StreetUUID>FDCA4394-EDA1-11DF-B61A-00215AEE3EBE</StreetUUID>
+            <StreetTypeUA>просп.</StreetTypeUA>
+            <StreetDescriptionUA>Чорновола В`ячеслава</StreetDescriptionUA>
+            <StreetTypeRU>просп.</StreetTypeRU>
+            <StreetDescriptionRU>Чорновола Вячеслава</StreetDescriptionRU>
+            <House>95</House>
+            <Flat></Flat>
+            <AddressMoreInformation></AddressMoreInformation>
+            <Limitweight>30</Limitweight>
+            <Branchtype>Приват-АПТ</Branchtype>
+            <BranchtypeCode>0000004</BranchtypeCode>
+            <Latitude>49.863223</Latitude>
+            <Longitude>24.016677</Longitude>
+            <BranchCode>1085</BranchCode>
+            <StickerCode>K91</StickerCode>
+            <B2C>false</B2C>
+            <WorkingHours>Пн 09:00 - 18:00; Вт 09:00 - 18:00; Ср 09:00 - 18:00; Чт 09:00 - 18:00; Пт 09:00 - 18:00; Сб 09:00 - 16:00; Нд --:-- - --:--</WorkingHours>
+            <MotoBranchDescription>Львів</MotoBranchDescription>
+            <ZipCode>79000</ZipCode>
+        </items>
+        <items>
+            <UUID>2EE647A9-B920-11E4-B90B-003048D2B473</UUID>
+            <DescriptionUA>АПТ №1087 (Поштомат ПриватБанку)(м.Львів,вул.Руставелі Шота 38)</DescriptionUA>
+            <DescriptionRU>АПТ №1087 (Поштомат ПриватБанку) г.Львов,ул.Руставели Шота 38</DescriptionRU>
+            <RegionUUID>D15E3024-60B0-11DE-BE1E-0030485903E8</RegionUUID>
+            <RegionDescriptionUA>ЛЬВІВСЬКА</RegionDescriptionUA>
+            <RegionDescriptionRU>ЛЬВОВСКАЯ</RegionDescriptionRU>
+            <DistrictUUID>8A199CDE-41B9-11DF-907F-00215AEE3EBE</DistrictUUID>
+            <DistrictDescriptionUA>Львів</DistrictDescriptionUA>
+            <DistrictDescriptionRU>Львов</DistrictDescriptionRU>
+            <CityUUID>62C3D54A-749B-11DF-B112-00215AEE3EBE</CityUUID>
+            <CityDescriptionUA>Львів</CityDescriptionUA>
+            <CityDescriptionRU>Львов</CityDescriptionRU>
+            <StreetUUID>DA9106DB-E0D3-11DF-9B37-00215AEE3EBE</StreetUUID>
+            <StreetTypeUA>вул.</StreetTypeUA>
+            <StreetDescriptionUA>Руставелі Шота</StreetDescriptionUA>
+            <StreetTypeRU>ул.</StreetTypeRU>
+            <StreetDescriptionRU>Руставели Шота</StreetDescriptionRU>
+            <House>38</House>
+            <Flat></Flat>
+            <AddressMoreInformation></AddressMoreInformation>
+            <Limitweight>30</Limitweight>
+            <Branchtype>Приват-АПТ</Branchtype>
+            <BranchtypeCode>0000004</BranchtypeCode>
+            <Latitude>49.830032</Latitude>
+            <Longitude>24.032860</Longitude>
+            <BranchCode>1087</BranchCode>
+            <StickerCode>K93</StickerCode>
+            <B2C>false</B2C>
+            <WorkingHours>Пн 09:00 - 18:00; Вт 09:00 - 18:00; Ср 09:00 - 18:00; Чт 09:00 - 18:00; Пт 09:00 - 18:00; Сб --:-- - --:--; Нд --:-- - --:--</WorkingHours>
+            <MotoBranchDescription>Львів</MotoBranchDescription>
+            <ZipCode>79000</ZipCode>
+        </items>
+        <items>
+            <UUID>2EE647AB-B920-11E4-B90B-003048D2B473</UUID>
+            <DescriptionUA>АПТ №1088 (Поштомат ПриватБанку)(м.Львів,вул.Наукова 96б)</DescriptionUA>
+            <DescriptionRU>АПТ №1088 (Поштомат ПриватБанку) г.Львов,ул.Научная 96б</DescriptionRU>
+            <RegionUUID>D15E3024-60B0-11DE-BE1E-0030485903E8</RegionUUID>
+            <RegionDescriptionUA>ЛЬВІВСЬКА</RegionDescriptionUA>
+            <RegionDescriptionRU>ЛЬВОВСКАЯ</RegionDescriptionRU>
+            <DistrictUUID>8A199CDE-41B9-11DF-907F-00215AEE3EBE</DistrictUUID>
+            <DistrictDescriptionUA>Львів</DistrictDescriptionUA>
+            <DistrictDescriptionRU>Львов</DistrictDescriptionRU>
+            <CityUUID>62C3D54A-749B-11DF-B112-00215AEE3EBE</CityUUID>
+            <CityDescriptionUA>Львів</CityDescriptionUA>
+            <CityDescriptionRU>Львов</CityDescriptionRU>
+            <StreetUUID>DA9105F7-E0D3-11DF-9B37-00215AEE3EBE</StreetUUID>
+            <StreetTypeUA>вул.</StreetTypeUA>
+            <StreetDescriptionUA>Наукова</StreetDescriptionUA>
+            <StreetTypeRU>ул.</StreetTypeRU>
+            <StreetDescriptionRU>Научная</StreetDescriptionRU>
+            <House>96б</House>
+            <Flat></Flat>
+            <AddressMoreInformation></AddressMoreInformation>
+            <Limitweight>30</Limitweight>
+            <Branchtype>Приват-АПТ</Branchtype>
+            <BranchtypeCode>0000004</BranchtypeCode>
+            <Latitude>49.805371</Latitude>
+            <Longitude>23.988557</Longitude>
+            <BranchCode>1088</BranchCode>
+            <StickerCode>K94</StickerCode>
+            <B2C>false</B2C>
+            <WorkingHours>Пн 00:00 - 23:59; Вт 00:00 - 23:59; Ср 00:00 - 23:59; Чт 00:00 - 23:59; Пт 00:00 - 23:59; Сб 00:00 - 23:59; Нд 00:00 - 23:59</WorkingHours>
+            <MotoBranchDescription>Львів</MotoBranchDescription>
+            <ZipCode>79000</ZipCode>
+        </items>
+        <items>
+            <UUID>2EE647AD-B920-11E4-B90B-003048D2B473</UUID>
+            <DescriptionUA>АПТ №1089 (Поштомат ПриватБанку)(м.Львів,вул.Городоцька 41)</DescriptionUA>
+            <DescriptionRU>АПТ №1089 (Поштомат ПриватБанку) г.Львов,ул.Городоцкая 41</DescriptionRU>
+            <RegionUUID>D15E3024-60B0-11DE-BE1E-0030485903E8</RegionUUID>
+            <RegionDescriptionUA>ЛЬВІВСЬКА</RegionDescriptionUA>
+            <RegionDescriptionRU>ЛЬВОВСКАЯ</RegionDescriptionRU>
+            <DistrictUUID>8A199CDE-41B9-11DF-907F-00215AEE3EBE</DistrictUUID>
+            <DistrictDescriptionUA>Львів</DistrictDescriptionUA>
+            <DistrictDescriptionRU>Львов</DistrictDescriptionRU>
+            <CityUUID>62C3D54A-749B-11DF-B112-00215AEE3EBE</CityUUID>
+            <CityDescriptionUA>Львів</CityDescriptionUA>
+            <CityDescriptionRU>Львов</CityDescriptionRU>
+            <StreetUUID>D464524F-E0D3-11DF-9B37-00215AEE3EBE</StreetUUID>
+            <StreetTypeUA>вул.</StreetTypeUA>
+            <StreetDescriptionUA>Городоцька</StreetDescriptionUA>
+            <StreetTypeRU>ул.</StreetTypeRU>
+            <StreetDescriptionRU>Городоцкая</StreetDescriptionRU>
+            <House>41</House>
+            <Flat></Flat>
+            <AddressMoreInformation></AddressMoreInformation>
+            <Limitweight>30</Limitweight>
+            <Branchtype>Приват-АПТ</Branchtype>
+            <BranchtypeCode>0000004</BranchtypeCode>
+            <Latitude>49.842685</Latitude>
+            <Longitude>24.020118</Longitude>
+            <BranchCode>1089</BranchCode>
+            <StickerCode>K95</StickerCode>
+            <B2C>false</B2C>
+            <WorkingHours>Пн 09:00 - 18:00; Вт 09:00 - 18:00; Ср 09:00 - 18:00; Чт 09:00 - 18:00; Пт 09:00 - 18:00; Сб 10:00 - 16:00; Нд --:-- - --:--</WorkingHours>
+            <MotoBranchDescription>Львів</MotoBranchDescription>
+            <ZipCode>79000</ZipCode>
+        </items>
+        <items>
+            <UUID>2EE647AF-B920-11E4-B90B-003048D2B473</UUID>
+            <DescriptionUA>АПТ №1090 (Поштомат ПриватБанку)(м.Львів,вул.Щирецька 36)</DescriptionUA>
+            <DescriptionRU>АПТ №1090 (Поштомат ПриватБанку) г.Львов,ул.Щирецкая 36</DescriptionRU>
+            <RegionUUID>D15E3024-60B0-11DE-BE1E-0030485903E8</RegionUUID>
+            <RegionDescriptionUA>ЛЬВІВСЬКА</RegionDescriptionUA>
+            <RegionDescriptionRU>ЛЬВОВСКАЯ</RegionDescriptionRU>
+            <DistrictUUID>8A199CDE-41B9-11DF-907F-00215AEE3EBE</DistrictUUID>
+            <DistrictDescriptionUA>Львів</DistrictDescriptionUA>
+            <DistrictDescriptionRU>Львов</DistrictDescriptionRU>
+            <CityUUID>62C3D54A-749B-11DF-B112-00215AEE3EBE</CityUUID>
+            <CityDescriptionUA>Львів</CityDescriptionUA>
+            <CityDescriptionRU>Львов</CityDescriptionRU>
+            <StreetUUID>DA910801-E0D3-11DF-9B37-00215AEE3EBE</StreetUUID>
+            <StreetTypeUA>вул.</StreetTypeUA>
+            <StreetDescriptionUA>Щирецька</StreetDescriptionUA>
+            <StreetTypeRU>ул.</StreetTypeRU>
+            <StreetDescriptionRU>Щирецкая</StreetDescriptionRU>
+            <House>36</House>
+            <Flat></Flat>
+            <AddressMoreInformation></AddressMoreInformation>
+            <Limitweight>30</Limitweight>
+            <Branchtype>Приват-АПТ</Branchtype>
+            <BranchtypeCode>0000004</BranchtypeCode>
+            <Latitude>49.812896</Latitude>
+            <Longitude>23.975441</Longitude>
+            <BranchCode>1090</BranchCode>
+            <StickerCode>K96</StickerCode>
+            <B2C>false</B2C>
+            <WorkingHours>Пн --:-- - --:--; Вт 10:00 - 19:00; Ср 10:00 - 19:00; Чт 10:00 - 19:00; Пт 10:00 - 19:00; Сб 10:00 - 19:00; Нд --:-- - --:--</WorkingHours>
+            <MotoBranchDescription>Львів</MotoBranchDescription>
+            <ZipCode>79000</ZipCode>
+        </items>
+        <items>
+            <UUID>2EE647B1-B920-11E4-B90B-003048D2B473</UUID>
+            <DescriptionUA>АПТ №1091 (Поштомат ПриватБанку)(м.Львів,вул.Січових Стрільців 17)</DescriptionUA>
+            <DescriptionRU>АПТ №1091 (Поштомат ПриватБанку) г.Львов,ул.Сечевых Стрелков 17</DescriptionRU>
+            <RegionUUID>D15E3024-60B0-11DE-BE1E-0030485903E8</RegionUUID>
+            <RegionDescriptionUA>ЛЬВІВСЬКА</RegionDescriptionUA>
+            <RegionDescriptionRU>ЛЬВОВСКАЯ</RegionDescriptionRU>
+            <DistrictUUID>8A199CDE-41B9-11DF-907F-00215AEE3EBE</DistrictUUID>
+            <DistrictDescriptionUA>Львів</DistrictDescriptionUA>
+            <DistrictDescriptionRU>Львов</DistrictDescriptionRU>
+            <CityUUID>62C3D54A-749B-11DF-B112-00215AEE3EBE</CityUUID>
+            <CityDescriptionUA>Львів</CityDescriptionUA>
+            <CityDescriptionRU>Львов</CityDescriptionRU>
+            <StreetUUID>DA91085D-E0D3-11DF-9B37-00215AEE3EBE</StreetUUID>
+            <StreetTypeUA>вул.</StreetTypeUA>
+            <StreetDescriptionUA>Січових Стрільців</StreetDescriptionUA>
+            <StreetTypeRU>ул.</StreetTypeRU>
+            <StreetDescriptionRU>Сечевых Стрелков</StreetDescriptionRU>
+            <House>17</House>
+            <Flat></Flat>
+            <AddressMoreInformation></AddressMoreInformation>
+            <Limitweight>30</Limitweight>
+            <Branchtype>Приват-АПТ</Branchtype>
+            <BranchtypeCode>0000004</BranchtypeCode>
+            <Latitude>49.839562</Latitude>
+            <Longitude>24.023663</Longitude>
+            <BranchCode>1091</BranchCode>
+            <StickerCode>K97</StickerCode>
+            <B2C>false</B2C>
+            <WorkingHours>Пн 00:00 - 23:59; Вт 00:00 - 23:59; Ср 00:00 - 23:59; Чт 00:00 - 23:59; Пт 00:00 - 23:59; Сб 00:00 - 23:59; Нд 00:00 - 23:59</WorkingHours>
+            <MotoBranchDescription>Львів</MotoBranchDescription>
+            <ZipCode>79000</ZipCode>
+        </items>
+        <items>
+            <UUID>2EE647B3-B920-11E4-B90B-003048D2B473</UUID>
+            <DescriptionUA>АПТ №1092 (Поштомат ПриватБанку)(м.Львів,пл.Липнева 10)</DescriptionUA>
+            <DescriptionRU>АПТ №1092 (Поштомат ПриватБанку) г.Львов,пл.Июльская 10</DescriptionRU>
+            <RegionUUID>D15E3024-60B0-11DE-BE1E-0030485903E8</RegionUUID>
+            <RegionDescriptionUA>ЛЬВІВСЬКА</RegionDescriptionUA>
+            <RegionDescriptionRU>ЛЬВОВСКАЯ</RegionDescriptionRU>
+            <DistrictUUID>8A199CDE-41B9-11DF-907F-00215AEE3EBE</DistrictUUID>
+            <DistrictDescriptionUA>Львів</DistrictDescriptionUA>
+            <DistrictDescriptionRU>Львов</DistrictDescriptionRU>
+            <CityUUID>62C3D54A-749B-11DF-B112-00215AEE3EBE</CityUUID>
+            <CityDescriptionUA>Львів</CityDescriptionUA>
+            <CityDescriptionRU>Львов</CityDescriptionRU>
+            <StreetUUID>DA910565-E0D3-11DF-9B37-00215AEE3EBE</StreetUUID>
+            <StreetTypeUA>пл.</StreetTypeUA>
+            <StreetDescriptionUA>Липнева</StreetDescriptionUA>
+            <StreetTypeRU>пл.</StreetTypeRU>
+            <StreetDescriptionRU>Июльская</StreetDescriptionRU>
+            <House>10</House>
+            <Flat></Flat>
+            <AddressMoreInformation></AddressMoreInformation>
+            <Limitweight>30</Limitweight>
+            <Branchtype>Приват-АПТ</Branchtype>
+            <BranchtypeCode>0000004</BranchtypeCode>
+            <Latitude>49.834536</Latitude>
+            <Longitude>24.001924</Longitude>
+            <BranchCode>1092</BranchCode>
+            <StickerCode>K98</StickerCode>
+            <B2C>false</B2C>
+            <WorkingHours>Пн 09:00 - 18:00; Вт 09:00 - 18:00; Ср 09:00 - 18:00; Чт 09:00 - 18:00; Пт 09:00 - 18:00; Сб 09:00 - 16:00; Нд --:-- - --:--</WorkingHours>
+            <MotoBranchDescription>Львів</MotoBranchDescription>
+            <ZipCode>79000</ZipCode>
+        </items>
+        <items>
+            <UUID>21218CD2-BC30-11E4-B90B-003048D2B473</UUID>
+            <DescriptionUA>АПТ №1096 (Поштомат ПриватБанку)(м.Львів,вул.Нечуя-Левицького 3)</DescriptionUA>
+            <DescriptionRU>АПТ №1096 (Поштомат ПриватБанку) г.Львов,ул.Нечуя-Левицкого 3</DescriptionRU>
+            <RegionUUID>D15E3024-60B0-11DE-BE1E-0030485903E8</RegionUUID>
+            <RegionDescriptionUA>ЛЬВІВСЬКА</RegionDescriptionUA>
+            <RegionDescriptionRU>ЛЬВОВСКАЯ</RegionDescriptionRU>
+            <DistrictUUID>8A199CDE-41B9-11DF-907F-00215AEE3EBE</DistrictUUID>
+            <DistrictDescriptionUA>Львів</DistrictDescriptionUA>
+            <DistrictDescriptionRU>Львов</DistrictDescriptionRU>
+            <CityUUID>62C3D54A-749B-11DF-B112-00215AEE3EBE</CityUUID>
+            <CityDescriptionUA>Львів</CityDescriptionUA>
+            <CityDescriptionRU>Львов</CityDescriptionRU>
+            <StreetUUID>DA9105FE-E0D3-11DF-9B37-00215AEE3EBE</StreetUUID>
+            <StreetTypeUA>вул.</StreetTypeUA>
+            <StreetDescriptionUA>Нечуя-Левицького</StreetDescriptionUA>
+            <StreetTypeRU>ул.</StreetTypeRU>
+            <StreetDescriptionRU>Нечуя-Левицкого</StreetDescriptionRU>
+            <House>3</House>
+            <Flat></Flat>
+            <AddressMoreInformation></AddressMoreInformation>
+            <Limitweight>30</Limitweight>
+            <Branchtype>Приват-АПТ</Branchtype>
+            <BranchtypeCode>0000004</BranchtypeCode>
+            <Latitude>49.832360</Latitude>
+            <Longitude>24.017290</Longitude>
+            <BranchCode>1096</BranchCode>
+            <StickerCode>L07</StickerCode>
+            <B2C>false</B2C>
+            <WorkingHours>Пн 09:00 - 18:00; Вт 09:00 - 18:00; Ср 09:00 - 18:00; Чт 09:00 - 18:00; Пт 09:00 - 18:00; Сб --:-- - --:--; Нд --:-- - --:--</WorkingHours>
+            <MotoBranchDescription>Львів</MotoBranchDescription>
+            <ZipCode>79000</ZipCode>
+        </items>
+        <items>
+            <UUID>21218CD4-BC30-11E4-B90B-003048D2B473</UUID>
+            <DescriptionUA>АПТ №1097 (Поштомат ПриватБанку)(м.Львів,вул.Сихівська 8)</DescriptionUA>
+            <DescriptionRU>АПТ №1097 (Поштомат ПриватБанку) г.Львов,ул.Сиховская 8</DescriptionRU>
+            <RegionUUID>D15E3024-60B0-11DE-BE1E-0030485903E8</RegionUUID>
+            <RegionDescriptionUA>ЛЬВІВСЬКА</RegionDescriptionUA>
+            <RegionDescriptionRU>ЛЬВОВСКАЯ</RegionDescriptionRU>
+            <DistrictUUID>8A199CDE-41B9-11DF-907F-00215AEE3EBE</DistrictUUID>
+            <DistrictDescriptionUA>Львів</DistrictDescriptionUA>
+            <DistrictDescriptionRU>Львов</DistrictDescriptionRU>
+            <CityUUID>62C3D54A-749B-11DF-B112-00215AEE3EBE</CityUUID>
+            <CityDescriptionUA>Львів</CityDescriptionUA>
+            <CityDescriptionRU>Львов</CityDescriptionRU>
+            <StreetUUID>DA910704-E0D3-11DF-9B37-00215AEE3EBE</StreetUUID>
+            <StreetTypeUA>вул.</StreetTypeUA>
+            <StreetDescriptionUA>Сихівська</StreetDescriptionUA>
+            <StreetTypeRU>ул.</StreetTypeRU>
+            <StreetDescriptionRU>Сиховская</StreetDescriptionRU>
+            <House>8</House>
+            <Flat></Flat>
+            <AddressMoreInformation></AddressMoreInformation>
+            <Limitweight>30</Limitweight>
+            <Branchtype>Приват-АПТ</Branchtype>
+            <BranchtypeCode>0000004</BranchtypeCode>
+            <Latitude>49.795062</Latitude>
+            <Longitude>24.065162</Longitude>
+            <BranchCode>1097</BranchCode>
+            <StickerCode>L08</StickerCode>
+            <B2C>false</B2C>
+            <WorkingHours>Пн 09:00 - 18:00; Вт 09:00 - 18:00; Ср 09:00 - 18:00; Чт 09:00 - 18:00; Пт 09:00 - 18:00; Сб --:-- - --:--; Нд --:-- - --:--</WorkingHours>
+            <MotoBranchDescription>Львів</MotoBranchDescription>
+            <ZipCode>79000</ZipCode>
+        </items>
+        <items>
+            <UUID>21218CD6-BC30-11E4-B90B-003048D2B473</UUID>
+            <DescriptionUA>АПТ №1098 (Поштомат ПриватБанку)(м.Львів,вул.Шевченка 31)</DescriptionUA>
+            <DescriptionRU>АПТ №1098 (Поштомат ПриватБанку) г.Львов,ул.Шевченко 31</DescriptionRU>
+            <RegionUUID>D15E3024-60B0-11DE-BE1E-0030485903E8</RegionUUID>
+            <RegionDescriptionUA>ЛЬВІВСЬКА</RegionDescriptionUA>
+            <RegionDescriptionRU>ЛЬВОВСКАЯ</RegionDescriptionRU>
+            <DistrictUUID>8A199CDE-41B9-11DF-907F-00215AEE3EBE</DistrictUUID>
+            <DistrictDescriptionUA>Львів</DistrictDescriptionUA>
+            <DistrictDescriptionRU>Львов</DistrictDescriptionRU>
+            <CityUUID>62C3D54A-749B-11DF-B112-00215AEE3EBE</CityUUID>
+            <CityDescriptionUA>Львів</CityDescriptionUA>
+            <CityDescriptionRU>Львов</CityDescriptionRU>
+            <StreetUUID>F6973290-CCE4-11E2-8B6C-003048D2B473</StreetUUID>
+            <StreetTypeUA>вул.</StreetTypeUA>
+            <StreetDescriptionUA>Шевченка</StreetDescriptionUA>
+            <StreetTypeRU>ул.</StreetTypeRU>
+            <StreetDescriptionRU>Шевченко</StreetDescriptionRU>
+            <House>31</House>
+            <Flat></Flat>
+            <AddressMoreInformation></AddressMoreInformation>
+            <Limitweight>30</Limitweight>
+            <Branchtype>Приват-АПТ</Branchtype>
+            <BranchtypeCode>0000004</BranchtypeCode>
+            <Latitude>49.845325</Latitude>
+            <Longitude>24.006452</Longitude>
+            <BranchCode>1098</BranchCode>
+            <StickerCode>L09</StickerCode>
+            <B2C>false</B2C>
+            <WorkingHours>Пн 09:00 - 18:00; Вт 09:00 - 18:00; Ср 09:00 - 18:00; Чт 09:00 - 18:00; Пт 09:00 - 18:00; Сб --:-- - --:--; Нд --:-- - --:--</WorkingHours>
+            <MotoBranchDescription>Львів</MotoBranchDescription>
+            <ZipCode>79039</ZipCode>
+        </items>
+        <items>
+            <UUID>21218CD8-BC30-11E4-B90B-003048D2B473</UUID>
+            <DescriptionUA>АПТ №1099 (Поштомат ПриватБанку)(м.Львів,вул.Пекарська 26/1)</DescriptionUA>
+            <DescriptionRU>АПТ №1099 (Поштомат ПриватБанку) г.Львов,ул.Пекарская 26/1</DescriptionRU>
+            <RegionUUID>D15E3024-60B0-11DE-BE1E-0030485903E8</RegionUUID>
+            <RegionDescriptionUA>ЛЬВІВСЬКА</RegionDescriptionUA>
+            <RegionDescriptionRU>ЛЬВОВСКАЯ</RegionDescriptionRU>
+            <DistrictUUID>8A199CDE-41B9-11DF-907F-00215AEE3EBE</DistrictUUID>
+            <DistrictDescriptionUA>Львів</DistrictDescriptionUA>
+            <DistrictDescriptionRU>Львов</DistrictDescriptionRU>
+            <CityUUID>62C3D54A-749B-11DF-B112-00215AEE3EBE</CityUUID>
+            <CityDescriptionUA>Львів</CityDescriptionUA>
+            <CityDescriptionRU>Львов</CityDescriptionRU>
+            <StreetUUID>DA910642-E0D3-11DF-9B37-00215AEE3EBE</StreetUUID>
+            <StreetTypeUA>вул.</StreetTypeUA>
+            <StreetDescriptionUA>Пекарська</StreetDescriptionUA>
+            <StreetTypeRU>ул.</StreetTypeRU>
+            <StreetDescriptionRU>Пекарская</StreetDescriptionRU>
+            <House>26/1</House>
+            <Flat></Flat>
+            <AddressMoreInformation></AddressMoreInformation>
+            <Limitweight>30</Limitweight>
+            <Branchtype>Приват-АПТ</Branchtype>
+            <BranchtypeCode>0000004</BranchtypeCode>
+            <Latitude>49.837660</Latitude>
+            <Longitude>24.039090</Longitude>
+            <BranchCode>1099</BranchCode>
+            <StickerCode>L10</StickerCode>
+            <B2C>false</B2C>
+            <WorkingHours>Пн 09:00 - 18:00; Вт 09:00 - 18:00; Ср 09:00 - 18:00; Чт 09:00 - 18:00; Пт 09:00 - 18:00; Сб --:-- - --:--; Нд --:-- - --:--</WorkingHours>
+            <MotoBranchDescription>Львів</MotoBranchDescription>
+            <ZipCode>79003</ZipCode>
+        </items>
+        <items>
+            <UUID>21218CDA-BC30-11E4-B90B-003048D2B473</UUID>
+            <DescriptionUA>АПТ №1100 (Поштомат ПриватБанку)(м.Львів,вул.Кульпарківська 174)</DescriptionUA>
+            <DescriptionRU>АПТ №1100 (Поштомат ПриватБанку) г.Львов,ул.Кульпарковская 174</DescriptionRU>
+            <RegionUUID>D15E3024-60B0-11DE-BE1E-0030485903E8</RegionUUID>
+            <RegionDescriptionUA>ЛЬВІВСЬКА</RegionDescriptionUA>
+            <RegionDescriptionRU>ЛЬВОВСКАЯ</RegionDescriptionRU>
+            <DistrictUUID>8A199CDE-41B9-11DF-907F-00215AEE3EBE</DistrictUUID>
+            <DistrictDescriptionUA>Львів</DistrictDescriptionUA>
+            <DistrictDescriptionRU>Львов</DistrictDescriptionRU>
+            <CityUUID>62C3D54A-749B-11DF-B112-00215AEE3EBE</CityUUID>
+            <CityDescriptionUA>Львів</CityDescriptionUA>
+            <CityDescriptionRU>Львов</CityDescriptionRU>
+            <StreetUUID>DA910542-E0D3-11DF-9B37-00215AEE3EBE</StreetUUID>
+            <StreetTypeUA>вул.</StreetTypeUA>
+            <StreetDescriptionUA>Кульпарківська</StreetDescriptionUA>
+            <StreetTypeRU>ул.</StreetTypeRU>
+            <StreetDescriptionRU>Кульпарковская</StreetDescriptionRU>
+            <House>174</House>
+            <Flat></Flat>
+            <AddressMoreInformation></AddressMoreInformation>
+            <Limitweight>30</Limitweight>
+            <Branchtype>Приват-АПТ</Branchtype>
+            <BranchtypeCode>0000004</BranchtypeCode>
+            <Latitude>49.814480</Latitude>
+            <Longitude>23.981209</Longitude>
+            <BranchCode>1100</BranchCode>
+            <StickerCode>L11</StickerCode>
+            <B2C>false</B2C>
+            <WorkingHours>Пн 00:00 - 23:59; Вт 00:00 - 23:59; Ср 00:00 - 23:59; Чт 00:00 - 23:59; Пт 00:00 - 23:59; Сб 00:00 - 23:59; Нд 00:00 - 23:59</WorkingHours>
+            <MotoBranchDescription>Львів</MotoBranchDescription>
+            <ZipCode>79015</ZipCode>
+        </items>
+        <items>
+            <UUID>21218CDC-BC30-11E4-B90B-003048D2B473</UUID>
+            <DescriptionUA>АПТ №1101 (Поштомат ПриватБанку)(м.Львів,вул.Драгана 9)</DescriptionUA>
+            <DescriptionRU>АПТ №1101 (Поштомат ПриватБанку) г.Львов,ул.Драгана 9</DescriptionRU>
+            <RegionUUID>D15E3024-60B0-11DE-BE1E-0030485903E8</RegionUUID>
+            <RegionDescriptionUA>ЛЬВІВСЬКА</RegionDescriptionUA>
+            <RegionDescriptionRU>ЛЬВОВСКАЯ</RegionDescriptionRU>
+            <DistrictUUID>8A199CDE-41B9-11DF-907F-00215AEE3EBE</DistrictUUID>
+            <DistrictDescriptionUA>Львів</DistrictDescriptionUA>
+            <DistrictDescriptionRU>Львов</DistrictDescriptionRU>
+            <CityUUID>62C3D54A-749B-11DF-B112-00215AEE3EBE</CityUUID>
+            <CityDescriptionUA>Львів</CityDescriptionUA>
+            <CityDescriptionRU>Львов</CityDescriptionRU>
+            <StreetUUID>FDCA4371-EDA1-11DF-B61A-00215AEE3EBE</StreetUUID>
+            <StreetTypeUA>вул.</StreetTypeUA>
+            <StreetDescriptionUA>Драгана</StreetDescriptionUA>
+            <StreetTypeRU>ул.</StreetTypeRU>
+            <StreetDescriptionRU>Драгана</StreetDescriptionRU>
+            <House>9</House>
+            <Flat></Flat>
+            <AddressMoreInformation></AddressMoreInformation>
+            <Limitweight>30</Limitweight>
+            <Branchtype>Приват-АПТ</Branchtype>
+            <BranchtypeCode>0000004</BranchtypeCode>
+            <Latitude>49.784733</Latitude>
+            <Longitude>24.056776</Longitude>
+            <BranchCode>1101</BranchCode>
+            <StickerCode>L12</StickerCode>
+            <B2C>false</B2C>
+            <WorkingHours>Пн 09:00 - 18:00; Вт 09:00 - 18:00; Ср 09:00 - 18:00; Чт 09:00 - 18:00; Пт 09:00 - 18:00; Сб --:-- - --:--; Нд --:-- - --:--</WorkingHours>
+            <MotoBranchDescription>Львів</MotoBranchDescription>
+            <ZipCode>79049</ZipCode>
+        </items>
+        <items>
+            <UUID>21218CDE-BC30-11E4-B90B-003048D2B473</UUID>
+            <DescriptionUA>АПТ №1102 (Поштомат ПриватБанку)(м.Львів,вул.Замарстинівська 49)</DescriptionUA>
+            <DescriptionRU>АПТ №1102 (Поштомат ПриватБанку) г.Львов,ул.Замарстыновская 49</DescriptionRU>
+            <RegionUUID>D15E3024-60B0-11DE-BE1E-0030485903E8</RegionUUID>
+            <RegionDescriptionUA>ЛЬВІВСЬКА</RegionDescriptionUA>
+            <RegionDescriptionRU>ЛЬВОВСКАЯ</RegionDescriptionRU>
+            <DistrictUUID>8A199CDE-41B9-11DF-907F-00215AEE3EBE</DistrictUUID>
+            <DistrictDescriptionUA>Львів</DistrictDescriptionUA>
+            <DistrictDescriptionRU>Львов</DistrictDescriptionRU>
+            <CityUUID>62C3D54A-749B-11DF-B112-00215AEE3EBE</CityUUID>
+            <CityDescriptionUA>Львів</CityDescriptionUA>
+            <CityDescriptionRU>Львов</CityDescriptionRU>
+            <StreetUUID>D46452B4-E0D3-11DF-9B37-00215AEE3EBE</StreetUUID>
+            <StreetTypeUA>вул.</StreetTypeUA>
+            <StreetDescriptionUA>Замарстинівська</StreetDescriptionUA>
+            <StreetTypeRU>ул.</StreetTypeRU>
+            <StreetDescriptionRU>Замарстыновская</StreetDescriptionRU>
+            <House>49</House>
+            <Flat></Flat>
+            <AddressMoreInformation></AddressMoreInformation>
+            <Limitweight>30</Limitweight>
+            <Branchtype>Приват-АПТ</Branchtype>
+            <BranchtypeCode>0000004</BranchtypeCode>
+            <Latitude>49.852446</Latitude>
+            <Longitude>24.028613</Longitude>
+            <BranchCode>1102</BranchCode>
+            <StickerCode>L13</StickerCode>
+            <B2C>false</B2C>
+            <WorkingHours>Пн 09:00 - 18:00; Вт 09:00 - 18:00; Ср 09:00 - 18:00; Чт 09:00 - 18:00; Пт 09:00 - 18:00; Сб --:-- - --:--; Нд --:-- - --:--</WorkingHours>
+            <MotoBranchDescription>Львів</MotoBranchDescription>
+            <ZipCode>79019</ZipCode>
+        </items>
+        <items>
+            <UUID>21218CE0-BC30-11E4-B90B-003048D2B473</UUID>
+            <DescriptionUA>АПТ №1103 (Поштомат ПриватБанку)(м.Львів,вул.Зелена 10)</DescriptionUA>
+            <DescriptionRU>АПТ №1103 (Поштомат ПриватБанку) г.Львов,ул.Зеленая 10</DescriptionRU>
+            <RegionUUID>D15E3024-60B0-11DE-BE1E-0030485903E8</RegionUUID>
+            <RegionDescriptionUA>ЛЬВІВСЬКА</RegionDescriptionUA>
+            <RegionDescriptionRU>ЛЬВОВСКАЯ</RegionDescriptionRU>
+            <DistrictUUID>8A199CDE-41B9-11DF-907F-00215AEE3EBE</DistrictUUID>
+            <DistrictDescriptionUA>Львів</DistrictDescriptionUA>
+            <DistrictDescriptionRU>Львов</DistrictDescriptionRU>
+            <CityUUID>62C3D54A-749B-11DF-B112-00215AEE3EBE</CityUUID>
+            <CityDescriptionUA>Львів</CityDescriptionUA>
+            <CityDescriptionRU>Львов</CityDescriptionRU>
+            <StreetUUID>DA9108EA-E0D3-11DF-9B37-00215AEE3EBE</StreetUUID>
+            <StreetTypeUA>вул.</StreetTypeUA>
+            <StreetDescriptionUA>Зелена</StreetDescriptionUA>
+            <StreetTypeRU>ул.</StreetTypeRU>
+            <StreetDescriptionRU>Зеленая</StreetDescriptionRU>
+            <House>10</House>
+            <Flat></Flat>
+            <AddressMoreInformation></AddressMoreInformation>
+            <Limitweight>30</Limitweight>
+            <Branchtype>Приват-АПТ</Branchtype>
+            <BranchtypeCode>0000004</BranchtypeCode>
+            <Latitude>49.833507</Latitude>
+            <Longitude>24.036393</Longitude>
+            <BranchCode>1103</BranchCode>
+            <StickerCode>L14</StickerCode>
+            <B2C>false</B2C>
+            <WorkingHours>Пн 00:00 - 23:59; Вт 00:00 - 23:59; Ср 00:00 - 23:59; Чт 00:00 - 23:59; Пт 00:00 - 23:59; Сб 00:00 - 23:59; Нд 00:00 - 23:59</WorkingHours>
+            <MotoBranchDescription>Львів</MotoBranchDescription>
+            <ZipCode>79493</ZipCode>
+        </items>
+        <items>
+            <UUID>21218CE2-BC30-11E4-B90B-003048D2B473</UUID>
+            <DescriptionUA>АПТ №1104 (Поштомат ПриватБанку)(м.Львів,вул.Винниченка 10)</DescriptionUA>
+            <DescriptionRU>АПТ №1104 (Поштомат ПриватБанку) г.Львов,ул.Винниченко 10</DescriptionRU>
+            <RegionUUID>D15E3024-60B0-11DE-BE1E-0030485903E8</RegionUUID>
+            <RegionDescriptionUA>ЛЬВІВСЬКА</RegionDescriptionUA>
+            <RegionDescriptionRU>ЛЬВОВСКАЯ</RegionDescriptionRU>
+            <DistrictUUID>8A199CDE-41B9-11DF-907F-00215AEE3EBE</DistrictUUID>
+            <DistrictDescriptionUA>Львів</DistrictDescriptionUA>
+            <DistrictDescriptionRU>Львов</DistrictDescriptionRU>
+            <CityUUID>62C3D54A-749B-11DF-B112-00215AEE3EBE</CityUUID>
+            <CityDescriptionUA>Львів</CityDescriptionUA>
+            <CityDescriptionRU>Львов</CityDescriptionRU>
+            <StreetUUID>D46451F7-E0D3-11DF-9B37-00215AEE3EBE</StreetUUID>
+            <StreetTypeUA>вул.</StreetTypeUA>
+            <StreetDescriptionUA>Винниченка</StreetDescriptionUA>
+            <StreetTypeRU>ул.</StreetTypeRU>
+            <StreetDescriptionRU>Винниченко</StreetDescriptionRU>
+            <House>10</House>
+            <Flat></Flat>
+            <AddressMoreInformation></AddressMoreInformation>
+            <Limitweight>30</Limitweight>
+            <Branchtype>Приват-АПТ</Branchtype>
+            <BranchtypeCode>0000004</BranchtypeCode>
+            <Latitude>49.840237</Latitude>
+            <Longitude>24.036725</Longitude>
+            <BranchCode>1104</BranchCode>
+            <StickerCode>L15</StickerCode>
+            <B2C>false</B2C>
+            <WorkingHours>Пн 09:00 - 18:00; Вт 09:00 - 18:00; Ср 09:00 - 18:00; Чт 09:00 - 18:00; Пт 09:00 - 18:00; Сб --:-- - --:--; Нд --:-- - --:--</WorkingHours>
+            <MotoBranchDescription>Львів</MotoBranchDescription>
+            <ZipCode>79003</ZipCode>
+        </items>
+        <items>
+            <UUID>21218CE4-BC30-11E4-B90B-003048D2B473</UUID>
+            <DescriptionUA>АПТ №1105 (Поштомат ПриватБанку)(м.Львів,вул.Володимира Великого 51)</DescriptionUA>
+            <DescriptionRU>АПТ №1105 (Поштомат ПриватБанку) г.Львов,ул.Владимира Великого 51</DescriptionRU>
+            <RegionUUID>D15E3024-60B0-11DE-BE1E-0030485903E8</RegionUUID>
+            <RegionDescriptionUA>ЛЬВІВСЬКА</RegionDescriptionUA>
+            <RegionDescriptionRU>ЛЬВОВСКАЯ</RegionDescriptionRU>
+            <DistrictUUID>8A199CDE-41B9-11DF-907F-00215AEE3EBE</DistrictUUID>
+            <DistrictDescriptionUA>Львів</DistrictDescriptionUA>
+            <DistrictDescriptionRU>Львов</DistrictDescriptionRU>
+            <CityUUID>62C3D54A-749B-11DF-B112-00215AEE3EBE</CityUUID>
+            <CityDescriptionUA>Львів</CityDescriptionUA>
+            <CityDescriptionRU>Львов</CityDescriptionRU>
+            <StreetUUID>DA9108E2-E0D3-11DF-9B37-00215AEE3EBE</StreetUUID>
+            <StreetTypeUA>вул.</StreetTypeUA>
+            <StreetDescriptionUA>Володимира Великого</StreetDescriptionUA>
+            <StreetTypeRU>ул.</StreetTypeRU>
+            <StreetDescriptionRU>Владимира Великого</StreetDescriptionRU>
+            <House>51</House>
+            <Flat></Flat>
+            <AddressMoreInformation></AddressMoreInformation>
+            <Limitweight>30</Limitweight>
+            <Branchtype>Приват-АПТ</Branchtype>
+            <BranchtypeCode>0000004</BranchtypeCode>
+            <Latitude>49.809812</Latitude>
+            <Longitude>24.002320</Longitude>
+            <BranchCode>1105</BranchCode>
+            <StickerCode>L16</StickerCode>
+            <B2C>false</B2C>
+            <WorkingHours>Пн 09:00 - 18:00; Вт 09:00 - 18:00; Ср 09:00 - 18:00; Чт 09:00 - 18:00; Пт 09:00 - 18:00; Сб --:-- - --:--; Нд --:-- - --:--</WorkingHours>
+            <MotoBranchDescription>Львів</MotoBranchDescription>
+            <ZipCode>79493</ZipCode>
+        </items>
+        <items>
+            <UUID>21218CE6-BC30-11E4-B90B-003048D2B473</UUID>
+            <DescriptionUA>АПТ №1106 (Поштомат ПриватБанку)(м.Львів,вул.Городоцька 98)</DescriptionUA>
+            <DescriptionRU>АПТ №1106 (Поштомат ПриватБанку) г.Львов,ул.Городоцкая 98</DescriptionRU>
+            <RegionUUID>D15E3024-60B0-11DE-BE1E-0030485903E8</RegionUUID>
+            <RegionDescriptionUA>ЛЬВІВСЬКА</RegionDescriptionUA>
+            <RegionDescriptionRU>ЛЬВОВСКАЯ</RegionDescriptionRU>
+            <DistrictUUID>8A199CDE-41B9-11DF-907F-00215AEE3EBE</DistrictUUID>
+            <DistrictDescriptionUA>Львів</DistrictDescriptionUA>
+            <DistrictDescriptionRU>Львов</DistrictDescriptionRU>
+            <CityUUID>62C3D54A-749B-11DF-B112-00215AEE3EBE</CityUUID>
+            <CityDescriptionUA>Львів</CityDescriptionUA>
+            <CityDescriptionRU>Львов</CityDescriptionRU>
+            <StreetUUID>D464524F-E0D3-11DF-9B37-00215AEE3EBE</StreetUUID>
+            <StreetTypeUA>вул.</StreetTypeUA>
+            <StreetDescriptionUA>Городоцька</StreetDescriptionUA>
+            <StreetTypeRU>ул.</StreetTypeRU>
+            <StreetDescriptionRU>Городоцкая</StreetDescriptionRU>
+            <House>98</House>
+            <Flat></Flat>
+            <AddressMoreInformation></AddressMoreInformation>
+            <Limitweight>30</Limitweight>
+            <Branchtype>Приват-АПТ</Branchtype>
+            <BranchtypeCode>0000004</BranchtypeCode>
+            <Latitude>49.837473</Latitude>
+            <Longitude>24.004669</Longitude>
+            <BranchCode>1106</BranchCode>
+            <StickerCode>L17</StickerCode>
+            <B2C>false</B2C>
+            <WorkingHours>Пн 09:00 - 18:00; Вт 09:00 - 18:00; Ср 09:00 - 18:00; Чт 09:00 - 18:00; Пт 09:00 - 18:00; Сб --:-- - --:--; Нд --:-- - --:--</WorkingHours>
+            <MotoBranchDescription>Львів</MotoBranchDescription>
+            <ZipCode>79007</ZipCode>
+        </items>
+        <items>
+            <UUID>21218CE8-BC30-11E4-B90B-003048D2B473</UUID>
+            <DescriptionUA>АПТ №1107 (Поштомат ПриватБанку)(м.Львів,вул.Староєврейська 3)</DescriptionUA>
+            <DescriptionRU>АПТ №1107 (Поштомат ПриватБанку) г.Львов,ул.Староеврейская 3</DescriptionRU>
+            <RegionUUID>D15E3024-60B0-11DE-BE1E-0030485903E8</RegionUUID>
+            <RegionDescriptionUA>ЛЬВІВСЬКА</RegionDescriptionUA>
+            <RegionDescriptionRU>ЛЬВОВСКАЯ</RegionDescriptionRU>
+            <DistrictUUID>8A199CDE-41B9-11DF-907F-00215AEE3EBE</DistrictUUID>
+            <DistrictDescriptionUA>Львів</DistrictDescriptionUA>
+            <DistrictDescriptionRU>Львов</DistrictDescriptionRU>
+            <CityUUID>62C3D54A-749B-11DF-B112-00215AEE3EBE</CityUUID>
+            <CityDescriptionUA>Львів</CityDescriptionUA>
+            <CityDescriptionRU>Львов</CityDescriptionRU>
+            <StreetUUID>DA910745-E0D3-11DF-9B37-00215AEE3EBE</StreetUUID>
+            <StreetTypeUA>вул.</StreetTypeUA>
+            <StreetDescriptionUA>Староєврейська</StreetDescriptionUA>
+            <StreetTypeRU>ул.</StreetTypeRU>
+            <StreetDescriptionRU>Староеврейская</StreetDescriptionRU>
+            <House>3</House>
+            <Flat></Flat>
+            <AddressMoreInformation></AddressMoreInformation>
+            <Limitweight>30</Limitweight>
+            <Branchtype>Приват-АПТ</Branchtype>
+            <BranchtypeCode>0000004</BranchtypeCode>
+            <Latitude>49.840378</Latitude>
+            <Longitude>24.031160</Longitude>
+            <BranchCode>1107</BranchCode>
+            <StickerCode>L18</StickerCode>
+            <B2C>false</B2C>
+            <WorkingHours>Пн 10:00 - 19:00; Вт 10:00 - 19:00; Ср 10:00 - 19:00; Чт 10:00 - 19:00; Пт 10:00 - 19:00; Сб 10:00 - 16:00; Нд --:-- - --:--</WorkingHours>
+            <MotoBranchDescription>Львів</MotoBranchDescription>
+            <ZipCode>79008</ZipCode>
+        </items>
+        <items>
+            <UUID>21218CEA-BC30-11E4-B90B-003048D2B473</UUID>
+            <DescriptionUA>АПТ №1108 (Поштомат ПриватБанку)(м.Львів,вул.Петлюри 2)</DescriptionUA>
+            <DescriptionRU>АПТ №1108 (Поштомат ПриватБанку) г.Львов,ул.Петлюры 2</DescriptionRU>
+            <RegionUUID>D15E3024-60B0-11DE-BE1E-0030485903E8</RegionUUID>
+            <RegionDescriptionUA>ЛЬВІВСЬКА</RegionDescriptionUA>
+            <RegionDescriptionRU>ЛЬВОВСКАЯ</RegionDescriptionRU>
+            <DistrictUUID>8A199CDE-41B9-11DF-907F-00215AEE3EBE</DistrictUUID>
+            <DistrictDescriptionUA>Львів</DistrictDescriptionUA>
+            <DistrictDescriptionRU>Львов</DistrictDescriptionRU>
+            <CityUUID>62C3D54A-749B-11DF-B112-00215AEE3EBE</CityUUID>
+            <CityDescriptionUA>Львів</CityDescriptionUA>
+            <CityDescriptionRU>Львов</CityDescriptionRU>
+            <StreetUUID>DA910902-E0D3-11DF-9B37-00215AEE3EBE</StreetUUID>
+            <StreetTypeUA>вул.</StreetTypeUA>
+            <StreetDescriptionUA>Петлюри</StreetDescriptionUA>
+            <StreetTypeRU>ул.</StreetTypeRU>
+            <StreetDescriptionRU>Петлюры</StreetDescriptionRU>
+            <House>2</House>
+            <Flat></Flat>
+            <AddressMoreInformation></AddressMoreInformation>
+            <Limitweight>30</Limitweight>
+            <Branchtype>Приват-АПТ</Branchtype>
+            <BranchtypeCode>0000004</BranchtypeCode>
+            <Latitude>49.822774</Latitude>
+            <Longitude>23.977930</Longitude>
+            <BranchCode>1108</BranchCode>
+            <StickerCode>L19</StickerCode>
+            <B2C>false</B2C>
+            <WorkingHours>Пн 09:00 - 18:00; Вт 09:00 - 18:00; Ср 09:00 - 18:00; Чт 09:00 - 18:00; Пт 09:00 - 18:00; Сб --:-- - --:--; Нд --:-- - --:--</WorkingHours>
+            <MotoBranchDescription>Львів</MotoBranchDescription>
+            <ZipCode>79493</ZipCode>
+        </items>
+        <items>
+            <UUID>21218CEC-BC30-11E4-B90B-003048D2B473</UUID>
+            <DescriptionUA>АПТ №1109 (Поштомат ПриватБанку)(м.Львів,вул.Патона 2/4а)</DescriptionUA>
+            <DescriptionRU>АПТ №1109 (Поштомат ПриватБанку) г.Львов,ул.Патона 2/4а</DescriptionRU>
+            <RegionUUID>D15E3024-60B0-11DE-BE1E-0030485903E8</RegionUUID>
+            <RegionDescriptionUA>ЛЬВІВСЬКА</RegionDescriptionUA>
+            <RegionDescriptionRU>ЛЬВОВСКАЯ</RegionDescriptionRU>
+            <DistrictUUID>8A199CDE-41B9-11DF-907F-00215AEE3EBE</DistrictUUID>
+            <DistrictDescriptionUA>Львів</DistrictDescriptionUA>
+            <DistrictDescriptionRU>Львов</DistrictDescriptionRU>
+            <CityUUID>62C3D54A-749B-11DF-B112-00215AEE3EBE</CityUUID>
+            <CityDescriptionUA>Львів</CityDescriptionUA>
+            <CityDescriptionRU>Львов</CityDescriptionRU>
+            <StreetUUID>DA910640-E0D3-11DF-9B37-00215AEE3EBE</StreetUUID>
+            <StreetTypeUA>вул.</StreetTypeUA>
+            <StreetDescriptionUA>Патона</StreetDescriptionUA>
+            <StreetTypeRU>ул.</StreetTypeRU>
+            <StreetDescriptionRU>Патона</StreetDescriptionRU>
+            <House>2/4а</House>
+            <Flat></Flat>
+            <AddressMoreInformation></AddressMoreInformation>
+            <Limitweight>30</Limitweight>
+            <Branchtype>Приват-АПТ</Branchtype>
+            <BranchtypeCode>0000004</BranchtypeCode>
+            <Latitude>49.823820</Latitude>
+            <Longitude>23.964851</Longitude>
+            <BranchCode>1109</BranchCode>
+            <StickerCode>L20</StickerCode>
+            <B2C>false</B2C>
+            <WorkingHours>Пн 09:00 - 18:00; Вт 09:00 - 18:00; Ср 09:00 - 18:00; Чт 09:00 - 18:00; Пт 09:00 - 18:00; Сб --:-- - --:--; Нд --:-- - --:--</WorkingHours>
+            <MotoBranchDescription>Львів</MotoBranchDescription>
+            <ZipCode>79003</ZipCode>
+        </items>
+        <items>
+            <UUID>21218CEE-BC30-11E4-B90B-003048D2B473</UUID>
+            <DescriptionUA>АПТ №1110 (Поштомат ПриватБанку)(м.Львів,вул.Широка 63а)</DescriptionUA>
+            <DescriptionRU>АПТ №1110 (Поштомат ПриватБанку) г.Львов,ул.Широкая 63а</DescriptionRU>
+            <RegionUUID>D15E3024-60B0-11DE-BE1E-0030485903E8</RegionUUID>
+            <RegionDescriptionUA>ЛЬВІВСЬКА</RegionDescriptionUA>
+            <RegionDescriptionRU>ЛЬВОВСКАЯ</RegionDescriptionRU>
+            <DistrictUUID>8A199CDE-41B9-11DF-907F-00215AEE3EBE</DistrictUUID>
+            <DistrictDescriptionUA>Львів</DistrictDescriptionUA>
+            <DistrictDescriptionRU>Львов</DistrictDescriptionRU>
+            <CityUUID>62C3D54A-749B-11DF-B112-00215AEE3EBE</CityUUID>
+            <CityDescriptionUA>Львів</CityDescriptionUA>
+            <CityDescriptionRU>Львов</CityDescriptionRU>
+            <StreetUUID>DA9107F4-E0D3-11DF-9B37-00215AEE3EBE</StreetUUID>
+            <StreetTypeUA>вул.</StreetTypeUA>
+            <StreetDescriptionUA>Широка</StreetDescriptionUA>
+            <StreetTypeRU>ул.</StreetTypeRU>
+            <StreetDescriptionRU>Широкая</StreetDescriptionRU>
+            <House>63а</House>
+            <Flat></Flat>
+            <AddressMoreInformation></AddressMoreInformation>
+            <Limitweight>30</Limitweight>
+            <Branchtype>Приват-АПТ</Branchtype>
+            <BranchtypeCode>0000004</BranchtypeCode>
+            <Latitude>49.841636</Latitude>
+            <Longitude>23.970984</Longitude>
+            <BranchCode>1110</BranchCode>
+            <StickerCode>L21</StickerCode>
+            <B2C>false</B2C>
+            <WorkingHours>Пн 09:00 - 18:00; Вт 09:00 - 18:00; Ср 09:00 - 18:00; Чт 09:00 - 18:00; Пт 09:00 - 18:00; Сб --:-- - --:--; Нд --:-- - --:--</WorkingHours>
+            <MotoBranchDescription>Львів</MotoBranchDescription>
+            <ZipCode>79052</ZipCode>
+        </items>
+        <items>
+            <UUID>21218CF0-BC30-11E4-B90B-003048D2B473</UUID>
+            <DescriptionUA>АПТ №1111 (Поштомат ПриватБанку)(м.Львів,вул.Лінкольна 10а)</DescriptionUA>
+            <DescriptionRU>АПТ №1111 (Поштомат ПриватБанку) г.Львов,ул.Линкольна 10а</DescriptionRU>
+            <RegionUUID>D15E3024-60B0-11DE-BE1E-0030485903E8</RegionUUID>
+            <RegionDescriptionUA>ЛЬВІВСЬКА</RegionDescriptionUA>
+            <RegionDescriptionRU>ЛЬВОВСКАЯ</RegionDescriptionRU>
+            <DistrictUUID>8A199CDE-41B9-11DF-907F-00215AEE3EBE</DistrictUUID>
+            <DistrictDescriptionUA>Львів</DistrictDescriptionUA>
+            <DistrictDescriptionRU>Львов</DistrictDescriptionRU>
+            <CityUUID>62C3D54A-749B-11DF-B112-00215AEE3EBE</CityUUID>
+            <CityDescriptionUA>Львів</CityDescriptionUA>
+            <CityDescriptionRU>Львов</CityDescriptionRU>
+            <StreetUUID>DA910570-E0D3-11DF-9B37-00215AEE3EBE</StreetUUID>
+            <StreetTypeUA>вул.</StreetTypeUA>
+            <StreetDescriptionUA>Лінкольна</StreetDescriptionUA>
+            <StreetTypeRU>ул.</StreetTypeRU>
+            <StreetDescriptionRU>Линкольна</StreetDescriptionRU>
+            <House>10а</House>
+            <Flat></Flat>
+            <AddressMoreInformation></AddressMoreInformation>
+            <Limitweight>30</Limitweight>
+            <Branchtype>Приват-АПТ</Branchtype>
+            <BranchtypeCode>0000004</BranchtypeCode>
+            <Latitude>49.865455</Latitude>
+            <Longitude>24.032368</Longitude>
+            <BranchCode>1111</BranchCode>
+            <StickerCode>L22</StickerCode>
+            <B2C>false</B2C>
+            <WorkingHours>Пн 09:00 - 18:00; Вт 09:00 - 18:00; Ср 09:00 - 18:00; Чт 09:00 - 18:00; Пт 09:00 - 18:00; Сб --:-- - --:--; Нд --:-- - --:--</WorkingHours>
+            <MotoBranchDescription>Львів</MotoBranchDescription>
+            <ZipCode>79068</ZipCode>
+        </items>
+        <items>
+            <UUID>21218CF2-BC30-11E4-B90B-003048D2B473</UUID>
+            <DescriptionUA>АПТ №1112 (Поштомат ПриватБанку)(м.Львів,вул.Під Дубом 12/5)</DescriptionUA>
+            <DescriptionRU>АПТ №1112 (Поштомат ПриватБанку) г.Львов,ул.Под Дубом 12/5</DescriptionRU>
+            <RegionUUID>D15E3024-60B0-11DE-BE1E-0030485903E8</RegionUUID>
+            <RegionDescriptionUA>ЛЬВІВСЬКА</RegionDescriptionUA>
+            <RegionDescriptionRU>ЛЬВОВСКАЯ</RegionDescriptionRU>
+            <DistrictUUID>8A199CDE-41B9-11DF-907F-00215AEE3EBE</DistrictUUID>
+            <DistrictDescriptionUA>Львів</DistrictDescriptionUA>
+            <DistrictDescriptionRU>Львов</DistrictDescriptionRU>
+            <CityUUID>62C3D54A-749B-11DF-B112-00215AEE3EBE</CityUUID>
+            <CityDescriptionUA>Львів</CityDescriptionUA>
+            <CityDescriptionRU>Львов</CityDescriptionRU>
+            <StreetUUID>DA910659-E0D3-11DF-9B37-00215AEE3EBE</StreetUUID>
+            <StreetTypeUA>вул.</StreetTypeUA>
+            <StreetDescriptionUA>Під Дубом</StreetDescriptionUA>
+            <StreetTypeRU>ул.</StreetTypeRU>
+            <StreetDescriptionRU>Под Дубом</StreetDescriptionRU>
+            <House>12/5</House>
+            <Flat></Flat>
+            <AddressMoreInformation></AddressMoreInformation>
+            <Limitweight>30</Limitweight>
+            <Branchtype>Приват-АПТ</Branchtype>
+            <BranchtypeCode>0000004</BranchtypeCode>
+            <Latitude>49.850610</Latitude>
+            <Longitude>24.022325</Longitude>
+            <BranchCode>1112</BranchCode>
+            <StickerCode>L23</StickerCode>
+            <B2C>false</B2C>
+            <WorkingHours>Пн 09:00 - 18:00; Вт 09:00 - 18:00; Ср 09:00 - 18:00; Чт 09:00 - 18:00; Пт 09:00 - 18:00; Сб --:-- - --:--; Нд --:-- - --:--</WorkingHours>
+            <MotoBranchDescription>Львів</MotoBranchDescription>
+            <ZipCode>79058</ZipCode>
+        </items>
+        <items>
+            <UUID>E6B21031-BDAB-11E4-B90B-003048D2B473</UUID>
+            <DescriptionUA>АПТ №1205 (Поштомат ПриватБанку)(м.Львів,вул.Бандери Степана 37)</DescriptionUA>
+            <DescriptionRU>АПТ №1205 (Поштомат ПриватБанку) г.Львов,ул.Бандеры Степана 37</DescriptionRU>
+            <RegionUUID>D15E3024-60B0-11DE-BE1E-0030485903E8</RegionUUID>
+            <RegionDescriptionUA>ЛЬВІВСЬКА</RegionDescriptionUA>
+            <RegionDescriptionRU>ЛЬВОВСКАЯ</RegionDescriptionRU>
+            <DistrictUUID>8A199CDE-41B9-11DF-907F-00215AEE3EBE</DistrictUUID>
+            <DistrictDescriptionUA>Львів</DistrictDescriptionUA>
+            <DistrictDescriptionRU>Львов</DistrictDescriptionRU>
+            <CityUUID>62C3D54A-749B-11DF-B112-00215AEE3EBE</CityUUID>
+            <CityDescriptionUA>Львів</CityDescriptionUA>
+            <CityDescriptionRU>Львов</CityDescriptionRU>
+            <StreetUUID>DA9108D9-E0D3-11DF-9B37-00215AEE3EBE</StreetUUID>
+            <StreetTypeUA>вул.</StreetTypeUA>
+            <StreetDescriptionUA>Бандери Степана</StreetDescriptionUA>
+            <StreetTypeRU>ул.</StreetTypeRU>
+            <StreetDescriptionRU>Бандеры Степана</StreetDescriptionRU>
+            <House>37</House>
+            <Flat></Flat>
+            <AddressMoreInformation></AddressMoreInformation>
+            <Limitweight>30</Limitweight>
+            <Branchtype>Приват-АПТ</Branchtype>
+            <BranchtypeCode>0000004</BranchtypeCode>
+            <Latitude>49.834542</Latitude>
+            <Longitude>24.012128</Longitude>
+            <BranchCode>1205</BranchCode>
+            <StickerCode>M18</StickerCode>
+            <B2C>false</B2C>
+            <WorkingHours>Пн 09:00 - 18:00; Вт 09:00 - 18:00; Ср 09:00 - 18:00; Чт 09:00 - 18:00; Пт 09:00 - 18:00; Сб --:-- - --:--; Нд --:-- - --:--</WorkingHours>
+            <MotoBranchDescription>Львів</MotoBranchDescription>
+            <ZipCode>79493</ZipCode>
+        </items>
+        <items>
+            <UUID>43E80227-E839-11E4-B9C8-003048D2B473</UUID>
+            <DescriptionUA>АПТ №1815 (Поштомат А-Банку)(м.Львів,вул.Наукова 47)</DescriptionUA>
+            <DescriptionRU>АПТ №1815 (Поштомат А-Банку) г.Львов,ул.Научная 47</DescriptionRU>
+            <RegionUUID>D15E3024-60B0-11DE-BE1E-0030485903E8</RegionUUID>
+            <RegionDescriptionUA>ЛЬВІВСЬКА</RegionDescriptionUA>
+            <RegionDescriptionRU>ЛЬВОВСКАЯ</RegionDescriptionRU>
+            <DistrictUUID>8A199CDE-41B9-11DF-907F-00215AEE3EBE</DistrictUUID>
+            <DistrictDescriptionUA>Львів</DistrictDescriptionUA>
+            <DistrictDescriptionRU>Львов</DistrictDescriptionRU>
+            <CityUUID>62C3D54A-749B-11DF-B112-00215AEE3EBE</CityUUID>
+            <CityDescriptionUA>Львів</CityDescriptionUA>
+            <CityDescriptionRU>Львов</CityDescriptionRU>
+            <StreetUUID>DA9105F7-E0D3-11DF-9B37-00215AEE3EBE</StreetUUID>
+            <StreetTypeUA>вул.</StreetTypeUA>
+            <StreetDescriptionUA>Наукова</StreetDescriptionUA>
+            <StreetTypeRU>ул.</StreetTypeRU>
+            <StreetDescriptionRU>Научная</StreetDescriptionRU>
+            <House>47</House>
+            <Flat></Flat>
+            <AddressMoreInformation></AddressMoreInformation>
+            <Limitweight>30</Limitweight>
+            <Branchtype>Приват-АПТ</Branchtype>
+            <BranchtypeCode>0000004</BranchtypeCode>
+            <Latitude>49.804018</Latitude>
+            <Longitude>23.990235</Longitude>
+            <BranchCode>1815</BranchCode>
+            <StickerCode>S42</StickerCode>
+            <B2C>false</B2C>
+            <WorkingHours>Пн 09:00 - 18:00; Вт 09:00 - 18:00; Ср 09:00 - 18:00; Чт 09:00 - 18:00; Пт 09:00 - 18:00; Сб --:-- - --:--; Нд --:-- - --:--</WorkingHours>
+            <MotoBranchDescription>Львів</MotoBranchDescription>
+            <ZipCode>79003</ZipCode>
+        </items>
+        <items>
+            <UUID>43E80229-E839-11E4-B9C8-003048D2B473</UUID>
+            <DescriptionUA>АПТ №1816 (Поштомат А-Банку)(м.Львів,вул.Осмомисла 3)</DescriptionUA>
+            <DescriptionRU>АПТ №1816 (Поштомат А-Банку) г.Львов,ул.Осмомысла 3</DescriptionRU>
+            <RegionUUID>D15E3024-60B0-11DE-BE1E-0030485903E8</RegionUUID>
+            <RegionDescriptionUA>ЛЬВІВСЬКА</RegionDescriptionUA>
+            <RegionDescriptionRU>ЛЬВОВСКАЯ</RegionDescriptionRU>
+            <DistrictUUID>8A199CDE-41B9-11DF-907F-00215AEE3EBE</DistrictUUID>
+            <DistrictDescriptionUA>Львів</DistrictDescriptionUA>
+            <DistrictDescriptionRU>Львов</DistrictDescriptionRU>
+            <CityUUID>62C3D54A-749B-11DF-B112-00215AEE3EBE</CityUUID>
+            <CityDescriptionUA>Львів</CityDescriptionUA>
+            <CityDescriptionRU>Львов</CityDescriptionRU>
+            <StreetUUID>DA910622-E0D3-11DF-9B37-00215AEE3EBE</StreetUUID>
+            <StreetTypeUA>вул.</StreetTypeUA>
+            <StreetDescriptionUA>Осмомисла</StreetDescriptionUA>
+            <StreetTypeRU>ул.</StreetTypeRU>
+            <StreetDescriptionRU>Осмомысла</StreetDescriptionRU>
+            <House>3</House>
+            <Flat></Flat>
+            <AddressMoreInformation></AddressMoreInformation>
+            <Limitweight>30</Limitweight>
+            <Branchtype>Приват-АПТ</Branchtype>
+            <BranchtypeCode>0000004</BranchtypeCode>
+            <Latitude>49.845132</Latitude>
+            <Longitude>24.029449</Longitude>
+            <BranchCode>1816</BranchCode>
+            <StickerCode>S43</StickerCode>
+            <B2C>false</B2C>
+            <WorkingHours>Пн 09:00 - 18:00; Вт 09:00 - 18:00; Ср 09:00 - 18:00; Чт 09:00 - 18:00; Пт 09:00 - 18:00; Сб --:-- - --:--; Нд --:-- - --:--</WorkingHours>
+            <MotoBranchDescription>Львів</MotoBranchDescription>
+            <ZipCode>79008</ZipCode>
+        </items>
+        <items>
+            <UUID>43E8022B-E839-11E4-B9C8-003048D2B473</UUID>
+            <DescriptionUA>АПТ №1817 (Поштомат А-Банку)(м.Львів,вул.Франка Івана 8)</DescriptionUA>
+            <DescriptionRU>АПТ №1817 (Поштомат А-Банку) г.Львов,ул.Франко Ивана 8</DescriptionRU>
+            <RegionUUID>D15E3024-60B0-11DE-BE1E-0030485903E8</RegionUUID>
+            <RegionDescriptionUA>ЛЬВІВСЬКА</RegionDescriptionUA>
+            <RegionDescriptionRU>ЛЬВОВСКАЯ</RegionDescriptionRU>
+            <DistrictUUID>8A199CDE-41B9-11DF-907F-00215AEE3EBE</DistrictUUID>
+            <DistrictDescriptionUA>Львів</DistrictDescriptionUA>
+            <DistrictDescriptionRU>Львов</DistrictDescriptionRU>
+            <CityUUID>62C3D54A-749B-11DF-B112-00215AEE3EBE</CityUUID>
+            <CityDescriptionUA>Львів</CityDescriptionUA>
+            <CityDescriptionRU>Львов</CityDescriptionRU>
+            <StreetUUID>B2DDC4E0-C3A3-11E2-BB38-003048D2B473</StreetUUID>
+            <StreetTypeUA>вул.</StreetTypeUA>
+            <StreetDescriptionUA>Франка Івана</StreetDescriptionUA>
+            <StreetTypeRU>ул.</StreetTypeRU>
+            <StreetDescriptionRU>Франко Ивана</StreetDescriptionRU>
+            <House>8</House>
+            <Flat></Flat>
+            <AddressMoreInformation></AddressMoreInformation>
+            <Limitweight>30</Limitweight>
+            <Branchtype>Приват-АПТ</Branchtype>
+            <BranchtypeCode>0000004</BranchtypeCode>
+            <Latitude>49.836994</Latitude>
+            <Longitude>24.034695</Longitude>
+            <BranchCode>1817</BranchCode>
+            <StickerCode>S44</StickerCode>
+            <B2C>false</B2C>
+            <WorkingHours>Пн 09:00 - 18:00; Вт 09:00 - 18:00; Ср 09:00 - 18:00; Чт 09:00 - 18:00; Пт 09:00 - 18:00; Сб --:-- - --:--; Нд --:-- - --:--</WorkingHours>
+            <MotoBranchDescription>Львів</MotoBranchDescription>
+            <ZipCode>79005</ZipCode>
+        </items>
+        <items>
+            <UUID>E5C093E6-F2F7-11E4-BA66-003048D2B473</UUID>
+            <DescriptionUA>Львів-Городоцька 242(м.Львів,вул.Городоцька 242)</DescriptionUA>
+            <DescriptionRU>Львів-Городоцька 242 г.Львов,ул.Городоцкая 242</DescriptionRU>
+            <RegionUUID>D15E3024-60B0-11DE-BE1E-0030485903E8</RegionUUID>
+            <RegionDescriptionUA>ЛЬВІВСЬКА</RegionDescriptionUA>
+            <RegionDescriptionRU>ЛЬВОВСКАЯ</RegionDescriptionRU>
+            <DistrictUUID>8A199CDE-41B9-11DF-907F-00215AEE3EBE</DistrictUUID>
+            <DistrictDescriptionUA>Львів</DistrictDescriptionUA>
+            <DistrictDescriptionRU>Львов</DistrictDescriptionRU>
+            <CityUUID>62C3D54A-749B-11DF-B112-00215AEE3EBE</CityUUID>
+            <CityDescriptionUA>Львів</CityDescriptionUA>
+            <CityDescriptionRU>Львов</CityDescriptionRU>
+            <StreetUUID>D464524F-E0D3-11DF-9B37-00215AEE3EBE</StreetUUID>
+            <StreetTypeUA>вул.</StreetTypeUA>
+            <StreetDescriptionUA>Городоцька</StreetDescriptionUA>
+            <StreetTypeRU>ул.</StreetTypeRU>
+            <StreetDescriptionRU>Городоцкая</StreetDescriptionRU>
+            <House>242</House>
+            <Flat></Flat>
+            <AddressMoreInformation></AddressMoreInformation>
+            <Limitweight></Limitweight>
+            <Branchtype>ППВ</Branchtype>
+            <BranchtypeCode>0000002</BranchtypeCode>
+            <Latitude>49.826910</Latitude>
+            <Longitude>23.944350</Longitude>
+            <BranchCode>1968</BranchCode>
+            <StickerCode>T99</StickerCode>
+            <B2C>false</B2C>
+            <WorkingHours>Пн 08:00 - 19:00; Вт 08:00 - 19:00; Ср 08:00 - 19:00; Чт 08:00 - 19:00; Пт 08:00 - 19:00; Сб 08:00 - 15:00; Нд --:-- - --:--</WorkingHours>
+            <MotoBranchDescription>Львів</MotoBranchDescription>
+            <ZipCode>79000</ZipCode>
+        </items>
+        <items>
+            <UUID>75EC298E-A8DD-11DE-BAC3-0030485903E8</UUID>
+            <DescriptionUA>Львів(м.Львів,вул.Зелена 147)</DescriptionUA>
+            <DescriptionRU>Львів г.Львов,ул.Зеленая 147</DescriptionRU>
+            <RegionUUID>D15E3024-60B0-11DE-BE1E-0030485903E8</RegionUUID>
+            <RegionDescriptionUA>ЛЬВІВСЬКА</RegionDescriptionUA>
+            <RegionDescriptionRU>ЛЬВОВСКАЯ</RegionDescriptionRU>
+            <DistrictUUID>8A199CDE-41B9-11DF-907F-00215AEE3EBE</DistrictUUID>
+            <DistrictDescriptionUA>Львів</DistrictDescriptionUA>
+            <DistrictDescriptionRU>Львов</DistrictDescriptionRU>
+            <CityUUID>62C3D54A-749B-11DF-B112-00215AEE3EBE</CityUUID>
+            <CityDescriptionUA>Львів</CityDescriptionUA>
+            <CityDescriptionRU>Львов</CityDescriptionRU>
+            <StreetUUID>DA9108EA-E0D3-11DF-9B37-00215AEE3EBE</StreetUUID>
+            <StreetTypeUA>вул.</StreetTypeUA>
+            <StreetDescriptionUA>Зелена</StreetDescriptionUA>
+            <StreetTypeRU>ул.</StreetTypeRU>
+            <StreetDescriptionRU>Зеленая</StreetDescriptionRU>
+            <House>147</House>
+            <Flat></Flat>
+            <AddressMoreInformation></AddressMoreInformation>
+            <Limitweight></Limitweight>
+            <Branchtype>ОВ</Branchtype>
+            <BranchtypeCode>0000001</BranchtypeCode>
+            <Latitude>49.814296</Latitude>
+            <Longitude>24.063312</Longitude>
+            <BranchCode>4</BranchCode>
+            <StickerCode>004</StickerCode>
+            <B2C>false</B2C>
+            <WorkingHours>Пн 08:00 - 19:00; Вт 08:00 - 19:00; Ср 08:00 - 19:00; Чт 08:00 - 19:00; Пт 08:00 - 19:00; Сб 08:00 - 15:00; Нд --:-- - --:--</WorkingHours>
+            <MotoBranchDescription>Львів</MotoBranchDescription>
+            <ZipCode>79000</ZipCode>
+        </items>
+        <items>
+            <UUID>59D96B44-0207-11E0-BC87-00215AEE3EBE</UUID>
+            <DescriptionUA>Львів-Городоцька 224(м.Львів,вул.Городоцька 224)</DescriptionUA>
+            <DescriptionRU>Львів-Городоцька 224 г.Львов,ул.Городоцкая 224</DescriptionRU>
+            <RegionUUID>D15E3024-60B0-11DE-BE1E-0030485903E8</RegionUUID>
+            <RegionDescriptionUA>ЛЬВІВСЬКА</RegionDescriptionUA>
+            <RegionDescriptionRU>ЛЬВОВСКАЯ</RegionDescriptionRU>
+            <DistrictUUID>8A199CDE-41B9-11DF-907F-00215AEE3EBE</DistrictUUID>
+            <DistrictDescriptionUA>Львів</DistrictDescriptionUA>
+            <DistrictDescriptionRU>Львов</DistrictDescriptionRU>
+            <CityUUID>62C3D54A-749B-11DF-B112-00215AEE3EBE</CityUUID>
+            <CityDescriptionUA>Львів</CityDescriptionUA>
+            <CityDescriptionRU>Львов</CityDescriptionRU>
+            <StreetUUID>D464524F-E0D3-11DF-9B37-00215AEE3EBE</StreetUUID>
+            <StreetTypeUA>вул.</StreetTypeUA>
+            <StreetDescriptionUA>Городоцька</StreetDescriptionUA>
+            <StreetTypeRU>ул.</StreetTypeRU>
+            <StreetDescriptionRU>Городоцкая</StreetDescriptionRU>
+            <House>224</House>
+            <Flat></Flat>
+            <AddressMoreInformation></AddressMoreInformation>
+            <Limitweight></Limitweight>
+            <Branchtype>ППВ</Branchtype>
+            <BranchtypeCode>0000002</BranchtypeCode>
+            <Latitude>49.827778</Latitude>
+            <Longitude>23.951389</Longitude>
+            <BranchCode>44</BranchCode>
+            <StickerCode>044</StickerCode>
+            <B2C>false</B2C>
+            <WorkingHours>Пн 08:00 - 19:00; Вт 08:00 - 19:00; Ср 08:00 - 19:00; Чт 08:00 - 19:00; Пт 08:00 - 19:00; Сб 08:00 - 15:00; Нд --:-- - --:--</WorkingHours>
+            <MotoBranchDescription>Львів</MotoBranchDescription>
+            <ZipCode>79000</ZipCode>
+        </items>
+    </result_table>
+    <result_uuid></result_uuid>
+    <errors>
+        <code>000</code>
+        <name></name>
+    </errors>
+</return>

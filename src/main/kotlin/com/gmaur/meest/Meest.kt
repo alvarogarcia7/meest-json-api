@@ -28,6 +28,8 @@ class Meest(private val configuration: Configuration, private val mapper: Mapper
         val input = connection.getInputStream()
         val jaxbContext = JAXBContext.newInstance(Response::class.java)
         val unmarshaller = jaxbContext.createUnmarshaller()
+        // to debug and print the XML response
+//        BufferedReader(InputStreamReader(input)).forEachLine { println(it) }
         val unmarshal = unmarshaller.unmarshal(input)
         val cast = Response::class.java.cast(unmarshal)
         return cast
