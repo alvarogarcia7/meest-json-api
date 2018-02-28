@@ -12,12 +12,12 @@ class MeestRequestShould {
     fun `parse by a single criteria`() {
         val field = "CityDescriptionRU"
         val value = "Lvov"
-        val request = MeestRequest.parse(mapOf(field to value))
+        val request = MeestR.parse(mapOf(field to value))
 
         assertThat(request.isRight()).isTrue()
         assertThat(request.map {
             val softly = SoftAssertions()
-            softly.assertThat(it.getWhere()).isEqualTo("$field='$value'")
+            softly.assertThat(it.where).isEqualTo("$field='$value'")
             softly.assertAll()
         })
     }
@@ -31,7 +31,7 @@ class MeestRequestShould {
         val values = mapOf(
                 field1 to value1,
                 field2 to value2)
-        val request = MeestRequest.parse(values)
+        val request = MeestR.parse(values)
 
         assertThat(request.isLeft()).isTrue()
         assertThat(request.mapLeft {
@@ -44,7 +44,7 @@ class MeestRequestShould {
     @Test
     fun `requires a criteria`() {
         val values = mapOf<String, String>()
-        val request = MeestRequest.parse(values)
+        val request = MeestR.parse(values)
 
         assertThat(request.isLeft()).isTrue()
         assertThat(request.mapLeft {

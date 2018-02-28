@@ -80,7 +80,9 @@ class AcceptanceFeature {
     }
 
     private fun queryByCity(s: String): Results {
-        return Meest(Meest.MeestClient(configuration, Meest.ResponseParser()), Meest.Mapper()).request(MeestRequest.byCity(s)).get()
+        val get = Meest(Meest.MeestClient(configuration, Meest.ResponseParser()), Meest.Mapper()).request(MeestR.byCity(s))
+        println(get)
+        return get.get()
     }
 
 

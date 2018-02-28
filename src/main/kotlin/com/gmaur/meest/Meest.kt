@@ -12,15 +12,15 @@ import javax.xml.bind.JAXBException
 @Component
 class Meest(private val meestClient: MeestClient, private val mapper: Mapper) {
 
-    fun request(value: MeestRequest): Either<List<BusinessError>, Results> {
+    fun request(value: MeestR): Either<List<BusinessError>, Results> {
         return value
                 .let { meestClient.fetch(it) }
                 .let { mapper.map(it.toEither()) }
     }
 
     companion object {
-        fun parseByCity(city: String): Either<List<Error>, MeestRequest> {
-            return Either.right(MeestRequest.byCity(city))
+        fun parseByCity(city: String): Either<List<Error>, MeestR> {
+            return Either.right(MeestR.byCity(city))
         }
     }
 
@@ -102,11 +102,17 @@ class Meest(private val meestClient: MeestClient, private val mapper: Mapper) {
 
     @Component
     class MeestClient(private val configuration: Configuration, private val responseParser: ResponseParser) {
-        fun fetch(value: MeestRequest): Response {
+        fun fetch(value: MeestR): Response {
             return value
-                    .let { createRequest(it) }
+                    .let { toRequest(it) }
+                    .let { preparePayload(it) }
                     .let { send(it) }
                     .let { responseParser.read(it.getInputStream()) }
+        }
+
+
+        private fun toRequest(meestR: MeestR): MeestRequest {
+            return MeestRequest(configuration.username, configuration.password, meestR)
         }
 
         private fun send(request: StringWriter): URLConnection {
@@ -133,13 +139,10 @@ class Meest(private val meestClient: MeestClient, private val mapper: Mapper) {
 
 
         @Throws(JAXBException::class)
-        private fun createRequest(payload: MeestRequest): StringWriter {
-            payload.setLogin(this.configuration.username)
-            payload.password = this.configuration.password
-
+        private fun preparePayload(request: MeestRequest): StringWriter {
             val context = JAXBContext.newInstance(MeestRequest::class.java)
             val stringWriter = StringWriter()
-            context.createMarshaller().marshal(payload, stringWriter)
+            context.createMarshaller().marshal(request, stringWriter)
             return stringWriter
         }
     }
