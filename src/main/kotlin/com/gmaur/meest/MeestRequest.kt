@@ -1,5 +1,6 @@
 package com.gmaur.meest
 
+import arrow.core.Either
 import org.springframework.util.DigestUtils
 import java.math.BigInteger
 import javax.xml.bind.annotation.XmlElement
@@ -9,7 +10,7 @@ import javax.xml.bind.annotation.XmlRootElement
 
 class MeestRequest {
     private var login: String? = null
-    public var password: String? = null
+    internal var password: String? = null
     private var function: String? = null
     private var where: String? = null
     private var order: String? = null
@@ -35,6 +36,32 @@ class MeestRequest {
 
             val request = MeestRequest(login, password, function, where, order)
             return request
+        }
+
+        fun parse(values: Map<String, String>): Either<List<BusinessError>, MeestRequest> {
+            if (values.entries.size > 1) {
+                return tooManyCriterias(values)
+            } else if (values.entries.isEmpty()) {
+                return notEnoughCriterias()
+            }
+            return Either.right(MeestRequest("", "", "Branch", createWhere(values), ""))
+        }
+
+        private fun createWhere(values: Map<String, String>): String {
+            val where = values.entries.joinToString { (key, value) ->
+                "$key='$value'"
+            }
+            return where
+        }
+
+        private fun notEnoughCriterias(): Either<List<BusinessError>, Nothing> {
+            val values = "Received none"
+            return Either.left(listOf(BusinessError.aNew("Need a criteria to filter on", values, 400)))
+        }
+
+        private fun tooManyCriterias(values: Map<String, String>): Either<List<BusinessError>, Nothing> {
+            val values = "Received: " + values.entries.joinToString(", ") { (key, value) -> "$key=$value" }
+            return Either.left(listOf(BusinessError.aNew("Cannot parse two criterias at the same time", values, 400)))
         }
     }
 
