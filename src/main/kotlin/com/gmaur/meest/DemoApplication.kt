@@ -25,9 +25,8 @@ fun main(args: Array<String>) {
 class DroppointsController(private val meest: Meest) {
 
     @GetMapping("/droppoints")
-    fun droppoints(@RequestParam("city") city: String): Any {
-        val result = Meest.parseByCity(city)
-                .mapLeft { it.map { it as BusinessError } }
+    fun droppoints(@RequestParam rawRequest: Map<String, String>): Any {
+        val result = Meest.parse(rawRequest)
                 .flatMap { meest.request(it) }
                 .bimap({
                     ResponseEntity.status(it.first().code).body(map(it))

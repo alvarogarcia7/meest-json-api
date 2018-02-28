@@ -1,6 +1,7 @@
 package com.gmaur.meest
 
 import arrow.core.Either
+import arrow.core.flatMap
 import com.github.kittinunf.fuel.core.FuelError
 import com.github.kittinunf.fuel.core.FuelManager
 import com.github.kittinunf.fuel.core.Response
@@ -38,13 +39,18 @@ class AcceptanceFeature {
 
     @Test
     fun `query by city`() {
-        assertThat(queryByCity("Львов").first().city.valueRU).isEqualTo("Львов")
+        assertThat(queryByCity(Pair("CityDescriptionRU", "Львов")).first().city.valueRU).isEqualTo("Львов")
     }
 
     @Test
-    fun `query by city through the rest api`() {
+    fun `query by city criteria`() {
+        assertThat(queryByCity(Pair("CityDescriptionRU", "Львов")).first().city.valueRU).isEqualTo("Львов")
+    }
 
-        val response = droppoints("Львов")
+    @Test
+    fun `query by criteria through the rest api`() {
+
+        val response = droppoints(Pair("CityDescriptionRU", "Львов"))
 
         assertThat(response.isRight())
         response.bimap(
@@ -66,8 +72,8 @@ class AcceptanceFeature {
                 })
     }
 
-    private fun droppoints(byCity: String): Either<Exception, Pair<Response, com.github.kittinunf.result.Result<String, FuelError>>> {
-        val parameters = listOf(Pair("city", byCity))
+    private fun droppoints(criteria: Pair<String, String>): Either<Exception, Pair<Response, com.github.kittinunf.result.Result<String, FuelError>>> {
+        val parameters = listOf(criteria)
         val request = "/droppoints".httpGet(parameters).header("Content-Type" to "application/json")
         try {
             val (_, response, result) = request.responseString()
@@ -83,6 +89,13 @@ class AcceptanceFeature {
         val get = Meest(Meest.MeestClient(configuration, Meest.ResponseParser()), Meest.Mapper()).request(MeestR.byCity(s))
         println(get)
         return get.get()
+    }
+
+    private fun queryByCity(criteria: Pair<String, String>): Results {
+        val value = Meest.parse(mapOf(criteria)).flatMap {
+            Meest(Meest.MeestClient(configuration, Meest.ResponseParser()), Meest.Mapper()).request(it)
+        }
+        return value.get()
     }
 
 
