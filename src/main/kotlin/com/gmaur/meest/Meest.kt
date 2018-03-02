@@ -69,7 +69,11 @@ class Meest(private val meestClient: MeestClient, private val mapper: Mapper) {
                         }
                     },
                     {
-                        Results(it.resultTable?.items?.map {
+                        val emptyResults = Results(listOf())
+                        if (null == it.resultTable || null == it.resultTable!!.items) {
+                            return@bimap emptyResults
+                        }
+                        val map = it.resultTable!!.items!!.map {
                             Result(
                                     city = Triad(id = it.CityUUID!!, valueUA = it.CityDescriptionUA!!, valueRU = it.CityDescriptionRU!!),
                                     branch = Branch(type = it.Branchtype, code = it.BranchCode, typeCode = it.BranchtypeCode),
@@ -88,7 +92,8 @@ class Meest(private val meestClient: MeestClient, private val mapper: Mapper) {
                                     stickerCode = it.StickerCode,
                                     workingHours = it.WorkingHours,
                                     zipCode = it.ZipCode)
-                        }!!)
+                        }
+                        return@bimap Results(map!!)
                     })
         }
 

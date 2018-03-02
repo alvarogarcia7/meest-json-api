@@ -6,6 +6,7 @@ import org.assertj.core.api.Assertions.assertThat
 import org.junit.Before
 import org.junit.jupiter.api.BeforeEach
 import org.junit.jupiter.api.DynamicTest
+import org.junit.jupiter.api.Test
 import org.junit.jupiter.api.TestFactory
 import org.junit.platform.runner.JUnitPlatform
 import org.junit.runner.RunWith
@@ -50,6 +51,29 @@ class MapperShould {
                         assertResponseIs(response, it.second, message, it.third)
                     })
         }
+    }
+
+    @Test
+    fun `map empty responses - empty result table`() {
+        val emptyResponse = createResponse("000", "")
+        emptyResponse.resultTable = null
+
+        val response = mapper?.map(emptyResponse.toEither())!!
+
+        val expected = Either.right(Results(listOf()))
+        assertThat(response).isEqualTo(expected)
+    }
+
+    @Test
+    fun `map empty responses - empty results`() {
+        val emptyResponse = createResponse("000", "")
+        emptyResponse.resultTable = Response.ResultTable()
+        emptyResponse.resultTable!!.items = null
+
+        val response = mapper?.map(emptyResponse.toEither())!!
+
+        val expected = Either.right(Results(listOf()))
+        assertThat(response).isEqualTo(expected)
     }
 
     private fun createResponse(code: String, message: String): Response {
