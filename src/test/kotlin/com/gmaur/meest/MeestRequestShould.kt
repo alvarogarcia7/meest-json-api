@@ -23,7 +23,7 @@ class MeestRequestShould {
     }
 
     @Test
-    fun `parse by only the first criteria`() {
+    fun `join multiple criterias by OR`() {
         val field1 = "CityDescriptionRU"
         val value1 = "Lvov"
         val field2 = "CityDescriptionUA"
@@ -33,10 +33,10 @@ class MeestRequestShould {
                 field2 to value2)
         val request = MeestR.parse(values)
 
-        assertThat(request.isLeft()).isTrue()
-        assertThat(request.mapLeft {
+        assertThat(request.isRight()).isTrue()
+        assertThat(request.map {
             val softly = SoftAssertions()
-            softly.assertThat(it.first()).isEqualTo(BusinessError.aNew("Cannot parse two criterias at the same time", "Received: $field1=$value1, $field2=$value2", 400))
+            softly.assertThat(it.where).isEqualTo("$field1='$value1' OR $field2='$value2'")
             softly.assertAll()
         })
     }

@@ -68,18 +68,16 @@ data class MeestR(val function: String, val where: String, val order: String) {
         }
 
         fun parse(values: Map<String, String>): Either<List<BusinessError>, MeestR> {
-            if (values.entries.size > 1) {
-                return tooManyCriterias(values)
-            } else if (values.entries.isEmpty()) {
+            if (values.entries.isEmpty()) {
                 return notEnoughCriterias()
             }
             return Either.right(MeestR("Branch", createWhere(values), ""))
         }
 
         private fun createWhere(values: Map<String, String>): String {
-            val where = values.entries.joinToString { (key, value) ->
+            val where = values.entries.map { (key, value) ->
                 "$key='$value'"
-            }
+            }.joinToString(" OR ")
             return where
         }
 
