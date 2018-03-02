@@ -18,12 +18,6 @@ class Meest(private val meestClient: MeestClient, private val mapper: Mapper) {
                 .let { mapper.map(it.toEither()) }
     }
 
-    companion object {
-        fun parse(rawRequest: Map<String, String>): Either<List<BusinessError>, MeestR> {
-            return MeestR.parseMultipleByOr(rawRequest)
-        }
-    }
-
     @Component
     class Mapper {
         fun map(result: Either<Response, Response>): Either<List<BusinessError>, Results> {

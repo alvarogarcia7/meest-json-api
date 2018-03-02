@@ -74,7 +74,7 @@ class AcceptanceFeature {
 
     private fun droppoints(criteria: Pair<String, String>): Either<Exception, Pair<Response, com.github.kittinunf.result.Result<String, FuelError>>> {
         val parameters = listOf(criteria)
-        val request = "/droppoints".httpGet(parameters).header("Content-Type" to "application/json")
+        val request = "/droppoints/and".httpGet(parameters).header("Content-Type" to "application/json")
         try {
             val (_, response, result) = request.responseString()
             return Either.right(Pair(response, result))
@@ -92,7 +92,7 @@ class AcceptanceFeature {
     }
 
     private fun queryByCity(criteria: Pair<String, String>): Results {
-        val value = Meest.parse(mapOf(criteria)).flatMap {
+        val value = MeestR.parseMultipleByOr(mapOf(criteria)).flatMap {
             Meest(Meest.MeestClient(configuration, Meest.ResponseParser()), Meest.Mapper()).request(it)
         }
         return value.get()
