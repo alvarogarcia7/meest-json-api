@@ -12,7 +12,7 @@ class MeestRequestShould {
     fun `parse by a single criteria`() {
         val field = "CityDescriptionRU"
         val value = "Lvov"
-        val request = MeestR.parse(mapOf(field to value))
+        val request = MeestR.parseMultipleByOr(mapOf(field to value))
 
         assertThat(request.isRight()).isTrue()
         assertThat(request.map {
@@ -31,7 +31,7 @@ class MeestRequestShould {
         val values = mapOf(
                 field1 to value1,
                 field2 to value2)
-        val request = MeestR.parse(values)
+        val request = MeestR.parseMultipleByOr(values)
 
         assertThat(request.isRight()).isTrue()
         assertThat(request.map {
@@ -44,7 +44,7 @@ class MeestRequestShould {
     @Test
     fun `requires a criteria`() {
         val values = mapOf<String, String>()
-        val request = MeestR.parse(values)
+        val request = MeestR.parseMultipleByOr(values)
 
         assertThat(request.isLeft()).isTrue()
         assertThat(request.mapLeft {

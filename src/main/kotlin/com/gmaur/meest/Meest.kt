@@ -20,7 +20,7 @@ class Meest(private val meestClient: MeestClient, private val mapper: Mapper) {
 
     companion object {
         fun parse(rawRequest: Map<String, String>): Either<List<BusinessError>, MeestR> {
-            return MeestR.parse(rawRequest)
+            return MeestR.parseMultipleByOr(rawRequest)
         }
     }
 

@@ -67,7 +67,7 @@ data class MeestR(val function: String, val where: String, val order: String) {
             return request
         }
 
-        fun parse(values: Map<String, String>): Either<List<BusinessError>, MeestR> {
+        fun parseMultipleByOr(values: Map<String, String>): Either<List<BusinessError>, MeestR> {
             if (values.entries.isEmpty()) {
                 return notEnoughCriterias()
             }
