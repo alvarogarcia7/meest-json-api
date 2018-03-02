@@ -68,16 +68,24 @@ data class MeestR(val function: String, val where: String, val order: String) {
         }
 
         fun parseMultipleByOr(values: Map<String, String>): Either<List<BusinessError>, MeestR> {
+            return parseMultipleBy(values, "OR")
+        }
+
+        fun parseMultipleByAnd(values: Map<String, String>): Either<List<BusinessError>, MeestR> {
+            return parseMultipleBy(values, "AND")
+        }
+
+        private fun parseMultipleBy(values: Map<String, String>, separator: String): Either<List<BusinessError>, MeestR> {
             if (values.entries.isEmpty()) {
                 return notEnoughCriterias()
             }
-            return Either.right(MeestR("Branch", createWhere(values), ""))
+            return Either.right(MeestR("Branch", createWhere(values, separator), ""))
         }
 
-        private fun createWhere(values: Map<String, String>): String {
+        private fun createWhere(values: Map<String, String>, separator: String): String {
             val where = values.entries.map { (key, value) ->
                 "$key='$value'"
-            }.joinToString(" OR ")
+            }.joinToString(" $separator ")
             return where
         }
 
